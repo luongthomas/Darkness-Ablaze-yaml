@@ -28,27 +28,24 @@ cards:
   rarity: Rare Holo
 - id: 432-2
   pioId: swsh3-2
-  enumId: METAPOD_2
-  name: Metapod
+  enumId: BUTTERFREE_VMAX_2
+  name: Butterfree VMAX
   number: '2'
   types: [G]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Caterpie
-  hp: 80
-  retreatCost: 3
-  abilities:
-  - type: Ability
-    name: Adaptive Evolution
-    text: This Pokémon can evolve during your first turn or the turn you play it.
+  subTypes: [EVOLUTION, STAGE1, VMAX]
+  evolvesFrom: Butterfree V
+  hp: 300
+  retreatCost: 0
   moves:
-  - cost: [C, C]
-    name: Ram
-    damage: '20'
+  - cost: [G]
+    name: G-Max Befuddle
+    damage: '150'
+    text: The opponent's Active Pokémon is now Poisoned and Confused.
   weaknesses:
   - type: R
     value: x2
-  rarity: Uncommon
+  rarity: Rare Holo
 - id: 432-3
   pioId: swsh3-3
   enumId: BUTTERFREE_3
