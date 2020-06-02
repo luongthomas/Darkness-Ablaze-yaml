@@ -7,26 +7,25 @@ set:
 cards:
 - id: 432-1
   pioId: swsh3-1
-  enumId: CATERPIE_1
-  name: Caterpie
+  enumId: BUTTERFREE_V_1
+  name: Butterfree V
   number: '1'
   types: [G]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 50
+  subTypes: [BASIC, POKEMON_V]
+  hp: 190
   retreatCost: 1
-  abilities:
-  - type: Ability
-    name: Adaptive Evolution
-    text: This Pokémon can evolve during your first turn or the turn you play it.
   moves:
-  - cost: [C]
-    name: Gnaw
-    damage: '10'
+  - cost: [G]
+    name: Dizzy Poison
+    text: The opponent's Active Pokémon is now Poisoned and Confused.
+  - cost: [G, G, C]
+    name: Blast Wind
+    damage: '130'
   weaknesses:
   - type: R
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-2
   pioId: swsh3-2
   enumId: METAPOD_2
