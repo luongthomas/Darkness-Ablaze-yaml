@@ -47,8 +47,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-3
-  pioId: swsh3-100
-  enumId: PARAS_100
+  pioId: swsh3-3
+  enumId: PARAS_3
   name: Paras
   number: '3'
   types: [G]
@@ -65,8 +65,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-4
-  pioId: swsh3-100
-  enumId: PARASECT_100
+  pioId: swsh3-4
+  enumId: PARASECT_4
   name: Parasect
   number: '4'
   types: [G]
@@ -88,8 +88,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-5
-  pioId: swsh3-100
-  enumId: CARNIVINE_100
+  pioId: swsh3-5
+  enumId: CARNIVINE_5
   name: Carnivine
   number: '5'
   types: [G]
@@ -111,8 +111,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-6
-  pioId: swsh3-100
-  enumId: PANSAGE_100
+  pioId: swsh3-6
+  enumId: PANSAGE_6
   name: Pansage
   number: '6'
   types: [G]
@@ -132,8 +132,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-7
-  pioId: swsh3-100
-  enumId: SIMISAGE_100
+  pioId: swsh3-7
+  enumId: SIMISAGE_7
   name: Simisage
   number: '7'
   types: [G]
@@ -233,8 +233,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-11
-  pioId: swsh3-100
-  enumId: ROWLET_100
+  pioId: swsh3-11
+  enumId: ROWLET_11
   name: Rowlet
   number: '11'
   types: [G]
@@ -255,8 +255,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-12
-  pioId: swsh3-100
-  enumId: DARTRIX_100
+  pioId: swsh3-12
+  enumId: DARTRIX_12
   name: Dartrix
   number: '12'
   types: [G]
@@ -274,8 +274,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-13
-  pioId: swsh3-100
-  enumId: DECIDUEYE_100
+  pioId: swsh3-13
+  enumId: DECIDUEYE_13
   name: Decidueye
   number: '13'
   types: [G]
@@ -506,8 +506,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-22
-  pioId: swsh3-100
-  enumId: HOUNDOOM_V_100
+  pioId: swsh3-22
+  enumId: HOUNDOOM_V_22
   name: Houndoom V
   number: '22'
   types: [R]
@@ -528,8 +528,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-23
-  pioId: swsh3-100
-  enumId: TORCHIC_100
+  pioId: swsh3-23
+  enumId: TORCHIC_23
   name: Torchic
   number: '23'
   types: [R]
@@ -548,8 +548,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-24
-  pioId: swsh3-100
-  enumId: COMBUSKEN_100
+  pioId: swsh3-24
+  enumId: COMBUSKEN_24
   name: Combusken
   number: '24'
   types: [R]
@@ -570,8 +570,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-25
-  pioId: swsh3-100
-  enumId: BLAZIKEN_100
+  pioId: swsh3-25
+  enumId: BLAZIKEN_25
   name: Blaziken
   number: '25'
   types: [R]
@@ -646,8 +646,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-28
-  pioId: swsh3-100
-  enumId: PANSEAR_100
+  pioId: swsh3-28
+  enumId: PANSEAR_28
   name: Pansear
   number: '28'
   types: [R]
@@ -666,8 +666,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-29
-  pioId: swsh3-100
-  enumId: SIMISEAR_100
+  pioId: swsh3-29
+  enumId: SIMISEAR_29
   name: Simisear
   number: '29'
   types: [R]
@@ -689,8 +689,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-30
-  pioId: swsh3-100
-  enumId: GALARIAN_DARMANITAN_100
+  pioId: swsh3-30
+  enumId: GALARIAN_DARMANITAN_30
   name: Galarian Darmanitan
   number: '30'
   types: [R]
@@ -919,8 +919,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-39
-  pioId: swsh3-100
-  enumId: SUICUNE_100
+  pioId: swsh3-39
+  enumId: SUICUNE_39
   name: Suicune
   number: '39'
   types: [W]
@@ -993,8 +993,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-42
-  pioId: swsh3-100
-  enumId: RELICANTH_100
+  pioId: swsh3-42
+  enumId: RELICANTH_42
   name: Relicanth
   number: '42'
   types: [W]
@@ -1014,8 +1014,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-43
-  pioId: swsh3-100
-  enumId: PANPOUR_100
+  pioId: swsh3-43
+  enumId: PANPOUR_43
   name: Panpour
   number: '43'
   types: [W]
@@ -1034,8 +1034,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-44
-  pioId: swsh3-100
-  enumId: SIMIPOUR_100
+  pioId: swsh3-44
+  enumId: SIMIPOUR_44
   name: Simipour
   number: '44'
   types: [W]
@@ -1057,8 +1057,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-45
-  pioId: swsh3-100
-  enumId: GALARIAN_DARUMAKA_100
+  pioId: swsh3-45
+  enumId: GALARIAN_DARUMAKA_45
   name: Galarian Darumaka
   number: '45'
   types: [W]
@@ -1078,8 +1078,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-46
-  pioId: swsh3-100
-  enumId: GALARIAN_DARMANITAN_100
+  pioId: swsh3-46
+  enumId: GALARIAN_DARMANITAN_46
   name: Galarian Darmanitan
   number: '46'
   types: [R]
@@ -1100,8 +1100,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-47
-  pioId: swsh3-100
-  enumId: VANILLITE_100
+  pioId: swsh3-47
+  enumId: VANILLITE_47
   name: Vanillite
   number: '47'
   types: [W]
@@ -1119,8 +1119,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-48
-  pioId: swsh3-100
-  enumId: VANILLISH_100
+  pioId: swsh3-48
+  enumId: VANILLISH_48
   name: Vanillish
   number: '48'
   types: [W]
@@ -1139,8 +1139,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-49
-  pioId: swsh3-100
-  enumId: VANILLUXE_100
+  pioId: swsh3-49
+  enumId: VANILLUXE_49
   name: Vanilluxe
   number: '49'
   types: [W]
@@ -1240,8 +1240,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-53
-  pioId: swsh3-100
-  enumId: MAREANIE_100
+  pioId: swsh3-53
+  enumId: MAREANIE_53
   name: Mareanie
   number: '53'
   types: [W]
@@ -1262,8 +1262,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-54
-  pioId: swsh3-100
-  enumId: TOXAPEX_100
+  pioId: swsh3-54
+  enumId: TOXAPEX_54
   name: Toxapex
   number: '54'
   types: [W]
@@ -1285,8 +1285,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-55
-  pioId: swsh3-100
-  enumId: DRACOVISH_100
+  pioId: swsh3-55
+  enumId: DRACOVISH_55
   name: Dracovish
   number: '55'
   types: [W]
@@ -1308,8 +1308,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-56
-  pioId: swsh3-100
-  enumId: ARCTOVISH_100
+  pioId: swsh3-56
+  enumId: ARCTOVISH_56
   name: Arctovish
   number: '56'
   types: [W]
@@ -1332,8 +1332,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-57
-  pioId: swsh3-100
-  enumId: ELECTRIKE_100
+  pioId: swsh3-57
+  enumId: ELECTRIKE_57
   name: Electrike
   number: '57'
   types: [L]
@@ -1351,8 +1351,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-58
-  pioId: swsh3-100
-  enumId: MANECTRIC_100
+  pioId: swsh3-58
+  enumId: MANECTRIC_58
   name: Manectric
   number: '58'
   types: [L]
@@ -1401,8 +1401,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-60
-  pioId: swsh3-100
-  enumId: TAPU_KOKO_100
+  pioId: swsh3-60
+  enumId: TAPU_KOKO_60
   name: Tapu Koko
   number: '60'
   types: [L]
@@ -1474,8 +1474,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-63
-  pioId: swsh3-100
-  enumId: DRACOZOLT_100
+  pioId: swsh3-63
+  enumId: DRACOZOLT_63
   name: Dracozolt
   number: '63'
   types: [L]
@@ -1497,8 +1497,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-64
-  pioId: swsh3-100
-  enumId: ARCTOZOLT_100
+  pioId: swsh3-64
+  enumId: ARCTOZOLT_64
   name: Arctozolt
   number: '64'
   types: [L]
@@ -1520,8 +1520,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-65
-  pioId: swsh3-100
-  enumId: JIGGLYPUFF_100
+  pioId: swsh3-65
+  enumId: JIGGLYPUFF_65
   name: Jigglypuff
   number: '65'
   types: [P]
@@ -1541,8 +1541,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-66
-  pioId: swsh3-100
-  enumId: WIGGLYTUFF_100
+  pioId: swsh3-66
+  enumId: WIGGLYTUFF_66
   name: Wigglytuff
   number: '66'
   types: [P]
@@ -1746,8 +1746,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-74
-  pioId: swsh3-100
-  enumId: GOLETT_100
+  pioId: swsh3-74
+  enumId: GOLETT_74
   name: Golett
   number: '74'
   types: [P]
@@ -1770,8 +1770,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-75
-  pioId: swsh3-100
-  enumId: GOLURK_100
+  pioId: swsh3-75
+  enumId: GOLURK_75
   name: Golurk
   number: '75'
   types: [P]
@@ -1795,8 +1795,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-76
-  pioId: swsh3-100
-  enumId: GOTHITA_100
+  pioId: swsh3-76
+  enumId: GOTHITA_76
   name: Gothita
   number: '76'
   types: [P]
@@ -1819,8 +1819,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-77
-  pioId: swsh3-100
-  enumId: GOTHORITA_100
+  pioId: swsh3-77
+  enumId: GOTHORITA_77
   name: Gothorita
   number: '77'
   types: [P]
@@ -1844,8 +1844,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-78
-  pioId: swsh3-100
-  enumId: GOTHITELLE_100
+  pioId: swsh3-78
+  enumId: GOTHITELLE_78
   name: Gothitelle
   number: '78'
   types: [P]
@@ -1949,8 +1949,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-82
-  pioId: swsh3-100
-  enumId: MIMIKYU_100
+  pioId: swsh3-82
+  enumId: MIMIKYU_82
   name: Mimikyu
   number: '82'
   types: [P]
@@ -2208,8 +2208,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-92
-  pioId: swsh3-100
-  enumId: TRAPINCH_100
+  pioId: swsh3-92
+  enumId: TRAPINCH_92
   name: Trapinch
   number: '92'
   types: [F]
@@ -2223,8 +2223,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-93
-  pioId: swsh3-100
-  enumId: VIBRAVA_100
+  pioId: swsh3-93
+  enumId: VIBRAVA_93
   name: Vibrava
   number: '93'
   types: [F]
@@ -2243,8 +2243,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-94
-  pioId: swsh3-100
-  enumId: FLYGON_100
+  pioId: swsh3-94
+  enumId: FLYGON_94
   name: Flygon
   number: '94'
   types: [F]
@@ -2293,8 +2293,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-96
-  pioId: swsh3-100
-  enumId: HIPPOPOTAS_100
+  pioId: swsh3-96
+  enumId: HIPPOPOTAS_96
   name: Hippopotas
   number: '96'
   types: [F]
@@ -2314,8 +2314,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-97
-  pioId: swsh3-100
-  enumId: HIPPOWDON_100
+  pioId: swsh3-97
+  enumId: HIPPOWDON_97
   name: Hippowdon
   number: '97'
   types: [F]
@@ -2336,8 +2336,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-98
-  pioId: swsh3-100
-  enumId: RHYPERIOR_V_100
+  pioId: swsh3-98
+  enumId: RHYPERIOR_V_98
   name: Rhyperior V
   number: '98'
   types: [F]
@@ -2411,8 +2411,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-101
-  pioId: swsh3-100
-  enumId: PASSIMIAN_100
+  pioId: swsh3-101
+  enumId: PASSIMIAN_101
   name: Passimian
   number: '101'
   types: [F]
@@ -2485,8 +2485,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-104
-  pioId: swsh3-100
-  enumId: SPINARAK_100
+  pioId: swsh3-104
+  enumId: SPINARAK_104
   name: Spinarak
   number: '104'
   types: [D]
@@ -2505,8 +2505,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-105
-  pioId: swsh3-100
-  enumId: ARIADOS_100
+  pioId: swsh3-105
+  enumId: ARIADOS_105
   name: Ariados
   number: '105'
   types: [D]
@@ -2529,8 +2529,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-106
-  pioId: swsh3-100
-  enumId: CROBAT_V_100
+  pioId: swsh3-106
+  enumId: CROBAT_V_106
   name: Crobat V
   number: '106'
   types: [D]
@@ -2734,8 +2734,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-114
-  pioId: swsh3-100
-  enumId: GALARIAN_ZIGZAGOON_100
+  pioId: swsh3-114
+  enumId: GALARIAN_ZIGZAGOON_114
   name: Galarian Zigzagoon
   number: '114'
   types: [D]
@@ -2752,8 +2752,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-115
-  pioId: swsh3-100
-  enumId: GALARIAN_LINOONE_100
+  pioId: swsh3-115
+  enumId: GALARIAN_LINOONE_115
   name: Galarian Linoone
   number: '115'
   types: [D]
@@ -2768,8 +2768,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-116
-  pioId: swsh3-100
-  enumId: GALARIAN_OBSTAGOON_100
+  pioId: swsh3-116
+  enumId: GALARIAN_OBSTAGOON_116
   name: Galarian Obstagoon
   number: '116'
   types: [D]
@@ -2792,8 +2792,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-117
-  pioId: swsh3-100
-  enumId: SCRAGGY_100
+  pioId: swsh3-117
+  enumId: SCRAGGY_117
   name: Scraggy
   number: '117'
   types: [D]
@@ -2813,8 +2813,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-118
-  pioId: swsh3-100
-  enumId: SCRAFTY_100
+  pioId: swsh3-118
+  enumId: SCRAFTY_118
   name: Scrafty
   number: '118'
   types: [D]
@@ -2833,8 +2833,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-119
-  pioId: swsh3-100
-  enumId: INKAY_100
+  pioId: swsh3-119
+  enumId: INKAY_119
   name: Inkay
   number: '119'
   types: [D]
@@ -2854,8 +2854,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-120
-  pioId: swsh3-100
-  enumId: MALAMAR_100
+  pioId: swsh3-120
+  enumId: MALAMAR_120
   name: Malamar
   number: '120'
   types: [D]
@@ -2876,8 +2876,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-121
-  pioId: swsh3-100
-  enumId: HOOPA_100
+  pioId: swsh3-121
+  enumId: HOOPA_121
   name: Hoopa
   number: '121'
   types: [D]
@@ -2895,8 +2895,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-122
-  pioId: swsh3-100
-  enumId: NICKIT_100
+  pioId: swsh3-122
+  enumId: NICKIT_122
   name: Nickit
   number: '122'
   types: [D]
@@ -2913,8 +2913,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-123
-  pioId: swsh3-100
-  enumId: NICKIT_100
+  pioId: swsh3-123
+  enumId: NICKIT_123
   name: Nickit
   number: '123'
   types: [D]
@@ -2931,8 +2931,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-124
-  pioId: swsh3-100
-  enumId: THIEVUL_100
+  pioId: swsh3-124
+  enumId: THIEVUL_124
   name: Thievul
   number: '124'
   types: [D]
@@ -3005,8 +3005,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-127
-  pioId: swsh3-100
-  enumId: ETERNATUS_V_100
+  pioId: swsh3-127
+  enumId: ETERNATUS_V_127
   name: Eternatus V
   number: '127'
   types: [D]
@@ -3027,8 +3027,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-128
-  pioId: swsh3-100
-  enumId: ETERNATUS_VMAX_100
+  pioId: swsh3-128
+  enumId: ETERNATUS_VMAX_128
   name: Eternatus VMAX
   number: '128'
   types: [D]
@@ -3049,8 +3049,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-129
-  pioId: swsh3-100
-  enumId: SKARMORY_100
+  pioId: swsh3-129
+  enumId: SKARMORY_129
   name: Skarmory
   number: '129'
   types: [M]
@@ -3177,8 +3177,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-134
-  pioId: swsh3-100
-  enumId: KLINK_100
+  pioId: swsh3-134
+  enumId: KLINK_134
   name: Klink
   number: '134'
   types: [M]
@@ -3198,8 +3198,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-135
-  pioId: swsh3-100
-  enumId: KLANG_100
+  pioId: swsh3-135
+  enumId: KLANG_135
   name: Klang
   number: '135'
   types: [M]
@@ -3223,8 +3223,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-136
-  pioId: swsh3-100
-  enumId: KLINKLANG_100
+  pioId: swsh3-136
+  enumId: KLINKLANG_136
   name: Klinklang
   number: '136'
   types: [M]
@@ -3275,8 +3275,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-138
-  pioId: swsh3-100
-  enumId: CUFANT_100
+  pioId: swsh3-138
+  enumId: CUFANT_138
   name: Cufant
   number: '138'
   types: [M]
@@ -3296,8 +3296,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-139
-  pioId: swsh3-100
-  enumId: COPPERAJAH_100
+  pioId: swsh3-139
+  enumId: COPPERAJAH_139
   name: Copperajah
   number: '139'
   types: [M]
@@ -3322,8 +3322,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-140
-  pioId: swsh3-100
-  enumId: KANGASKHAN_100
+  pioId: swsh3-140
+  enumId: KANGASKHAN_140
   name: Kangaskhan
   number: '140'
   types: [C]
@@ -3447,8 +3447,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-145
-  pioId: swsh3-100
-  enumId: DUNSPARCE_100
+  pioId: swsh3-145
+  enumId: DUNSPARCE_145
   name: Dunsparce
   number: '145'
   types: [C]
@@ -3469,8 +3469,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-146
-  pioId: swsh3-100
-  enumId: TEDDIURSA_100
+  pioId: swsh3-146
+  enumId: TEDDIURSA_146
   name: Teddiursa
   number: '146'
   types: [C]
@@ -3487,8 +3487,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-147
-  pioId: swsh3-100
-  enumId: URSARING_100
+  pioId: swsh3-147
+  enumId: URSARING_147
   name: Ursaring
   number: '147'
   types: [C]
@@ -3536,8 +3536,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-149
-  pioId: swsh3-100
-  enumId: SKITTY_100
+  pioId: swsh3-149
+  enumId: SKITTY_149
   name: Skitty
   number: '149'
   types: [C]
@@ -3557,8 +3557,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-150
-  pioId: swsh3-100
-  enumId: DELCATTY_100
+  pioId: swsh3-150
+  enumId: DELCATTY_150
   name: Delcatty
   number: '150'
   types: [C]
@@ -3579,8 +3579,8 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-151
-  pioId: swsh3-100
-  enumId: SALAMENCE_V_100
+  pioId: swsh3-151
+  enumId: SALAMENCE_V_151
   name: Salamence V
   number: '151'
   types: [C]
@@ -3600,8 +3600,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-152
-  pioId: swsh3-100
-  enumId: SALAMENCE_VMAX_100
+  pioId: swsh3-152
+  enumId: SALAMENCE_VMAX_152
   name: Salamence VMAX
   number: '152'
   types: [C]
@@ -3622,8 +3622,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-153
-  pioId: swsh3-100
-  enumId: STARLY_100
+  pioId: swsh3-153
+  enumId: STARLY_153
   name: Starly
   number: '153'
   types: [C]
@@ -3647,8 +3647,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-154
-  pioId: swsh3-100
-  enumId: STARAVIA_100
+  pioId: swsh3-154
+  enumId: STARAVIA_154
   name: Staravia
   number: '154'
   types: [C]
@@ -3672,8 +3672,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-155
-  pioId: swsh3-100
-  enumId: STARAPTOR_100
+  pioId: swsh3-155
+  enumId: STARAPTOR_155
   name: Staraptor
   number: '155'
   types: [C]
@@ -3699,8 +3699,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-156
-  pioId: swsh3-100
-  enumId: DUCKLETT_100
+  pioId: swsh3-156
+  enumId: DUCKLETT_156
   name: Ducklett
   number: '156'
   types: [C]
@@ -3720,8 +3720,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-157
-  pioId: swsh3-100
-  enumId: SWANNA_100
+  pioId: swsh3-157
+  enumId: SWANNA_157
   name: Swanna
   number: '157'
   types: [C]
@@ -3772,8 +3772,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-159
-  pioId: swsh3-100
-  enumId: GREEDENT_100
+  pioId: swsh3-159
+  enumId: GREEDENT_159
   name: Greedent
   number: '159'
   types: [C]
@@ -3978,8 +3978,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-167
-  pioId: swsh3-100
-  enumId: BIRD_KEEPER_100
+  pioId: swsh3-167
+  enumId: BIRD_KEEPER_167
   name: Bird Keeper
   number: '167'
   superType: TRAINER
@@ -4117,8 +4117,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-173
-  pioId: swsh3-100
-  enumId: PIERS_100
+  pioId: swsh3-173
+  enumId: PIERS_173
   name: Piers
   number: '173'
   superType: TRAINER
@@ -4152,8 +4152,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-175
-  pioId: swsh3-100
-  enumId: RARE_FOSSIL_100
+  pioId: swsh3-175
+  enumId: RARE_FOSSIL_175
   name: Rare Fossil
   number: '175'
   types: []
@@ -4162,8 +4162,8 @@ cards:
   hp: 70
   rarity: Rare Holo
 - id: 432-176
-  pioId: swsh3-100
-  enumId: ROSE_100
+  pioId: swsh3-176
+  enumId: ROSE_176
   name: Rose
   number: '176'
   superType: TRAINER
@@ -4171,8 +4171,8 @@ cards:
   rarity: Rare Holo
   text: ['Choose up to 2 Basic Energy from your discard pile and attach them to 1 of your Pokemon VMAX. Then, discard your hand. You may play only 1 Supporter card during your turn (before your attack).']
 - id: 432-177
-  pioId: swsh3-100
-  enumId: ROSE_TOWER_100
+  pioId: swsh3-177
+  enumId: ROSE_TOWER_177
   name: Rose Tower
   number: '177'
   superType: TRAINER
@@ -4232,8 +4232,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-180
-  pioId: swsh3-100
-  enumId: SPIKEMUTH_100
+  pioId: swsh3-180
+  enumId: SPIKEMUTH_180
   name: Spikemuth
   number: '180'
   superType: TRAINER
@@ -4293,8 +4293,8 @@ cards:
     value: '-30'
   rarity: Rare Holo
 - id: 432-183
-  pioId: swsh3-100
-  enumId: TURBO_PATCH_100
+  pioId: swsh3-183
+  enumId: TURBO_PATCH_183
   name: Turbo Patch
   number: '183'
   superType: TRAINER
