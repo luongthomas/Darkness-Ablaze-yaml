@@ -47,4495 +47,4491 @@ cards:
     value: x2
   rarity: Rare Holo
 - id: 432-3
-  pioId: swsh3-3
-  enumId: BUTTERFREE_3
-  name: Butterfree
+  pioId: swsh3-100
+  enumId: PARAS_100
+  name: Paras
   number: '3'
-  types: [G]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Metapod
-  hp: 140
-  retreatCost: 1
-  moves:
-  - cost: [G]
-    name: Panic Poison
-    damage: '30'
-    text: Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.
-  - cost: [C, C]
-    name: Cutting Wind
-    damage: '80'
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Rare
-- id: 432-4
-  pioId: swsh3-4
-  enumId: SCYTHER_4
-  name: Scyther
-  number: '4'
-  types: [G]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 80
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Swords Dance
-    text: During your next turn, this Pokémon’s Blinding Scythe attack does 70 more
-      damage (before applying Weakness and Resistance).
-  - cost: [C]
-    name: Blinding Scythe
-    damage: '20'
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Common
-- id: 432-5
-  pioId: swsh3-5
-  enumId: SHUCKLE_5
-  name: Shuckle
-  number: '5'
-  types: [G]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 80
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Berry Picking
-    text: Shuffle up to 5 basic Energy cards from your discard pile into your deck.
-  - cost: [G, C, C]
-    name: Bind
-    damage: '50'
-    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Uncommon
-- id: 432-6
-  pioId: swsh3-6
-  enumId: HERACROSS_6
-  name: Heracross
-  number: '6'
-  types: [G]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 130
-  retreatCost: 2
-  moves:
-  - cost: [C, C]
-    name: Push Down
-    damage: '30'
-    text: Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.
-  - cost: [G, G, C]
-    name: Superpowered Horns
-    damage: '110'
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Uncommon
-- id: 432-7
-  pioId: swsh3-7
-  enumId: LOTAD_7
-  name: Lotad
-  number: '7'
   types: [G]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 60
   retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Mini Drain
-    damage: '10'
-    text: Heal 10 damage from this Pokémon.
-  - cost: [G, C]
-    name: Ram
+  moves: 
+  - cost: [G]
+    name: Scratch
     damage: '20'
-  weaknesses:
+  weaknesses: 
   - type: R
     value: x2
-  rarity: Common
-- id: 432-8
-  pioId: swsh3-8
-  enumId: LOMBRE_8
-  name: Lombre
-  number: '8'
+  rarity: Rare Holo
+- id: 432-4
+  pioId: swsh3-100
+  enumId: PARASECT_100
+  name: Parasect
+  number: '4'
   types: [G]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Lotad
-  hp: 90
-  retreatCost: 1
-  abilities:
-  - type: Ability
-    name: Top Entry
-    text: Once during your turn, if you drew this Pokémon from your deck at the beginning
-      of your turn and your Bench isn't full, before you put it into your hand, you
-      may put it onto your Bench.
-  moves:
-  - cost: [G, C, C]
-    name: Fury Swipes
-    damage: 40x
-    text: Flip 3 coins. This attack does 40 damage for each heads.
-  weaknesses:
+  evolvesFrom: Paras
+  hp: 120
+  retreatCost: 2
+  moves: 
+  - cost: [G]
+    name: Mushroom Tackle
+    damage: '30'
+    text: Flip a coin. If heads, your opponent''s Active Pokemon is now Paralyzed.
+  - cost: [G, G, C]
+    name: Solarbeam
+    damage: '110'
+  weaknesses: 
   - type: R
     value: x2
-  rarity: Uncommon
-- id: 432-9
-  pioId: swsh3-9
-  enumId: LUDICOLO_9
-  name: Ludicolo
-  number: '9'
+  rarity: Rare Holo
+- id: 432-5
+  pioId: swsh3-100
+  enumId: CARNIVINE_100
+  name: Carnivine
+  number: '5'
   types: [G]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Lombre
-  hp: 160
-  retreatCost: 2
-  moves:
-  - cost: [C, C]
-    name: Spirited Rushdown
-    damage: 60x
-    text: This attack does 60 damage for each Prize card you have taken.
-  - cost: [G, C, C]
-    name: Mega Drain
-    damage: '120'
-    text: Heal 30 damage from this Pokémon.
-  weaknesses:
+  subTypes: [BASIC]
+  hp: 90
+  retreatCost: 1
+  moves: 
+  - cost: [C]
+    name: Return
+    damage: '20'
+    text: Draw cards until you have 5 cards in your hand.
+  - cost: [G, C]
+    name: Giga Drain
+    damage: '40'
+    text: Heal from this Pokemon the same amount of damage you did to your opponent''s Active Pokemon.
+  weaknesses: 
   - type: R
     value: x2
-  rarity: Rare
-- id: 432-10
+  rarity: Rare Holo
+- id: 432-6
+  pioId: swsh3-100
+  enumId: PANSAGE_100
+  name: Pansage
+  number: '6'
+  types: [G]
+  superType: POKEMON
+  subTypes: [BASIC]
+  hp: 60
+  retreatCost: 1
+  moves: 
+  - cost: [G]
+    name: Seed Bomb
+    damage: '10'
+  - cost: [C, C]
+    name: Bite
+    damage: '20'
+  weaknesses: 
+  - type: R
+    value: x2
+  rarity: Rare Holo
+- id: 432-7
+  pioId: swsh3-100
+  enumId: SIMISAGE_100
+  name: Simisage
+  number: '7'
+  types: [G]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Pansage
+  hp: 100
+  retreatCost: 1
+  moves: 
+  - cost: [G]
+    name: Seed Bomb
+    damage: '30'
+  - cost: [C, C, C]
+    name: Giga Impact
+    damage: '110'
+    text: This Pokemon can’t attack during your next turn.
+  weaknesses: 
+  - type: R
+    value: x2
+  rarity: Rare Holo
+- id: 8
+  pioId: swsh3-8
+  enumId: KARRABLAST_8
+  name: Karrablast
+  number: '8'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 9
+  pioId: swsh3-9
+  enumId: SHELMET_9
+  name: Shelmet
+  number: '9'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 10
   pioId: swsh3-10
-  enumId: SURSKIT_10
-  name: Surskit
+  enumId: ACCELGOR_10
+  name: Accelgor
   number: '10'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-11
+  pioId: swsh3-100
+  enumId: ROWLET_100
+  name: Rowlet
+  number: '11'
   types: [G]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 50
   retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Agility
-    damage: '10'
-    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
-      of attacks, including damage, done to this Pokémon.
-  weaknesses:
+  abilities: 
+  - type: Ability
+    name: Sky Circus
+    text: If you played Bird Keeper from your hand during this turn, ignore all Energy in the attack costs of this Pokemon.
+  moves: 
+  - cost: [C, C, C]
+    name: Wind Pebbles
+    text: This attack does 60 damage to 1 of your opponent''s Benched Pokemon. (Don''t apply Weakness and Resistance.)
+  weaknesses: 
   - type: R
     value: x2
-  rarity: Common
-- id: 432-11
-  pioId: swsh3-11
-  enumId: MASQUERAIN_11
-  name: Masquerain
-  number: '11'
-  types: [G]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Surskit
-  hp: 90
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Threatening Pattern
-    damage: '30'
-    text: During your opponent’s next turn, Energy can’t be attached from your opponent's
-      hand to the Defending Pokémon.
-  - cost: [C, C]
-    name: U-turn
-    damage: '40'
-    text: Switch this Pokémon with 1 of your Benched Pokémon.
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Uncommon
+  rarity: Rare Holo
 - id: 432-12
-  pioId: swsh3-12
-  enumId: SNOVER_12
-  name: Snover
+  pioId: swsh3-100
+  enumId: DARTRIX_100
+  name: Dartrix
   number: '12'
   types: [G]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 90
-  retreatCost: 3
-  moves:
-  - cost: [C, C]
-    name: Beat
-    damage: '20'
-  - cost: [G, C, C]
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Rowlet
+  hp: 80
+  retreatCost: 1
+  moves: 
+  - cost: [G]
     name: Razor Leaf
-    damage: '50'
-  weaknesses:
+    damage: '40'
+  weaknesses: 
   - type: R
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-13
-  pioId: swsh3-13
-  enumId: ABOMASNOW_13
-  name: Abomasnow
+  pioId: swsh3-100
+  enumId: DECIDUEYE_100
+  name: Decidueye
   number: '13'
   types: [G]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Snover
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Dartrix
   hp: 140
-  retreatCost: 3
-  moves:
-  - cost: [G, C, C]
-    name: Soothing Scent
-    damage: '80'
-    text: Your opponent’s Active Pokémon is now Asleep.
-  - cost: [G, G, C, C]
-    name: Megaton Lariat
-    damage: '140'
-  weaknesses:
+  retreatCost: 2
+  abilities: 
+  - type: Ability
+    name: Forest Camouflage
+    text: Prevent all damage done to this Pokemon by the attacks of your opponent's Pokemon V and Pokemon-GX.
+  moves: 
+  - cost: [G, C]
+    name: Split Arrow
+    damage: '90'
+    text: This attack does 20 damage to 2 of your opponent''s Benched Pokemon. (Don''t apply Weakness and Resistance.)
+  weaknesses: 
   - type: R
     value: x2
-  rarity: Rare
-- id: 432-14
+  rarity: Rare Holo
+- id: 14
   pioId: swsh3-14
-  enumId: PHANTUMP_14
-  name: Phantump
+  enumId: BOUNSWEET_14
+  name: Bounsweet
   number: '14'
-  types: [G]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Dark Guidance
-    text: Put a Basic Pokémon from your discard pile onto your Bench.
-  - cost: [G, C]
-    name: Seed Bomb
-    damage: '30'
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Common
-- id: 432-15
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 15
   pioId: swsh3-15
-  enumId: TREVENANT_15
-  name: Trevenant
+  enumId: STEENEE_15
+  name: Steenee
   number: '15'
-  types: [G]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Phantump
-  hp: 130
-  retreatCost: 3
-  moves:
-  - cost: [G]
-    name: Seed Bomb
-    damage: '40'
-  - cost: [G, G, C]
-    name: Shadow Cage
-    damage: '120'
-    text: During your opponent's next turn, the Defending Pokémon can't retreat.
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Rare
-- id: 432-16
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 16
   pioId: swsh3-16
-  enumId: GRUBBIN_16
-  name: Grubbin
+  enumId: TSAREENA_16
+  name: Tsareena
   number: '16'
-  types: [G]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Gnaw
-    damage: '10'
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Common
-- id: 432-17
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 17
   pioId: swsh3-17
-  enumId: RILLABOOM_V_17
-  name: Rillaboom V
+  enumId: WIMPOD_17
+  name: Wimpod
   number: '17'
-  types: [G]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 220
-  retreatCost: 3
-  moves:
-  - cost: [G]
-    name: Forest Feast
-    text: Search your deck for up to 2 Basic [G] Pokémon and put them onto your Bench.
-      Then, shuffle your deck.
-  - cost: [G, G, G, C]
-    name: Wood Hammer
-    damage: '220'
-    text: This Pokémon also does 30 damage to itself.
-  weaknesses:
-  - type: R
-    value: x2
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
   rarity: Rare Holo
-- id: 432-18
+- id: 18
   pioId: swsh3-18
-  enumId: RILLABOOM_VMAX_18
-  name: Rillaboom VMAX
+  enumId: GOLISOPOD_18
+  name: Golisopod
   number: '18'
-  types: [G]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Rillaboom V
-  hp: 330
-  retreatCost: 3
-  moves:
-  - cost: [C]
-    name: Scratch
-    damage: '50'
-  - cost: [G, G, G, C]
-    name: Max Beating
-    damage: 130+
-    text: You may discard up to 3 [G] Energy from this Pokémon. If you do, this attack
-      does 50 more damage for each card you discarded in this way.
-  weaknesses:
-  - type: R
-    value: x2
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
   rarity: Rare Holo
-- id: 432-19
+- id: 19
   pioId: swsh3-19
-  enumId: ELDEGOSS_V_19
-  name: Eldegoss V
+  enumId: CHARIZARD_V_19
+  name: Charizard V
   number: '19'
-  types: [G]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 180
-  retreatCost: 1
-  abilities:
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Happy Match
-    text: When you play this Pokémon from your hand onto your Bench during your turn,
-      you may put a Supporter card from your discard pile into your hand.
-  moves:
-  - cost: [C, C]
-    name: Float Up
-    damage: '50'
-    text: You may shuffle this Pokémon and all attached cards into your deck.
-  weaknesses:
-  - type: R
-    value: x2
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
   rarity: Rare Holo
-- id: 432-20
+- id: 20
   pioId: swsh3-20
-  enumId: APPLIN_20
-  name: Applin
+  enumId: CHARIZARD_VMAX_20
+  name: Charizard VMAX
   number: '20'
-  types: [G]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 40
-  retreatCost: 1
-  moves:
-  - cost: [G, C]
-    name: Continuous Tumble
-    damage: 10+
-    text: Flip a coin until you get tails. This attack does 30 more damage for each
-      heads.
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Common
-- id: 432-21
-  pioId: swsh3-21
-  enumId: APPLIN_21
-  name: Applin
-  number: '21'
-  types: [G]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 40
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Withdraw
-    text: Flip a coin. If heads, during your opponent's next turn, prevent all damage
-      done to this Pokémon by attacks.
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Common
-- id: 432-22
-  pioId: swsh3-22
-  enumId: FLAPPLE_22
-  name: Flapple
-  number: '22'
-  types: [G]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Applin
-  hp: 80
-  retreatCost: 1
-  abilities:
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Apple Drop
-    text: Once during your turn, you may put 2 damage counters on 1 of your opponent’s
-      Pokémon. If you placed any damage counters in this way, shuffle this Pokémon
-      and all attached cards into your deck.
-  moves:
-  - cost: [C, C]
-    name: Acid Spray
-    damage: '60'
-    text: Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.
-  weaknesses:
-  - type: R
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 21
+  pioId: swsh3-21
+  enumId: FLAREON_21
+  name: Flareon
+  number: '21'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-22
+  pioId: swsh3-100
+  enumId: HOUNDOOM_V_100
+  name: Houndoom V
+  number: '22'
+  types: [R]
+  superType: POKEMON
+  subTypes: [POKEMON_V, BASIC]
+  hp: 210
+  retreatCost: 1
+  moves: 
+  - cost: [R]
+    name: Searing Flame
+    damage: '20'
+    text: Your opponent’s Active Pokemon is now Burned.
+  - cost: [R, R, C]
+    name: Compensation Flame
+    text: 100+ damage. If any of your [R] Pokemon have damage counters on them, this attack does 100 more damage.
+  weaknesses: 
+  - type: W
     value: x2
   rarity: Rare Holo
 - id: 432-23
-  pioId: swsh3-23
-  enumId: APPLETUN_23
-  name: Appletun
+  pioId: swsh3-100
+  enumId: TORCHIC_100
+  name: Torchic
   number: '23'
-  types: [G]
+  types: [R]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Applin
-  hp: 90
-  retreatCost: 3
-  abilities:
-  - type: Ability
-    name: Delicious Aroma
-    text: Once during your turn, you may flip a coin. If heads, switch 1 of your opponent’s
-      Benched Basic Pokémon with their Active Pokémon.
-  moves:
-  - cost: [G, C]
-    name: Solar Beam
-    damage: '70'
-  weaknesses:
-  - type: R
+  subTypes: [BASIC]
+  hp: 60
+  moves: 
+  - cost: [C]
+    name: Call for Family
+    text: Search your deck for a Basic Pokemon and put it on your Bench. Then, shuffle your deck.
+  - cost: [R]
+    name: Live Coal
+    damage: '10'
+  weaknesses: 
+  - type: W
     value: x2
   rarity: Rare Holo
 - id: 432-24
-  pioId: swsh3-24
-  enumId: VULPIX_24
-  name: Vulpix
+  pioId: swsh3-100
+  enumId: COMBUSKEN_100
+  name: Combusken
   number: '24'
   types: [R]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Torchic
+  hp: 90
+  moves: 
   - cost: [R]
-    name: Confuse Ray
-    text: Your opponent’s Active Pokémon is now Confused.
-  - cost: [C, C]
     name: Smash Kick
     damage: '20'
-  weaknesses:
+  - cost: [R, C, C]
+    name: Heat Beak
+    damage: '40'
+    text: Your opponent''s Active Pokemon is now Burned.
+  weaknesses: 
   - type: W
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-25
-  pioId: swsh3-25
-  enumId: NINETALES_25
-  name: Ninetales
+  pioId: swsh3-100
+  enumId: BLAZIKEN_100
+  name: Blaziken
   number: '25'
   types: [R]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Vulpix
-  hp: 120
-  retreatCost: 1
-  moves:
-  - cost: [R]
-    name: Hex
-    damage: 30+
-    text: If your opponent’s Active Pokémon is affected by a Special Condition, this
-      attack does 90 more damage.
-  - cost: [R, C, C]
-    name: Flickering Flames
-    damage: '90'
-    text: Your opponent’s Active Pokémon is now Asleep.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Rare
-- id: 432-26
-  pioId: swsh3-26
-  enumId: NINETALES_V_26
-  name: Ninetales V
-  number: '26'
-  types: [R]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 200
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Combusken
+  hp: 170
   retreatCost: 2
-  moves:
+  abilities: 
+  - type: Ability
+    name: Double Type
+    text: This Pokemon is both [R] and [F] type.
+  moves: 
   - cost: [R, C, C]
-    name: Nine-Tailed Shapeshifter
-    text: Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this
-      attack.
-  - cost: [R, C, C, C]
-    name: Flamethrower
-    damage: '180'
-    text: Discard an Energy from this Pokémon.
-  weaknesses:
+    name: Turbo Drive
+    damage: '130'
+    text: Attach a basic Energy card from your discard pile to 1 of your Benched Pokemon.
+  weaknesses: 
   - type: W
     value: x2
   rarity: Rare Holo
-- id: 432-27
-  pioId: swsh3-27
-  enumId: GROWLITHE_27
-  name: Growlithe
-  number: '27'
-  types: [R]
+- id: 26
+  pioId: swsh3-26
+  enumId: HEATRAN_26
+  name: Heatran
+  number: '26'
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 80
-  retreatCost: 2
-  moves:
-  - cost: [C]
-    name: Odor Sleuth
-    text: Flip a coin. If heads, put a card from your discard pile into your hand.
-  - cost: [R, R, C]
-    name: Fire Claws
-    damage: '60'
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Common
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 27
+  pioId: swsh3-27
+  enumId: VICTINI_27
+  name: Victini
+  number: '27'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-28
-  pioId: swsh3-28
-  enumId: ARCANINE_28
-  name: Arcanine
+  pioId: swsh3-100
+  enumId: PANSEAR_100
+  name: Pansear
   number: '28'
   types: [R]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Growlithe
-  hp: 130
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Warming Up
-    text: If this Pokémon has a Burning Scarf attached, it gets +100 HP.
-  moves:
-  - cost: [R, R, C]
-    name: Fire Mane
-    damage: '130'
-  weaknesses:
+  subTypes: [BASIC]
+  hp: 60
+  moves: 
+  - cost: [R]
+    name: Live Coal
+    damage: '10'
+  - cost: [C, C]
+    name: Bite
+    damage: '20'
+  weaknesses: 
   - type: W
     value: x2
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-29
-  pioId: swsh3-29
-  enumId: MAGMAR_29
-  name: Magmar
+  pioId: swsh3-100
+  enumId: SIMISEAR_100
+  name: Simisear
   number: '29'
   types: [R]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 90
-  retreatCost: 2
-  moves:
-  - cost: [C]
-    name: Punch
-    damage: '10'
-  - cost: [R, C]
-    name: Heat Breath
-    damage: 20+
-    text: Flip a coin. If heads, this attack does 30 more damage.
-  weaknesses:
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Pansear
+  hp: 100
+  retreatCost: 1
+  moves: 
+  - cost: [R]
+    name: Flare
+    damage: '30'
+  - cost: [C, C, C]
+    name: Giga Impact
+    damage: '110'
+    text: This Pokemon can’t attack during your next turn.
+  weaknesses: 
   - type: W
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-30
-  pioId: swsh3-30
-  enumId: MAGMORTAR_30
-  name: Magmortar
+  pioId: swsh3-100
+  enumId: GALARIAN_DARMANITAN_100
+  name: Galarian Darmanitan
   number: '30'
   types: [R]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Magmar
-  hp: 140
-  retreatCost: 3
-  moves:
-  - cost: [R, C]
-    name: Burst Punch
-    damage: '30'
-    text: Your opponent’s Active Pokémon is now Burned.
-  - cost: [R, R, C]
-    name: Ground Burn
-    damage: 80+
-    text: Each player discards the top card of their deck. This attack does 100 more
-      damage for each Energy card discarded in this way.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Rare
-- id: 432-31
-  pioId: swsh3-31
-  enumId: LITWICK_31
-  name: Litwick
-  number: '31'
-  types: [R]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
-  - cost: [R]
-    name: Scorch
-    text: Your opponent’s Active Pokémon is now Burned.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Common
-- id: 432-32
-  pioId: swsh3-32
-  enumId: LAMPENT_32
-  name: Lampent
-  number: '32'
-  types: [R]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Litwick
-  hp: 80
-  retreatCost: 1
-  abilities:
-  - type: Ability
-    name: Top Entry
-    text: Once during your turn, if you drew this Pokémon from your deck at the beginning
-      of your turn and your Bench isn't full, before you put it into your hand, you
-      may put it onto your Bench.
-  moves:
-  - cost: [R]
-    name: Reignite
-    damage: '20'
-    text: Attach a [R] Energy card from your discard pile to 1 of your Pokémon.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Uncommon
-- id: 432-33
-  pioId: swsh3-33
-  enumId: CHANDELURE_33
-  name: Chandelure
-  number: '33'
-  types: [R]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Lampent
-  hp: 140
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Protective Glow
-    text: All of your Pokémon that have Energy attached have no Weakness.
-  moves:
-  - cost: [R, C]
-    name: Mirage Flare
-    damage: '110'
-    text: Your opponent’s Active Pokémon is now Confused.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Rare Holo
-- id: 432-34
-  pioId: swsh3-34
-  enumId: HEATMOR_34
-  name: Heatmor
-  number: '34'
-  types: [R]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 120
-  retreatCost: 2
-  moves:
-  - cost: [C]
-    name: Lick
-    damage: '20'
-    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
-  - cost: [R, R, C]
-    name: Flamethrower
-    damage: '120'
-    text: Discard an Energy from this Pokémon.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Uncommon
-- id: 432-35
-  pioId: swsh3-35
-  enumId: CINDERACE_V_35
-  name: Cinderace V
-  number: '35'
-  types: [R]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Field Runner
-    text: If a Stadium is in play, this Pokémon has no Retreat Cost.
-  moves:
-  - cost: [R, R, C]
-    name: Crimson Legs
-    damage: '140'
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Rare Holo
-- id: 432-36
-  pioId: swsh3-36
-  enumId: CINDERACE_VMAX_36
-  name: Cinderace VMAX
-  number: '36'
-  types: [R]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Cinderace V
-  hp: 320
-  retreatCost: 2
-  moves:
-  - cost: [R, C]
-    name: Counter
-    damage: 30+
-    text: If this Pokémon was damaged by an attack during your opponent's last turn,
-      this attack does that much more damage.
-  - cost: [R, R, C]
-    name: Max Pyro Ball
-    damage: '170'
-    text: Your opponent’s Active Pokémon is now Burned.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Rare Holo
-- id: 432-37
-  pioId: swsh3-37
-  enumId: GALARIAN_MR_MIME_37
-  name: Galarian Mr. Mime
-  number: '37'
-  types: [W]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 80
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Icy Wind
-    damage: '10'
-    text: Your opponent’s Active Pokémon is now Asleep.
-  - cost: [W, C]
-    name: Triple Spin
-    damage: 20x
-    text: Flip 3 coins. This attack does 20 damage for each heads.
-  weaknesses:
-  - type: M
-    value: x2
-  rarity: Common
-- id: 432-38
-  pioId: swsh3-38
-  enumId: GALARIAN_MR_RIME_38
-  name: Galarian Mr. Rime
-  number: '38'
-  types: [W]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Galarian Mr. Mime
-  hp: 110
-  retreatCost: 1
-  abilities:
-  - type: Ability
-    name: Screen Cleaner
-    text: Prevent all effects of your opponent's attacks, except damage, done to all
-      of your Pokémon that have Energy attached. (Existing effects are not removed.)
-  moves:
-  - cost: [W, C]
-    name: Triple Spin
-    damage: 50x
-    text: Flip 3 coins. This attack does 50 damage for each heads.
-  weaknesses:
-  - type: M
-    value: x2
-  rarity: Rare
-- id: 432-39
-  pioId: swsh3-39
-  enumId: MAGIKARP_39
-  name: Magikarp
-  number: '39'
-  types: [W]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 30
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Leap Out
-    text: Switch this Pokémon with 1 of your Benched Pokémon.
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Common
-- id: 432-40
-  pioId: swsh3-40
-  enumId: GYARADOS_40
-  name: Gyarados
-  number: '40'
-  types: [W]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Magikarp
-  hp: 180
-  retreatCost: 4
-  moves:
-  - cost: [C, C, C]
-    name: Wrack Down
-    damage: '90'
-  - cost: [W, W, C, C, C]
-    name: Big Storm
-    damage: '200'
-    text: Discard any Stadium in play.
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Rare Holo
-- id: 432-41
-  pioId: swsh3-41
-  enumId: WINGULL_41
-  name: Wingull
-  number: '41'
-  types: [W]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 70
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Collect
-    text: Draw a card.
-  - cost: [W, C]
-    name: Wave Splash
-    damage: '20'
-  weaknesses:
-  - type: L
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Common
-- id: 432-42
-  pioId: swsh3-42
-  enumId: PELIPPER_42
-  name: Pelipper
-  number: '42'
-  types: [W]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Wingull
-  hp: 120
-  retreatCost: 2
-  moves:
-  - cost: [C, C]
-    name: Wing Attack
-    damage: '50'
-  - cost: [W, C, C]
-    name: Power Cyclone
-    damage: '110'
-    text: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
-  weaknesses:
-  - type: L
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Uncommon
-- id: 432-43
-  pioId: swsh3-43
-  enumId: MILOTIC_V_43
-  name: Milotic V
-  number: '43'
-  types: [W]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  moves:
-  - cost: [W, C, C]
-    name: Aqua Impact
-    damage: 10+
-    text: This attack does 50 more damage for each [C] in your opponent’s Active Pokémon’s
-      Retreat Cost.
-  - cost: [W, C, C, C]
-    name: Hypno Splash
-    damage: '150'
-    text: Your opponent’s Active Pokémon is now Asleep.
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Rare Holo
-- id: 432-44
-  pioId: swsh3-44
-  enumId: TYMPOLE_44
-  name: Tympole
-  number: '44'
-  types: [W]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Spiral Attack
-    text: Your opponent’s Active Pokémon is now Confused.
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Common
-- id: 432-45
-  pioId: swsh3-45
-  enumId: PALPITOAD_45
-  name: Palpitoad
-  number: '45'
-  types: [W]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Tympole
-  hp: 90
-  retreatCost: 2
-  moves:
-  - cost: [C, C]
-    name: Twirling Sign
-    damage: '30'
-    text: Your opponent’s Active Pokémon is now Confused.
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Uncommon
-- id: 432-46
-  pioId: swsh3-46
-  enumId: SEISMITOAD_46
-  name: Seismitoad
-  number: '46'
-  types: [W]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Palpitoad
-  hp: 170
-  retreatCost: 3
-  moves:
-  - cost: [W]
-    name: Split Spiral Punch
-    damage: '30'
-    text: Your opponent’s Active Pokémon is now Confused.
-  - cost: [W, C, C, C]
-    name: Resonance
-    damage: 120+
-    text: If your opponent’s Active Pokémon is Confused, this attack does 120 more
-      damage.
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Rare
-- id: 432-47
-  pioId: swsh3-47
-  enumId: GALARIAN_DARUMAKA_47
-  name: Galarian Darumaka
-  number: '47'
-  types: [W]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 80
-  retreatCost: 2
-  moves:
-  - cost: [W, C]
-    name: Ice Punch
-    damage: '30'
-    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
-  weaknesses:
-  - type: M
-    value: x2
-  rarity: Common
-- id: 432-48
-  pioId: swsh3-48
-  enumId: GALARIAN_DARMANITAN_48
-  name: Galarian Darmanitan
-  number: '48'
-  types: [W]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
   evolvesFrom: Galarian Darumaka
   hp: 140
   retreatCost: 3
-  moves:
-  - cost: [W, C, C]
-    name: Blizzard
-    damage: '80'
-    text: This attack also does 10 damage to each of your opponent’s Benched Pokémon.
-      (Don’t apply Weakness and Resistance for Benched Pokémon.)
-  - cost: [W, W, C, C]
-    name: Crushing Headbutt
-    damage: '170'
-    text: During your next turn, this Pokémon can't use Crushing Headbutt.
-  weaknesses:
-  - type: M
-    value: x2
-  rarity: Rare
-- id: 432-49
-  pioId: swsh3-49
-  enumId: INTELEON_V_49
-  name: Inteleon V
-  number: '49'
-  types: [W]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 200
-  retreatCost: 2
-  moves:
-  - cost: [W]
-    name: Snipe Shot
-    text: This attack does 40 damage to 1 of your opponent's Pokémon. (Don’t apply
-      Weakness and Resistance for Benched Pokémon.)
+  moves: 
+  - cost: [C]
+    name: Headbutt
+    damage: '40'
   - cost: [W, W, C]
-    name: Aqua Report
-    damage: '130'
-    text: Your opponent reveals their hand.
-  weaknesses:
-  - type: L
+    name: Frozen Heat
+    text: 110+ damage. You may discard all [W] Energy from this Pokemon. If you do, this attack does 60 more damage.
+  weaknesses: 
+  - type: W
     value: x2
   rarity: Rare Holo
-- id: 432-50
-  pioId: swsh3-50
-  enumId: INTELEON_VMAX_50
-  name: Inteleon VMAX
-  number: '50'
-  types: [W]
+- id: 31
+  pioId: swsh3-31
+  enumId: LARVESTA_31
+  name: Larvesta
+  number: '31'
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Inteleon V
-  hp: 320
-  retreatCost: 2
-  moves:
-  - cost: [W]
-    name: Hydro Snipe
-    damage: '60'
-    text: You may put an Energy attached to your opponent's Active Pokémon into their
-      hand.
-  - cost: [W, W, C]
-    name: Max Bullet
-    damage: '160'
-    text: This attack also does 60 damage to 1 of your opponent's Benched Pokémon.
-      (Don’t apply Weakness and Resistance for Benched Pokémon.)
-  weaknesses:
-  - type: L
-    value: x2
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
   rarity: Rare Holo
-- id: 432-51
-  pioId: swsh3-51
-  enumId: CRAMORANT_51
-  name: Cramorant
-  number: '51'
+- id: 32
+  pioId: swsh3-32
+  enumId: VOLCARONA_32
+  name: Volcarona
+  number: '32'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 33
+  pioId: swsh3-33
+  enumId: FLETCHINDER_33
+  name: Fletchinder
+  number: '33'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 34
+  pioId: swsh3-34
+  enumId: TALONFLAME_34
+  name: Talonflame
+  number: '34'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 35
+  pioId: swsh3-35
+  enumId: CENTISKORCH_V_35
+  name: Centiskorch V
+  number: '35'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 36
+  pioId: swsh3-36
+  enumId: CENTISKORCH_VMAX_36
+  name: Centiskorch VMAX
+  number: '36'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 37
+  pioId: swsh3-37
+  enumId: GALARIAN_MR_MIME_37
+  name: Galarian Mr. Mime
+  number: '37'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 38
+  pioId: swsh3-38
+  enumId: GALARIAN_MR_RIME_38
+  name: Galarian Mr. Rime
+  number: '38'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-39
+  pioId: swsh3-100
+  enumId: SUICUNE_100
+  name: Suicune
+  number: '39'
   types: [W]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 110
+  hp: 120
   retreatCost: 1
-  moves:
+  moves: 
   - cost: [W]
-    name: Dive
+    name: Wave Splash
     damage: '20'
-    text: Flip a coin. If heads, during your opponent's next turn, prevent all effects
-      of attacks, including damage, done to this Pokémon.
-  - cost: [C, C, C]
-    name: Hydro Pump
-    damage: 50+
-    text: This attack does 20 more damage for each [W] Energy attached to this Pokémon.
-  weaknesses:
+  - cost: [W, W, C]
+    name: Aurora Loop
+    damage: '130'
+    text: Return 2 [W] Energy from this Pokemon to your hand.
+  weaknesses: 
   - type: L
     value: x2
-  resistances:
+  rarity: Rare Holo
+- id: 40
+  pioId: swsh3-40
+  enumId: FEEBAS_40
+  name: Feebas
+  number: '40'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
     value: '-30'
-  rarity: Rare
-- id: 432-52
-  pioId: swsh3-52
-  enumId: ARROKUDA_52
-  name: Arrokuda
-  number: '52'
+  rarity: Rare Holo
+- id: 41
+  pioId: swsh3-41
+  enumId: MILOTIC_41
+  name: Milotic
+  number: '41'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-42
+  pioId: swsh3-100
+  enumId: RELICANTH_100
+  name: Relicanth
+  number: '42'
+  types: [W]
+  superType: POKEMON
+  subTypes: [BASIC]
+  hp: 90
+  retreatCost: 1
+  moves: 
+  - cost: [C]
+    name: Fossil Search
+    text: Search your deck for up to 2 Rare Fossil cards and put them on your Bench. Then, shuffle your deck.
+  - cost: [W, C]
+    name: Surf
+    damage: '40'
+  weaknesses: 
+  - type: L
+    value: x2
+  rarity: Rare Holo
+- id: 432-43
+  pioId: swsh3-100
+  enumId: PANPOUR_100
+  name: Panpour
+  number: '43'
+  types: [W]
+  superType: POKEMON
+  subTypes: [BASIC]
+  hp: 60
+  moves: 
+  - cost: [W]
+    name: Water Gun
+    damage: '10'
+  - cost: [C, C]
+    name: Bite
+    damage: '20'
+  weaknesses: 
+  - type: L
+    value: x2
+  rarity: Rare Holo
+- id: 432-44
+  pioId: swsh3-100
+  enumId: SIMIPOUR_100
+  name: Simipour
+  number: '44'
+  types: [W]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Panpour
+  hp: 100
+  retreatCost: 1
+  moves: 
+  - cost: [W]
+    name: Water Gun
+    damage: '30'
+  - cost: [C, C, C]
+    name: Giga Impact
+    damage: '110'
+    text: This Pokemon can’t attack during your next turn.
+  weaknesses: 
+  - type: L
+    value: x2
+  rarity: Rare Holo
+- id: 432-45
+  pioId: swsh3-100
+  enumId: GALARIAN_DARUMAKA_100
+  name: Galarian Darumaka
+  number: '45'
+  types: [W]
+  superType: POKEMON
+  subTypes: [BASIC]
+  hp: 70
+  retreatCost: 1
+  moves: 
+  - cost: [C]
+    name: Tackle
+    damage: '10'
+  - cost: [W, C]
+    name: Headbutt
+    damage: '20'
+  weaknesses: 
+  - type: M
+    value: x2
+  rarity: Rare Holo
+- id: 432-46
+  pioId: swsh3-100
+  enumId: GALARIAN_DARMANITAN_100
+  name: Galarian Darmanitan
+  number: '46'
+  types: [R]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Galarian Darumaka
+  hp: 140
+  retreatCost: 3
+  moves: 
+  - cost: [C]
+    name: Headbutt
+    damage: '40'
+  - cost: [W, W, C]
+    name: Frozen Heat
+    text: 110+ damage. You may discard all [W] Energy from this Pokemon. If you do, this attack does 60 more damage.
+  weaknesses: 
+  - type: W
+    value: x2
+  rarity: Rare Holo
+- id: 432-47
+  pioId: swsh3-100
+  enumId: VANILLITE_100
+  name: Vanillite
+  number: '47'
   types: [W]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 60
   retreatCost: 1
-  moves:
+  moves: 
   - cost: [W]
-    name: Rain Splash
-    damage: '20'
-  weaknesses:
-  - type: L
+    name: Generate Cold
+    damage: '10'
+    text: Flip a coin. If heads, your opponent''s Active Pokemon is now Paralyzed.
+  weaknesses: 
+  - type: M
     value: x2
-  rarity: Common
+  rarity: Rare Holo
+- id: 432-48
+  pioId: swsh3-100
+  enumId: VANILLISH_100
+  name: Vanillish
+  number: '48'
+  types: [W]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Vanillite
+  hp: 80
+  retreatCost: 2
+  moves: 
+  - cost: [W]
+    name: Freezing Headbutt
+    damage: '30'
+    text: Flip a coin. If heads, your opponent''s Active Pokemon is now Paralyzed.
+  weaknesses: 
+  - type: M
+    value: x2
+  rarity: Rare Holo
+- id: 432-49
+  pioId: swsh3-100
+  enumId: VANILLUXE_100
+  name: Vanilluxe
+  number: '49'
+  types: [W]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Vanillish
+  hp: 150
+  retreatCost: 2
+  abilities: 
+  - type: Ability
+    name: Freezing Cold
+    text: Once during your turn, if this Pokemon is your Active Pokemon, you may flip a coin. If heads, your opponent’s Active Pokemon is now Paralyzed.
+  moves: 
+  - cost: [W, C]
+    name: Frost Smash
+    damage: '90'
+  weaknesses: 
+  - type: M
+    value: x2
+  rarity: Rare Holo
+- id: 50
+  pioId: swsh3-50
+  enumId: CUBCHOO_50
+  name: Cubchoo
+  number: '50'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 51
+  pioId: swsh3-51
+  enumId: BEARTIC_51
+  name: Beartic
+  number: '51'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 52
+  pioId: swsh3-52
+  enumId: WISHIWASHI_52
+  name: Wishiwashi
+  number: '52'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-53
-  pioId: swsh3-53
-  enumId: BARRASKEWDA_53
-  name: Barraskewda
+  pioId: swsh3-100
+  enumId: MAREANIE_100
+  name: Mareanie
   number: '53'
   types: [W]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Arrokuda
-  hp: 120
-  retreatCost: 1
-  moves:
+  subTypes: [BASIC]
+  hp: 70
+  retreatCost: 2
+  moves: 
   - cost: [C]
-    name: Peck
-    damage: '30'
-  - cost: [W]
-    name: Spiral Jet
-    damage: '130'
-    text: Discard 2 [W] Energy cards from your hand. If you don't, this attack does
-      nothing.
-  weaknesses:
+    name: Recover
+    text: Heal 30 damage from this Pokemon.
+  - cost: [W, C]
+    name: Poison Tentacles
+    damage: '20'
+    text: Your opponent''s Active Pokemon is now Poisoned.
+  weaknesses: 
   - type: L
     value: x2
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-54
-  pioId: swsh3-54
-  enumId: EISCUE_54
-  name: Eiscue
+  pioId: swsh3-100
+  enumId: TOXAPEX_100
+  name: Toxapex
   number: '54'
   types: [W]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 120
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Ice Face
-    text: If this Pokémon has full HP, it takes 60 less damage from your opponent’s
-      attacks (after applying Weakness and Resistance).
-  moves:
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Mareanie
+  hp: 130
+  retreatCost: 3
+  moves: 
+  - cost: [C]
+    name: Recover
+    text: Discard an Energy from this Pokemon. If you do, heal all damage from this Pokemon.
   - cost: [W, C, C]
-    name: Blizzard
-    damage: '70'
-    text: This attack also does 10 damage to each of your opponent’s Benched Pokémon.
-      (Don’t apply Weakness and Resistance for Benched Pokémon.)
-  weaknesses:
-  - type: M
+    name: Poison Whip
+    damage: '80'
+    text: Your opponent''s Active Pokemon is now Poisoned.
+  weaknesses: 
+  - type: L
     value: x2
   rarity: Rare Holo
 - id: 432-55
-  pioId: swsh3-55
-  enumId: EISCUE_V_55
-  name: Eiscue V
+  pioId: swsh3-100
+  enumId: DRACOVISH_100
+  name: Dracovish
   number: '55'
   types: [W]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  abilities:
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Rare Fossil
+  hp: 150
+  retreatCost: 3
+  abilities: 
   - type: Ability
-    name: Cold Absorption
-    text: Whenever you attach a [W] Energy card from your hand to this Pokémon during
-      your turn, heal 30 damage from it.
-  moves:
-  - cost: [W, W, C]
-    name: Blizzard
+    name: Primal Law
+    text: If this Pokemon is your Active Pokemon, your opponent can't play any Pokemon from their hand to evolve their Pokemon.
+  moves: 
+  - cost: [W, C, C]
+    name: Hammer In
     damage: '120'
-    text: This attack also does 10 damage to each of your opponent’s Benched Pokémon.
-      (Don’t apply Weakness and Resistance for Benched Pokémon.)
-  weaknesses:
-  - type: M
+  weaknesses: 
+  - type: L
     value: x2
   rarity: Rare Holo
 - id: 432-56
-  pioId: swsh3-56
-  enumId: VOLTORB_56
-  name: Voltorb
+  pioId: swsh3-100
+  enumId: ARCTOVISH_100
+  name: Arctovish
   number: '56'
-  types: [L]
+  types: [W]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 50
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Continuous Tumble
-    damage: 20x
-    text: Flip a coin until you get tails. This attack does 20 damage for each heads.
-  weaknesses:
-  - type: F
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Rare Fossil
+  hp: 150
+  retreatCost: 2
+  moves: 
+  - cost: [W, C, C]
+    name: Hard Face
+    damage: '90'
+    text: During your opponent''s next turn, this Pokemon takes 60 less damage from attacks.
+  - cost: [W, C, C, C]
+    name: Cold Breath
+    damage: '130'
+    text: Your opponent’s Active Pokemon is now Asleep.
+  weaknesses: 
+  - type: L
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-57
-  pioId: swsh3-57
-  enumId: ELECTRODE_57
-  name: Electrode
+  pioId: swsh3-100
+  enumId: ELECTRIKE_100
+  name: Electrike
   number: '57'
   types: [L]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Voltorb
-  hp: 90
-  retreatCost: 0
-  moves:
-  - cost: [C]
-    name: Orb Collector
-    text: Search your deck for up to 3 Energy cards, reveal them, and put them into
-      your hand. Then, shuffle your deck.
+  subTypes: [BASIC]
+  hp: 60
+  retreatCost: 1
+  moves: 
   - cost: [L, C]
-    name: Rolling Attack
-    damage: '70'
-  weaknesses:
+    name: Thunderbolt
+    damage: '60'
+    text: Discard all Energy from this Pokemon.
+  weaknesses: 
   - type: F
     value: x2
-  rarity: Uncommon
+  rarity: Rare Holo
 - id: 432-58
-  pioId: swsh3-58
-  enumId: ELECTABUZZ_58
-  name: Electabuzz
+  pioId: swsh3-100
+  enumId: MANECTRIC_100
+  name: Manectric
   number: '58'
   types: [L]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 90
-  retreatCost: 2
-  moves:
-  - cost: [C]
-    name: Knuckle Punch
-    damage: '10'
-  - cost: [L, L, C]
-    name: Electroslug
-    damage: '70'
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Common
-- id: 432-59
-  pioId: swsh3-59
-  enumId: ELECTIVIRE_59
-  name: Electivire
-  number: '59'
-  types: [L]
-  superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Electabuzz
-  hp: 140
-  retreatCost: 3
-  moves:
-  - cost: [L, C]
-    name: Thunder Shock
-    damage: '50'
-    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
+  evolvesFrom: Electrike
+  hp: 110
+  retreatCost: 1
+  moves: 
+  - cost: [L]
+    name: Strafe
+    damage: '30'
+    text: You may switch this Pokemon with 1 of your Benched Pokemon.
   - cost: [L, L, C]
-    name: Electrified Bolt
-    damage: 90+
-    text: If this Pokémon has any Special Energy attached, this attack does 90 more
-      damage.
-  weaknesses:
+    name: Flash Impact
+    damage: '150'
+    text: This attack does 30 damage to 1 of your Benched Pokemon. (Don''t apply Weakness and Resistance for Benched Pokemon.)
+  weaknesses: 
   - type: F
     value: x2
-  rarity: Rare
+  rarity: Rare Holo
+- id: 59
+  pioId: swsh3-59
+  enumId: VIVAVOLT_V_59
+  name: Vivavolt V
+  number: '59'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-60
-  pioId: swsh3-60
-  enumId: SHINX_60
-  name: Shinx
+  pioId: swsh3-100
+  enumId: TAPU_KOKO_100
+  name: Tapu Koko
   number: '60'
   types: [L]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
-  - cost: [L]
-    name: Under Pressure
-    damage: 10+
-    text: If your opponent has 3 or fewer Prize cards remaining, this attack does
-      50 more damage.
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Common
-- id: 432-61
-  pioId: swsh3-61
-  enumId: LUXIO_61
-  name: Luxio
-  number: '61'
-  types: [L]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Shinx
-  hp: 90
-  retreatCost: 1
-  abilities:
-  - type: Ability
-    name: Top Entry
-    text: Once during your turn, if you drew this Pokémon from your deck at the beginning
-      of your turn and your Bench isn't full, before you put it into your hand, you
-      may put it onto your Bench.
-  moves:
-  - cost: [L]
-    name: Zap Kick
-    damage: '30'
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Uncommon
-- id: 432-62
-  pioId: swsh3-62
-  enumId: LUXRAY_62
-  name: Luxray
-  number: '62'
-  types: [L]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Luxio
-  hp: 160
-  retreatCost: 1
-  moves:
-  - cost: [L]
-    name: Raid
-    damage: 60+
-    text: If this Pokémon evolved from Luxio during this turn, this attack does 100
-      more damage.
-  - cost: [L, C]
-    name: Head Bolt
-    damage: '120'
-  weaknesses:
+  hp: 110
+  retreatCost: 0
+  moves: 
+  - cost: [C]
+    name: Allure
+    text: Draw 2 cards.
+  - cost: [L, L, C]
+    name: Lightning Ball
+    damage: '110'
+  weaknesses: 
   - type: F
     value: x2
   rarity: Rare Holo
+- id: 61
+  pioId: swsh3-61
+  enumId: TOXEL_61
+  name: Toxel
+  number: '61'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 62
+  pioId: swsh3-62
+  enumId: TOXTRICITY_62
+  name: Toxtricity
+  number: '62'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-63
-  pioId: swsh3-63
-  enumId: HELIOPTILE_63
-  name: Helioptile
+  pioId: swsh3-100
+  enumId: DRACOZOLT_100
+  name: Dracozolt
   number: '63'
   types: [L]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 70
-  retreatCost: 1
-  moves:
+  hp: 160
+  retreatCost: 4
+  moves: 
   - cost: [L]
-    name: Thunder Jolt
+    name: Rising Charge
     damage: '30'
-    text: This Pokémon also does 10 damage to itself.
-  weaknesses:
+    text: During your next turn, this Pokemon’s Rising Charge attack does 90 more damage.
+  - cost: [C, C, C, C]
+    name: Giga Impact
+    damage: '200'
+    text: This Pokemon can’t attack during your next turn.
+  weaknesses: 
   - type: F
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-64
-  pioId: swsh3-64
-  enumId: HELIOLISK_64
-  name: Heliolisk
+  pioId: swsh3-100
+  enumId: ARCTOZOLT_100
+  name: Arctozolt
   number: '64'
   types: [L]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Helioptile
-  hp: 110
-  retreatCost: 1
-  moves:
-  - cost: [L]
-    name: Eerie Impulse
-    text: Flip a coin. If heads, discard an Energy from 1 of your opponent’s Pokémon.
-  - cost: [L, C]
-    name: Thunder
-    damage: '120'
-    text: This Pokémon also does 30 damage to itself.
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Uncommon
-- id: 432-65
-  pioId: swsh3-65
-  enumId: CHARJABUG_65
-  name: Charjabug
-  number: '65'
-  types: [L]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Grubbin
-  hp: 90
+  evolvesFrom: Rare Fossil
+  hp: 130
   retreatCost: 2
-  moves:
-  - cost: [C]
-    name: Charge
-    text: Search your deck for up to 2 [L] Energy cards and attach them to this Pokémon.
-      Then, shuffle your deck.
-  - cost: [L, L, C]
-    name: Lightning Ball
+  abilities: 
+  - type: Ability
+    name: Numbing Vortex
+    text: Whenever your opponent attaches an Energy from their hand to 1 of their Pokemon, put 2 damage counters on that Pokemon.
+  moves: 
+  - cost: [L, C]
+    name: Electro Ball
     damage: '70'
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Uncommon
-- id: 432-66
-  pioId: swsh3-66
-  enumId: VIKAVOLT_66
-  name: Vikavolt
-  number: '66'
-  types: [L]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Charjabug
-  hp: 150
-  retreatCost: 2
-  moves:
-  - cost: [L, C, C]
-    name: Powerful Storm
-    damage: 60+
-    text: This attack does 20 more damage for each Energy attached to all of your
-      Pokémon.
-  - cost: [L, C, C, C]
-    name: Thunder Jolt Beam
-    damage: '170'
-    text: This Pokémon also does 30 damage to itself.
-  weaknesses:
+  weaknesses: 
   - type: F
     value: x2
   rarity: Rare Holo
-- id: 432-67
-  pioId: swsh3-67
-  enumId: BOLTUND_V_67
-  name: Boltund V
-  number: '67'
-  types: [L]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 200
-  retreatCost: 2
-  moves:
-  - cost: [L]
-    name: Electrify
-    text: Search your deck for up to 2 [L] Energy cards and attach them to your Benched
-      Pokémon in any way you like. Then, shuffle your deck.
-  - cost: [L, C]
-    name: Bolt Storm
-    damage: 10+
-    text: This attack does 30 more damage for each [L] Energy attached to all of your
-      Pokémon.
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Rare Holo
-- id: 432-68
-  pioId: swsh3-68
-  enumId: TOXEL_68
-  name: Toxel
-  number: '68'
-  types: [L]
+- id: 432-65
+  pioId: swsh3-100
+  enumId: JIGGLYPUFF_100
+  name: Jigglypuff
+  number: '65'
+  types: [P]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 70
-  retreatCost: 2
-  moves:
-  - cost: [L]
-    name: Tight Jaw
+  retreatCost: 1
+  moves: 
+  - cost: [C]
+    name: Mumble
     damage: '10'
-    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
-  weaknesses:
-  - type: F
+  - cost: [P, C]
+    name: Moon Kick
+    damage: '20'
+  weaknesses: 
+  - type: M
     value: x2
-  rarity: Common
-- id: 432-69
-  pioId: swsh3-69
-  enumId: TOXTRICITY_69
-  name: Toxtricity
-  number: '69'
-  types: [L]
+  rarity: Rare Holo
+- id: 432-66
+  pioId: swsh3-100
+  enumId: WIGGLYTUFF_100
+  name: Wigglytuff
+  number: '66'
+  types: [P]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Toxel
-  hp: 130
+  evolvesFrom: Jigglypuff
+  hp: 120
   retreatCost: 2
-  moves:
-  - cost: [L]
-    name: Poison Shout
-    text: This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply
-      Weakness and Resistance for Benched Pokémon.) Your opponent’s Active Pokémon
-      is now Poisoned.
-  - cost: [L, C, C]
-    name: Hammer In
-    damage: '90'
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Rare
-- id: 432-70
-  pioId: swsh3-70
-  enumId: TOXTRICITY_V_70
-  name: Toxtricity V
-  number: '70'
-  types: [L]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  moves:
-  - cost: [L]
-    name: Poison Jab
-    damage: '20'
-    text: Your opponent’s Active Pokémon is now Poisoned.
-  - cost: [L, L, C]
-    name: Electric Riot
-    damage: 90+
-    text: If your opponent’s Active Pokémon is Poisoned, this attack does 90 more
-      damage.
-  weaknesses:
-  - type: F
+  moves: 
+  - cost: [P]
+    name: Sleep Pulse
+    damage: '30'
+    text: Your opponent''s Active Pokemon is now Asleep.
+  - cost: [C, C, C]
+    name: Double Smash
+    text: 90x damage. Flip 2 coins. This attack does 90 damage for each heads.
+  weaknesses: 
+  - type: M
     value: x2
   rarity: Rare Holo
-- id: 432-71
-  pioId: swsh3-71
-  enumId: TOXTRICITY_VMAX_71
-  name: Toxtricity VMAX
-  number: '71'
-  types: [L]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Toxtricity V
-  hp: 320
-  retreatCost: 2
-  moves:
-  - cost: [L, L, C]
-    name: G-Max Riot
-    damage: 160+
-    text: If your opponent’s Active Pokémon is Poisoned, this attack does 80 more
-      damage.
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Rare Holo
-- id: 432-72
-  pioId: swsh3-72
-  enumId: PINCURCHIN_V_72
-  name: Pincurchin V
-  number: '72'
-  types: [L]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 170
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Counterattack Kerzap
-    text: If this Pokémon is in the Active Spot and is damaged by an opponent's attack
-      (even if it is Knocked Out), flip 3 coins. For each heads, put 3 damage counters
-      on the Attacking Pokémon.
-  moves:
-  - cost: [L, L, C]
-    name: Sparking Strike
-    damage: '120'
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Rare Holo
-- id: 432-73
-  pioId: swsh3-73
-  enumId: MORPEKO_73
-  name: Morpeko
-  number: '73'
-  types: [L]
+- id: 67
+  pioId: swsh3-67
+  enumId: GALARIAN_SLOWBRO_V_67
+  name: Galarian Slowbro V
+  number: '67'
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 80
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Torment
-    damage: '20'
-    text: Choose 1 of your opponent’s Active Pokémon’s attacks. During your opponent's
-      next turn, that Pokémon can’t use that attack.
-  - cost: [L, C]
-    name: Spark
-    damage: '50'
-    text: This attack also does 20 damage to 1 of your opponent’s Benched Pokémon.
-      (Don’t apply Weakness and Resistance for Benched Pokémon.)
-  weaknesses:
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
-    value: x2
-  rarity: Uncommon
+    value: '-30'
+  rarity: Rare Holo
+- id: 68
+  pioId: swsh3-68
+  enumId: MEW_V_68
+  name: Mew V
+  number: '68'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 69
+  pioId: swsh3-69
+  enumId: SNUBBUL_69
+  name: Snubbul
+  number: '69'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 70
+  pioId: swsh3-70
+  enumId: GRANBULL_70
+  name: Granbull
+  number: '70'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 71
+  pioId: swsh3-71
+  enumId: GARDEVOIR_V_71
+  name: Gardevoir V
+  number: '71'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 72
+  pioId: swsh3-72
+  enumId: GARDEVOIR_VMAX_72
+  name: Gardevoir VMAX
+  number: '72'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 73
+  pioId: swsh3-73
+  enumId: LUNATONE_73
+  name: Lunatone
+  number: '73'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-74
-  pioId: swsh3-74
-  enumId: CLEFAIRY_74
-  name: Clefairy
+  pioId: swsh3-100
+  enumId: GOLETT_100
+  name: Golett
   number: '74'
   types: [P]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Shining Fingers
-    text: Your opponent’s Active Pokémon is now Asleep.
-  - cost: [P]
-    name: Magical Shot
-    damage: '10'
-  weaknesses:
-  - type: M
+  hp: 90
+  retreatCost: 3
+  moves: 
+  - cost: [P, C]
+    name: Rollout
+    damage: '30'
+  - cost: [P, C, C]
+    name: Hammer In
+    damage: '50'
+  weaknesses: 
+  - type: D
     value: x2
-  rarity: Common
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-75
-  pioId: swsh3-75
-  enumId: CLEFABLE_75
-  name: Clefable
+  pioId: swsh3-100
+  enumId: GOLURK_100
+  name: Golurk
   number: '75'
   types: [P]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Clefairy
-  hp: 110
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Prankish
-    text: When you play this Pokémon from your hand to evolve 1 of your Pokémon during
-      your turn, you may put an Energy attached to your opponent’s Active Pokémon
-      on top of their deck.
-  moves:
-  - cost: [P, C]
-    name: Moon Kick
-    damage: '60'
-  weaknesses:
-  - type: M
+  evolvesFrom: Golett
+  hp: 150
+  retreatCost: 4
+  moves: 
+  - cost: [P, C, C]
+    name: Explosive Punch
+    damage: '80'
+  - cost: [P, C, C, C, C]
+    name: Golurk Hammer
+    damage: '180'
+  weaknesses: 
+  - type: D
     value: x2
+  resistances: 
+  - type: F
+    value: '-30'
   rarity: Rare Holo
 - id: 432-76
-  pioId: swsh3-76
-  enumId: NATU_76
-  name: Natu
+  pioId: swsh3-100
+  enumId: GOTHITA_100
+  name: Gothita
   number: '76'
   types: [P]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 60
   retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Me First
-    text: Draw a card.
-  weaknesses:
+  moves: 
+  - cost: [P]
+    name: Fortune Eye
+    text: Look at the top 5 cards of your opponent''s deck and put them back on top of their deck in any order.
+  - cost: [P, C]
+    name: Gentle Slap
+    damage: '30'
+  weaknesses: 
   - type: D
     value: x2
-  resistances:
+  resistances: 
   - type: F
     value: '-30'
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-77
-  pioId: swsh3-77
-  enumId: XATU_77
-  name: Xatu
+  pioId: swsh3-100
+  enumId: GOTHORITA_100
+  name: Gothorita
   number: '77'
   types: [P]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Natu
-  hp: 120
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Energy Warp
-    text: Move an Energy from 1 of your opponent's Benched Pokémon to their Active
-      Pokémon.
+  evolvesFrom: Gothita
+  hp: 80
+  retreatCost: 2
+  moves: 
   - cost: [P]
-    name: Psychic
-    damage: 10+
-    text: This attack does 30 more damage for each Energy attached to your opponent's
-      Active Pokémon.
-  weaknesses:
+    name: Whiny Voice
+    text: Choose 1 random card from your opponent''s hand. Your opponent reveals that card and shuffles it into their deck.
+  - cost: [P, C]
+    name: Double Spin
+    text: 30x damage. Flip 2 coins. This attack does 30 damage times the number of heads.
+  weaknesses: 
   - type: D
     value: x2
-  resistances:
+  resistances: 
   - type: F
     value: '-30'
-  rarity: Uncommon
+  rarity: Rare Holo
 - id: 432-78
-  pioId: swsh3-78
-  enumId: GALARIAN_CORSOLA_78
-  name: Galarian Corsola
+  pioId: swsh3-100
+  enumId: GOTHITELLE_100
+  name: Gothitelle
   number: '78'
   types: [P]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 80
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Gothorita
+  hp: 140
   retreatCost: 2
-  moves:
+  moves: 
   - cost: [P]
-    name: Cursed Drop
-    text: Put 3 damage counters on your opponent’s Pokémon in any way you like.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Common
-- id: 432-79
-  pioId: swsh3-79
-  enumId: GALARIAN_CURSOLA_79
-  name: Galarian Cursola
-  number: '79'
-  types: [P]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Galarian Corsola
-  hp: 100
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Perish Body
-    text: If this Pokémon is in the Active Spot and is Knocked Out by damage from
-      an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked
-      Out.
-  moves:
+    name: Psycho Trip
+    damage: '40'
+    text: Your opponent’s Active Pokemon is now Confused.
   - cost: [P, C]
-    name: Corner
-    damage: '60'
-    text: During your opponent's next turn, the Defending Pokémon can't retreat.
-  weaknesses:
+    name: Distort
+    damage: '90'
+    text: Choose 2 random cards from your opponent’s hand. Your opponent reveals them and shuffles them into their deck.
+  weaknesses: 
   - type: D
     value: x2
-  resistances:
+  resistances: 
   - type: F
     value: '-30'
   rarity: Rare Holo
-- id: 432-80
-  pioId: swsh3-80
-  enumId: SIGILYPH_80
-  name: Sigilyph
-  number: '80'
-  types: [P]
+- id: 79
+  pioId: swsh3-79
+  enumId: DEDENNE_79
+  name: Dedenne
+  number: '79'
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 110
-  retreatCost: 1
-  abilities:
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Counterattack
-    text: If this Pokémon is your Active Pokémon and is damaged by an opponent's attack
-      (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking
-      Pokémon.
-  moves:
-  - cost: [P, C]
-    name: Psychic Assault
-    damage: 30+
-    text: This attack does 10 more damage for each damage counter on your opponent’s
-      Active Pokémon.
-  weaknesses:
-  - type: L
-    value: x2
-  resistances:
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
     value: '-30'
-  rarity: Rare
-- id: 432-81
-  pioId: swsh3-81
-  enumId: SANDYGAST_81
-  name: Sandygast
-  number: '81'
-  types: [P]
+  rarity: Rare Holo
+- id: 80
+  pioId: swsh3-80
+  enumId: MORELULL_80
+  name: Morelull
+  number: '80'
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 80
-  retreatCost: 3
-  moves:
-  - cost: [P]
-    name: Sneaky Placement
-    text: Put 1 damage counter on 1 of your opponent’s Pokémon.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
     value: '-30'
-  rarity: Common
+  rarity: Rare Holo
+- id: 81
+  pioId: swsh3-81
+  enumId: SHIINOTIC_81
+  name: Shiinotic
+  number: '81'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-82
-  pioId: swsh3-82
-  enumId: PALOSSAND_82
-  name: Palossand
+  pioId: swsh3-100
+  enumId: MIMIKYU_100
+  name: Mimikyu
   number: '82'
   types: [P]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Sandygast
-  hp: 140
-  retreatCost: 4
-  moves:
-  - cost: [C, C]
-    name: Sand Sink
-    text: Discard the top card of your opponent’s deck. If this Pokémon has a Cursed
-      Shovel attached, discard 2 more cards from the top of your opponent's deck.
-  - cost: [P, C, C]
-    name: Super Absorption
-    damage: '90'
-    text: Heal 30 damage from this Pokémon.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Uncommon
-- id: 432-83
-  pioId: swsh3-83
-  enumId: HATENNA_83
-  name: Hatenna
-  number: '83'
-  types: [P]
-  superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
+  hp: 70
   retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Find a Friend
-    text: Search your deck for a Pokémon, reveal it, and put it into your hand. Then,
-      shuffle your deck.
-  - cost: [C, C]
-    name: Psyshot
-    damage: '20'
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Common
-- id: 432-84
-  pioId: swsh3-84
-  enumId: HATTREM_84
-  name: Hattrem
-  number: '84'
-  types: [P]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Hatenna
-  hp: 80
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Calm Mind
-    text: Heal 30 damage from this Pokémon.
-  - cost: [C, C]
-    name: Brutal Swing
-    damage: 30+
-    text: Flip a coin. If heads, this attack does 30 more damage.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Uncommon
-- id: 432-85
-  pioId: swsh3-85
-  enumId: HATTERENE_85
-  name: Hatterene
-  number: '85'
-  types: [P]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Hattrem
-  hp: 150
-  retreatCost: 2
-  abilities:
+  abilities: 
   - type: Ability
-    name: Mind Hat
-    text: Once during your turn, you may use this Ability. Each player discards a
-      card from their hand. (Your opponent discards first.)
-  moves:
-  - cost: [P]
-    name: Dripping Grudge
-    text: Put 1 damage counter on your opponent's Active Pokémon for each Pokémon
-      in your discard pile.
-  weaknesses:
+    name: Heal Stop
+    text: Your opponent’s Benched Pokemon can’t be healed.
+  moves: 
+  - cost: [P, C]
+    name: Claw Slash
+    damage: '30'
+  weaknesses: 
   - type: D
     value: x2
-  resistances:
+  resistances: 
   - type: F
     value: '-30'
   rarity: Rare Holo
-- id: 432-86
-  pioId: swsh3-86
-  enumId: MILCERY_86
-  name: Milcery
-  number: '86'
-  types: [P]
+- id: 83
+  pioId: swsh3-83
+  enumId: SINISTEA_83
+  name: Sinistea
+  number: '83'
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 50
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Aromatherapy
-    text: Heal 10 damage from each of your Pokémon.
-  - cost: [P, C]
-    name: Tackle
-    damage: '20'
-  weaknesses:
-  - type: M
-    value: x2
-  rarity: Common
-- id: 432-87
-  pioId: swsh3-87
-  enumId: ALCREMIE_87
-  name: Alcremie
-  number: '87'
-  types: [P]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Milcery
-  hp: 110
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Decorate
-    text: Attach any number of basic Energy cards from your hand to your Pokémon in
-      any way you like.
-  - cost: [P, C]
-    name: Draining Kiss
-    damage: '50'
-    text: Heal 30 damage from this Pokémon.
-  weaknesses:
-  - type: M
-    value: x2
-  rarity: Rare
-- id: 432-88
-  pioId: swsh3-88
-  enumId: INDEEDEE_88
-  name: Indeedee
-  number: '88'
-  types: [P]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 100
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Replenish Time
-    text: Heal 30 damage from each of your Pokémon.
-  - cost: [P, C]
-    name: Psybeam
-    damage: '30'
-    text: Your opponent’s Active Pokémon is now Confused.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Uncommon
-- id: 432-89
-  pioId: swsh3-89
-  enumId: DREEPY_89
-  name: Dreepy
-  number: '89'
-  types: [P]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
-  - cost: [P]
-    name: Quick Attack
-    damage: 10+
-    text: Flip a coin. If heads, this attack does 10 more damage.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Common
-- id: 432-90
-  pioId: swsh3-90
-  enumId: DRAKLOAK_90
-  name: Drakloak
-  number: '90'
-  types: [P]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Dreepy
-  hp: 90
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Summon
-    text: Search your deck for a Dreepy and put it onto your Bench. Then, shuffle
-      your deck.
-  - cost: [P, P]
-    name: Bite
-    damage: '40'
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Uncommon
-- id: 432-91
-  pioId: swsh3-91
-  enumId: DRAGAPULT_91
-  name: Dragapult
-  number: '91'
-  types: [P]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Drakloak
-  hp: 150
-  retreatCost: 0
-  abilities:
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Infiltrator
-    text: If any damage is done to this Pokémon by attacks, flip a coin. If heads,
-      prevent that damage.
-  moves:
-  - cost: [P, P]
-    name: Phantom Force
-    damage: '120'
-    text: Put 3 damage counters on your opponent’s Benched Pokémon in any way you
-      like.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 84
+  pioId: swsh3-84
+  enumId: POLTEAGEIST_84
+  name: Polteageist
+  number: '84'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 85
+  pioId: swsh3-85
+  enumId: DIGLETT_85
+  name: Diglett
+  number: '85'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 86
+  pioId: swsh3-86
+  enumId: DUGTRIO_86
+  name: Dugtrio
+  number: '86'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 87
+  pioId: swsh3-87
+  enumId: GALARIAN_FARFETCH_D_87
+  name: Galarian Farfetch'd
+  number: '87'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 88
+  pioId: swsh3-88
+  enumId: GALARIAN_SIRFETCH_D_88
+  name: Galarian Sirfetch'd
+  number: '88'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 89
+  pioId: swsh3-89
+  enumId: LARVITAR_89
+  name: Larvitar
+  number: '89'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 90
+  pioId: swsh3-90
+  enumId: PUPITAR_90
+  name: Pupitar
+  number: '90'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 91
+  pioId: swsh3-91
+  enumId: TYRANITAR_91
+  name: Tyranitar
+  number: '91'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
     value: '-30'
   rarity: Rare Holo
 - id: 432-92
-  pioId: swsh3-92
-  enumId: DRAGAPULT_V_92
-  name: Dragapult V
+  pioId: swsh3-100
+  enumId: TRAPINCH_100
+  name: Trapinch
   number: '92'
-  types: [P]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 1
-  moves:
-  - cost: [P]
-    name: Bite
-    damage: '30'
-  - cost: [P, P]
-    name: Jet Assault
-    damage: 60+
-    text: If this Pokémon moved from your Bench to the Active Spot this turn, this
-      attack does 80 more damage.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Rare Holo
-- id: 432-93
-  pioId: swsh3-93
-  enumId: DRAGAPULT_VMAX_93
-  name: Dragapult VMAX
-  number: '93'
-  types: [P]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Dragapult V
-  hp: 320
-  retreatCost: 1
-  moves:
-  - cost: [P]
-    name: Shred
-    damage: '60'
-    text: This attack’s damage isn’t affected by any effects on your opponent’s Active
-      Pokémon.
-  - cost: [P, P]
-    name: Max Phantom
-    damage: '130'
-    text: Put 5 damage counters on your opponent’s Benched Pokémon in any way you
-      like.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Rare Holo
-- id: 432-94
-  pioId: swsh3-94
-  enumId: GALARIAN_FARFETCH_D_94
-  name: Galarian Farfetch'd
-  number: '94'
   types: [F]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 80
+  hp: 60
   retreatCost: 1
-  moves:
-  - cost: [F]
-    name: Rock Smash
-    damage: 10+
-    text: Flip a coin. If heads, this attack does 30 more damage.
-  - cost: [C, C]
-    name: Pierce
-    damage: '30'
-  weaknesses:
-  - type: P
+  moves: 
+  weaknesses: 
+  - type: G
     value: x2
-  rarity: Common
-- id: 432-95
-  pioId: swsh3-95
-  enumId: GALARIAN_SIRFETCH_D_95
-  name: Galarian Sirfetch'd
-  number: '95'
+  rarity: Rare Holo
+- id: 432-93
+  pioId: swsh3-100
+  enumId: VIBRAVA_100
+  name: Vibrava
+  number: '93'
   types: [F]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Galarian Farfetch'd
-  hp: 130
-  retreatCost: 2
-  moves:
+  evolvesFrom: Trapinch
+  hp: 80
+  retreatCost: 1
+  moves: 
   - cost: [F]
-    name: Pierce
-    damage: '40'
-  - cost: [F, C, C]
-    name: Meteor Assault
-    damage: '180'
-    text: This Pokémon can't use Meteor Assault again until it leaves the Active Spot.
-  weaknesses:
-  - type: P
+    name: Sand Impulse
+    damage: '20'
+    text: This attack does 10 damage to each of your opponent''s Benched Pokemon. (Don''t apply Weakness and Resistance.)
+  weaknesses: 
+  - type: G
     value: x2
   rarity: Rare Holo
+- id: 432-94
+  pioId: swsh3-100
+  enumId: FLYGON_100
+  name: Flygon
+  number: '94'
+  types: [F]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Vibrava
+  hp: 150
+  retreatCost: 1
+  abilities: 
+  - type: Ability
+    name: Sand Maze
+    text: If this Pokemon is your Active Pokemon, your opponent’s Active Pokemon can’t Retreat.
+  moves: 
+  - cost: [F, C, C]
+    name: Desert Geizer
+    damage: '130'
+    text: If your opponent has a Stadium in play, discard it. If you do, during your opponent''s next turn, prevent all damage and effects done to this Pokemon by the attacks of your opponent''s Pokemon.
+  weaknesses: 
+  - type: G
+    value: x2
+  rarity: Rare Holo
+- id: 95
+  pioId: swsh3-95
+  enumId: SOLROCK_95
+  name: Solrock
+  number: '95'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-96
-  pioId: swsh3-96
-  enumId: NOSEPASS_96
-  name: Nosepass
+  pioId: swsh3-100
+  enumId: HIPPOPOTAS_100
+  name: Hippopotas
   number: '96'
   types: [F]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 80
-  retreatCost: 3
-  moves:
+  hp: 100
+  retreatCost: 4
+  moves: 
   - cost: [C]
     name: Tackle
     damage: '10'
-  - cost: [C, C, C]
-    name: Rolling Tackle
-    damage: '50'
-  weaknesses:
+  - cost: [F, F, F, C]
+    name: Double Stomp
+    text: Flip 2 coins. This attack does 30 damage times the number of heads.
+  weaknesses: 
   - type: G
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-97
-  pioId: swsh3-97
-  enumId: MEDITITE_97
-  name: Meditite
+  pioId: swsh3-100
+  enumId: HIPPOWDON_100
+  name: Hippowdon
   number: '97'
   types: [F]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 70
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Yoga Shock
-    damage: '10'
-    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
-  weaknesses:
-  - type: P
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Hippopotas
+  hp: 150
+  retreatCost: 4
+  moves: 
+  - cost: [F, F, C]
+    name: Triple Smash
+    text: 80x damage. Flip 3 coins. This attack does 80 damage for each heads.
+  - cost: [F, F, F, C]
+    name: Land Crush
+    damage: '150'
+  weaknesses: 
+  - type: G
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-98
-  pioId: swsh3-98
-  enumId: MEDICHAM_98
-  name: Medicham
+  pioId: swsh3-100
+  enumId: RHYPERIOR_V_100
+  name: Rhyperior V
   number: '98'
   types: [F]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Meditite
-  hp: 110
-  retreatCost: 1
-  moves:
-  - cost: [F]
-    name: Yoga Kick
-    damage: '40'
-    text: This attack’s damage isn’t affected by Weakness or Resistance.
-  - cost: [C, C, C]
-    name: Psychic
-    damage: 60+
-    text: This attack does 20 more damage for each Energy attached to your opponent’s
-      Active Pokémon.
-  weaknesses:
-  - type: P
+  subTypes: [POKEMON_V, BASIC]
+  hp: 230
+  retreatCost: 4
+  moves: 
+  - cost: [F, C, C]
+    name: Drill Run
+    damage: '80'
+    text: Discard 1 Energy from your opponent’s Active Pokemon.
+  - cost: [F, C, C, C]
+    name: Heavy Rock Cannon
+    damage: '210'
+    text: This Pokemon can’t use this attack during your next turn.
+  weaknesses: 
+  - type: G
     value: x2
-  rarity: Uncommon
-- id: 432-99
+  rarity: Rare Holo
+- id: 99
   pioId: swsh3-99
-  enumId: BARBOACH_99
-  name: Barboach
+  enumId: DIGGERSBY_99
+  name: Diggersby
   number: '99'
-  types: [F]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 70
-  retreatCost: 2
-  moves:
-  - cost: [F]
-    name: Razor Fin
-    damage: '10'
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Common
-- id: 432-100
-  pioId: swsh3-100
-  enumId: WHISCASH_100
-  name: Whiscash
-  number: '100'
-  types: [F]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Barboach
-  hp: 140
-  retreatCost: 3
-  abilities:
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Submerge
-    text: As long as this Pokémon is on your Bench, prevent all damage done to this
-      Pokémon by attacks (both yours and your opponent's).
-  moves:
-  - cost: [F, F]
-    name: Earthquake
-    damage: '140'
-    text: This attack also does 20 damage to each of your Benched Pokémon. (Don’t
-      apply Weakness and Resistance for Benched Pokémon.)
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Rare
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 100
+  pioId: swsh3-100
+  enumId: ZYGARDE_100
+  name: Zygarde
+  number: '100'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-101
-  pioId: swsh3-101
-  enumId: GALARIAN_YAMASK_101
-  name: Galarian Yamask
+  pioId: swsh3-100
+  enumId: PASSIMIAN_100
+  name: Passimian
   number: '101'
   types: [F]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 70
-  retreatCost: 2
-  moves:
-  - cost: [C, C]
-    name: Reckless Charge
-    damage: '50'
-    text: This Pokémon also does 30 damage to itself.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Common
-- id: 432-102
-  pioId: swsh3-102
-  enumId: GALARIAN_RUNERIGUS_102
-  name: Galarian Runerigus
-  number: '102'
-  types: [F]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Galarian Yamask
-  hp: 100
-  retreatCost: 2
-  moves:
-  - cost: [C, C]
-    name: Spreading Spite
-    text: For each damage counter on this Galarian Runerigus, put 2 damage counters
-      on your opponent’s Pokémon in any way you like.
-  - cost: [F, C, C]
-    name: Mad Hammer
-    damage: '120'
-    text: This Pokémon also does 30 damage to itself.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Rare
-- id: 432-103
-  pioId: swsh3-103
-  enumId: BINACLE_103
-  name: Binacle
-  number: '103'
-  types: [F]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 80
-  retreatCost: 2
-  moves:
-  - cost: [F, C, C]
-    name: Dual Chop
-    damage: 50x
-    text: Flip 2 coins. This attack does 50 damage for each heads.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Common
-- id: 432-104
-  pioId: swsh3-104
-  enumId: BARBARACLE_104
-  name: Barbaracle
-  number: '104'
-  types: [F]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Binacle
-  hp: 120
-  retreatCost: 3
-  moves:
-  - cost: [F, C]
-    name: Rock Hurl
-    damage: '50'
-    text: This attack’s damage isn’t affected by Resistance.
-  - cost: [F, C, C]
-    name: Hand Press
-    damage: 80+
-    text: If you have more cards in your hand than your opponent, this attack does
-      80 more damage.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Rare
-- id: 432-105
-  pioId: swsh3-105
-  enumId: ROLYCOLY_105
-  name: Rolycoly
-  number: '105'
-  types: [F]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 70
-  retreatCost: 2
-  moves:
-  - cost: [C]
-    name: Ram
-    damage: '10'
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Common
-- id: 432-106
-  pioId: swsh3-106
-  enumId: CARKOL_106
-  name: Carkol
-  number: '106'
-  types: [F]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Rolycoly
-  hp: 100
-  retreatCost: 3
-  moves:
-  - cost: [C, C]
-    name: Ram
-    damage: '30'
-  - cost: [F, C, C]
-    name: Heat Crash
-    damage: '60'
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Uncommon
-- id: 432-107
-  pioId: swsh3-107
-  enumId: COALOSSAL_107
-  name: Coalossal
-  number: '107'
-  types: [F]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Carkol
-  hp: 160
-  retreatCost: 4
-  abilities:
-  - type: Ability
-    name: Tar Generator
-    text: Once during your turn, you may attach a [R] Energy card, a [F] Energy card,
-      or 1 of each from your discard pile to your Pokémon in any way you like.
-  moves:
-  - cost: [F, C, C, C]
-    name: Flaming Avalanche
-    damage: '130'
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Rare Holo
-- id: 432-108
-  pioId: swsh3-108
-  enumId: SANDACONDA_V_108
-  name: Sandaconda V
-  number: '108'
-  types: [F]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 220
-  retreatCost: 3
-  moves:
-  - cost: [F]
-    name: Sand Eater
-    damage: '30'
-    text: Attach a [F] Energy card from your discard pile to this Pokémon.
-  - cost: [F, F, C]
-    name: Sand Breath
-    damage: '220'
-    text: Discard 2 Energy from this Pokémon.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Rare Holo
-- id: 432-109
-  pioId: swsh3-109
-  enumId: FALINKS_109
-  name: Falinks
-  number: '109'
-  types: [F]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 90
+  hp: 110
   retreatCost: 1
-  moves:
+  moves: 
   - cost: [C]
     name: Call for Family
-    text: Search your deck for up to 2 Basic Pokémon and put them onto your Bench.
-      Then, shuffle your deck.
-  - cost: [C, C]
-    name: Team Attack
-    damage: 30x
-    text: This attack does 30 damage for each of your Benched Pokémon that has "Falinks"
-      in its name.
-  weaknesses:
-  - type: P
-    value: x2
-  rarity: Uncommon
-- id: 432-110
-  pioId: swsh3-110
-  enumId: FALINKS_V_110
-  name: Falinks V
-  number: '110'
-  types: [F]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 160
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Iron Defense Formation
-    text: All of your Pokémon that have “Falinks” in their name take 20 less damage from
-      your opponent’s attacks (after applying Weakness and Resistance).
-  moves:
-  - cost: [F, F, C]
-    name: Giga Impact
-    damage: '210'
-    text: During your next turn, this Pokémon can't attack.
-  weaknesses:
+    text: Search your deck for up to 2 Basic Pokemon and put them on your Bench. Then, shuffle your deck.
+  - cost: [F, C, C]
+    name: Rock Hurl
+    damage: '70'
+    text: This attack''s damage isn''t affected by Resistance.
+  weaknesses: 
   - type: P
     value: x2
   rarity: Rare Holo
-- id: 432-111
-  pioId: swsh3-111
-  enumId: STONJOURNER_111
-  name: Stonjourner
-  number: '111'
-  types: [F]
+- id: 102
+  pioId: swsh3-102
+  enumId: GRIMER_102
+  name: Grimer
+  number: '102'
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 140
-  retreatCost: 4
-  moves:
-  - cost: [F, C, C]
-    name: Mega Kick
-    damage: '80'
-  - cost: [F, C, C, C]
-    name: Power Press
-    damage: 120+
-    text: If this Pokémon has at least 1 extra Energy attached (in addition to this
-      attack's cost), this attack does 60 more damage.
-  weaknesses:
-  - type: G
-    value: x2
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
   rarity: Rare Holo
-- id: 432-112
-  pioId: swsh3-112
-  enumId: KOFFING_112
-  name: Koffing
-  number: '112'
+- id: 103
+  pioId: swsh3-103
+  enumId: MUK_103
+  name: Muk
+  number: '103'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-104
+  pioId: swsh3-100
+  enumId: SPINARAK_100
+  name: Spinarak
+  number: '104'
   types: [D]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 70
-  retreatCost: 1
-  moves:
+  hp: 60
+  moves: 
   - cost: [D]
-    name: Suffocating Gas
+    name: Hang Down
     damage: '10'
-  weaknesses:
+  - cost: [D, C]
+    name: Sting
+    damage: '20'
+  weaknesses: 
   - type: F
     value: x2
-  rarity: Common
-- id: 432-113
-  pioId: swsh3-113
-  enumId: GALARIAN_WEEZING_113
-  name: Galarian Weezing
-  number: '113'
+  rarity: Rare Holo
+- id: 432-105
+  pioId: swsh3-100
+  enumId: ARIADOS_100
+  name: Ariados
+  number: '105'
   types: [D]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Koffing
-  hp: 130
-  retreatCost: 3
-  abilities:
+  evolvesFrom: Spinarak
+  hp: 110
+  retreatCost: 2
+  abilities: 
   - type: Ability
-    name: Neutralizing Gas
-    text: As long as this Pokémon is in the Active Spot, your opponent’s Pokémon in
-      play have no Abilities, except for Neutralizing Gas.
-  moves:
-  - cost: [D]
-    name: Severe Poison
-    text: Your opponent’s Active Pokémon is now Poisoned. Put 4 damage counters instead
-      of 1 on that Pokémon during Pokémon Checkup.
-  weaknesses:
+    name: Spider Net
+    text: When you play this card from your hand to evolve 1 of your Pokemon, you may switch 1 of your opponent’s Evolution Pokemon with their Active Pokemon.
+  moves: 
+  - cost: [D, C]
+    name: Poison Sting
+    damage: '30'
+    text: Your opponent’s Active Pokemon is now Poisoned.
+  weaknesses: 
   - type: F
     value: x2
   rarity: Rare Holo
+- id: 432-106
+  pioId: swsh3-100
+  enumId: CROBAT_V_100
+  name: Crobat V
+  number: '106'
+  types: [D]
+  superType: POKEMON
+  subTypes: [POKEMON_V, BASIC]
+  hp: 180
+  retreatCost: 1
+  abilities: 
+  - type: Ability
+    name: Night Asset
+    text: Once during your turn, when you play this Pokemon from hand to your Bench, you may draw cards until you have 6 cards in your hand. You can’t use more than 1 Night Asset Ability during your turn.
+  moves: 
+  - cost: [D, C]
+    name: Poison Fang
+    damage: '70'
+    text: Your opponent’s Active Pokemon is now Poisoned.
+  weaknesses: 
+  - type: F
+    value: x2
+  rarity: Rare Holo
+- id: 107
+  pioId: swsh3-107
+  enumId: ABSOL_107
+  name: Absol
+  number: '107'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 108
+  pioId: swsh3-108
+  enumId: DARKRAI_108
+  name: Darkrai
+  number: '108'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 109
+  pioId: swsh3-109
+  enumId: PURRLOIN_109
+  name: Purrloin
+  number: '109'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 110
+  pioId: swsh3-110
+  enumId: LIEPARD_110
+  name: Liepard
+  number: '110'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 111
+  pioId: swsh3-111
+  enumId: DEINO_111
+  name: Deino
+  number: '111'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 112
+  pioId: swsh3-112
+  enumId: ZWEILOUS_112
+  name: Zweilous
+  number: '112'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 113
+  pioId: swsh3-113
+  enumId: HYDREIGON_113
+  name: Hydreigon
+  number: '113'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-114
-  pioId: swsh3-114
-  enumId: STUNKY_114
-  name: Stunky
+  pioId: swsh3-100
+  enumId: GALARIAN_ZIGZAGOON_100
+  name: Galarian Zigzagoon
   number: '114'
   types: [D]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 70
   retreatCost: 2
-  moves:
-  - cost: [C, C]
-    name: Poison Gas
-    damage: '10'
-    text: Your opponent’s Active Pokémon is now Poisoned.
-  weaknesses:
-  - type: F
+  moves: 
+  - cost: [C]
+    name: Pin Missile
+    text: 10x damage. Flip 4 coins. This attack does 10 damage times the number of heads.
+  weaknesses: 
+  - type: G
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-115
-  pioId: swsh3-115
-  enumId: SKUNTANK_115
-  name: Skuntank
+  pioId: swsh3-100
+  enumId: GALARIAN_LINOONE_100
+  name: Galarian Linoone
   number: '115'
   types: [D]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Stunky
-  hp: 120
-  retreatCost: 3
-  moves:
-  - cost: [C, C]
-    name: Slash
-    damage: '50'
-  - cost: [D, C, C]
-    name: Poison Ring
-    damage: '80'
-    text: Your opponent’s Active Pokémon is now Poisoned. During your opponent's next
-      turn, the Defending Pokémon can’t retreat.
-  weaknesses:
-  - type: F
+  evolvesFrom: Galarian Zigzagoon
+  hp: 100
+  retreatCost: 2
+  moves: 
+  weaknesses: 
+  - type: G
     value: x2
-  rarity: Uncommon
+  rarity: Rare Holo
 - id: 432-116
-  pioId: swsh3-116
-  enumId: SPIRITOMB_116
-  name: Spiritomb
+  pioId: swsh3-100
+  enumId: GALARIAN_OBSTAGOON_100
+  name: Galarian Obstagoon
   number: '116'
   types: [D]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 60
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Galarian Linoone
+  hp: 170
   retreatCost: 2
-  moves:
-  - cost: [D]
-    name: Splitting Spite
-    text: Discard the top card of each player’s deck.
-  - cost: [D, C]
-    name: Dripping Grudge
-    text: Put 1 damage counter on your opponent's Active Pokémon for each Pokémon
-      in your discard pile.
-  weaknesses:
+  abilities: 
+  - type: Ability
+    name: Bad Ruler
+    text: Once during your turn, you may have your opponent discard cards from their hand until they have 4 cards left.
+  moves: 
+  - cost: [C, C, C]
+    name: Knuckle Impact
+    damage: '180'
+    text: This Pokemon can’t attack during your next turn.
+  weaknesses: 
   - type: G
     value: x2
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-117
-  pioId: swsh3-117
-  enumId: TRUBBISH_117
-  name: Trubbish
+  pioId: swsh3-100
+  enumId: SCRAGGY_100
+  name: Scraggy
   number: '117'
   types: [D]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
+  hp: 70
   retreatCost: 1
-  moves:
-  - cost: [C, C]
-    name: Venoshock
-    damage: 20+
-    text: If your opponent’s Active Pokémon is Poisoned, this attack does 50 more
-      damage.
-  weaknesses:
-  - type: F
+  moves: 
+  - cost: [C]
+    name: Stampede
+    damage: '10'
+  - cost: [D, C]
+    name: Ram
+    damage: '20'
+  weaknesses: 
+  - type: G
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-118
-  pioId: swsh3-118
-  enumId: GARBODOR_118
-  name: Garbodor
+  pioId: swsh3-100
+  enumId: SCRAFTY_100
+  name: Scrafty
   number: '118'
   types: [D]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Trubbish
+  evolvesFrom: Scraggy
   hp: 120
   retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Poisonous Puddle
-    text: Once during your turn, if a Stadium is in play, you may make your opponent's
-      Active Pokémon Poisoned.
-  moves:
-  - cost: [D, C, C]
-    name: Sludge Bomb
-    damage: '80'
-  weaknesses:
-  - type: F
+  moves: 
+  - cost: [D]
+    name: Corner
+    damage: '30'
+    text: The Defending Pokemon can’t retreat during your opponent’s next turn.
+  weaknesses: 
+  - type: G
     value: x2
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-119
-  pioId: swsh3-119
-  enumId: VULLABY_119
-  name: Vullaby
+  pioId: swsh3-100
+  enumId: INKAY_100
+  name: Inkay
   number: '119'
   types: [D]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 60
   retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Pluck
+  moves: 
+  - cost: [D]
+    name: Tackle
     damage: '10'
-    text: Before doing damage, discard all Pokémon Tools from your opponent’s Active
-      Pokémon.
-  weaknesses:
-  - type: L
+  - cost: [C, C]
+    name: Back Strike
+    text: 20+ damage. If your opponent''s Active Pokemon is Confused, this attack does 50 more damage.
+  weaknesses: 
+  - type: G
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-120
-  pioId: swsh3-120
-  enumId: MANDIBUZZ_120
-  name: Mandibuzz
+  pioId: swsh3-100
+  enumId: MALAMAR_100
+  name: Malamar
   number: '120'
   types: [D]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Vullaby
+  evolvesFrom: Inkay
   hp: 120
-  retreatCost: 2
-  moves:
-  - cost: [D]
-    name: Bone Rush
-    damage: 30x
-    text: Flip a coin until you get tails. This attack does 30 damage for each heads.
-  - cost: [D, D]
-    name: Blindside
-    text: This attack does 100 damage to 1 of your opponent’s Pokémon that has any
-      damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)
-  weaknesses:
-  - type: L
+  retreatCost: 3
+  moves: 
+  - cost: [D, C]
+    name: Eerie Wave
+    text: Your opponent''s Active Pokemon is now Confused.
+  - cost: [D, D, C]
+    name: Random Peck
+    text: 80+ damage. Flip 2 coins. This attack does 40 more damage for each heads.
+  weaknesses: 
+  - type: G
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-121
-  pioId: swsh3-121
-  enumId: MALAMAR_V_121
-  name: Malamar V
+  pioId: swsh3-100
+  enumId: HOOPA_100
+  name: Hoopa
   number: '121'
   types: [D]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
+  subTypes: [BASIC]
+  hp: 120
   retreatCost: 2
-  moves:
-  - cost: [D, C]
-    name: Drag Off
-    text: Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. This
-      attack does 30 damage to the new Active Pokémon.
-  - cost: [D, D, C]
-    name: Brain Shake
-    damage: '130'
-    text: Your opponent’s Active Pokémon is now Confused.
-  weaknesses:
+  moves: 
+  - cost: [D]
+    name: Assault Gate
+    damage: '90'
+    text: If this Pokemon wasn’t moved from your Bench to the Active Spot during your turn, this attack does nothing. This attack isn’t affected by Weakness.
+  weaknesses: 
   - type: G
     value: x2
   rarity: Rare Holo
 - id: 432-122
-  pioId: swsh3-122
-  enumId: MALAMAR_VMAX_122
-  name: Malamar VMAX
+  pioId: swsh3-100
+  enumId: NICKIT_100
+  name: Nickit
   number: '122'
   types: [D]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Malamar V
-  hp: 310
-  retreatCost: 2
-  moves:
-  - cost: [D, D, C]
-    name: Max Jammer
-    damage: '180'
-    text: Your opponent reveals their hand. Choose a card you find there and put it
-      on the bottom of their deck.
-  weaknesses:
+  subTypes: [BASIC]
+  hp: 70
+  retreatCost: 1
+  moves: 
+  - cost: [D]
+    name: Tail Whip
+    text: Flip a coin. If heads, the Defending Pokemon can''t attack during your opponent''s next turn.
+  weaknesses: 
   - type: G
     value: x2
   rarity: Rare Holo
 - id: 432-123
-  pioId: swsh3-123
-  enumId: IMPIDIMP_123
-  name: Impidimp
+  pioId: swsh3-100
+  enumId: NICKIT_100
+  name: Nickit
   number: '123'
   types: [D]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 70
   retreatCost: 1
-  moves:
+  moves: 
   - cost: [D]
-    name: Beat
-    damage: '10'
-  - cost: [D, C]
-    name: Stampede
-    damage: '20'
-  weaknesses:
+    name: Tail Whip
+    text: Flip a coin. If heads, the Defending Pokemon can''t attack during your opponent''s next turn.
+  weaknesses: 
   - type: G
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-124
-  pioId: swsh3-124
-  enumId: MORGREM_124
-  name: Morgrem
+  pioId: swsh3-100
+  enumId: THIEVUL_100
+  name: Thievul
   number: '124'
   types: [D]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Impidimp
-  hp: 90
-  retreatCost: 2
-  moves:
+  evolvesFrom: Nickit
+  hp: 100
+  retreatCost: 1
+  moves: 
   - cost: [D]
-    name: Bite
-    damage: '30'
-  - cost: [D, C, C]
-    name: False Surrender
-    damage: '60'
-    text: This attack’s damage isn’t affected by any effects on your opponent’s Active
-      Pokémon.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Uncommon
-- id: 432-125
-  pioId: swsh3-125
-  enumId: GRIMMSNARL_125
-  name: Grimmsnarl
-  number: '125'
-  types: [D]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Morgrem
-  hp: 170
-  retreatCost: 3
-  abilities:
-  - type: Ability
-    name: Dark Oath
-    text: As long as this Pokémon is in the Active Spot, your opponent’s Active Pokémon’s
-      attacks cost [C] more.
-  moves:
-  - cost: [D, C, C]
-    name: Energy Press
-    damage: 100+
-    text: This attack does 30 more damage for each Energy attached to your opponent's
-      Active Pokémon.
-  weaknesses:
+    name: Nasty Plot
+    text: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+  - cost: [D, D]
+    name: Sharp Fang
+    damage: '70'
+  weaknesses: 
   - type: G
     value: x2
   rarity: Rare Holo
-- id: 432-126
-  pioId: swsh3-126
-  enumId: GALARIAN_MEOWTH_126
-  name: Galarian Meowth
-  number: '126'
-  types: [M]
+- id: 125
+  pioId: swsh3-125
+  enumId: GRIMMSNARL_V_125
+  name: Grimmsnarl V
+  number: '125'
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
-  retreatCost: 2
-  abilities:
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Evolution Roar
-    text: You must discard 2 cards from your hand in order to use this Ability. Once
-      during your turn, you may search your deck for a Galarian Perrserker, reveal
-      it, and put it into your hand. Then, shuffle your deck.
-  moves:
-  - cost: [M, C]
-    name: Scratch
-    damage: '20'
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
     value: '-30'
-  rarity: Common
+  rarity: Rare Holo
+- id: 126
+  pioId: swsh3-126
+  enumId: GRIMMSNARL_VMAX_126
+  name: Grimmsnarl VMAX
+  number: '126'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-127
-  pioId: swsh3-127
-  enumId: GALARIAN_PERRSERKER_127
-  name: Galarian Perrserker
+  pioId: swsh3-100
+  enumId: ETERNATUS_V_100
+  name: Eternatus V
   number: '127'
-  types: [M]
+  types: [D]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Galarian Meowth
-  hp: 120
+  subTypes: [POKEMON_V, BASIC]
+  hp: 220
   retreatCost: 2
-  moves:
-  - cost: [M, C]
-    name: Slash
-    damage: '50'
-  - cost: [M, M, C]
-    name: Claw Dagger
-    damage: 80x
-    text: Flip 3 coins. This attack does 80 damage for each heads.
-  weaknesses:
-  - type: R
+  moves: 
+  - cost: [C]
+    name: Power Accel
+    damage: '30'
+    text: You may attach 1 [D] Energy from your hand to 1 of your Benched Pokemon.
+  - cost: [D, C, C, C]
+    name: Dynamax Cannon
+    text: 120+ damage. If your opponent’s Active Pokemon is a Pokemon VMAX, this attack does 120 more damage.
+  weaknesses: 
+  - type: F
     value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-128
-  pioId: swsh3-128
-  enumId: SCIZOR_128
-  name: Scizor
+  pioId: swsh3-100
+  enumId: ETERNATUS_VMAX_100
+  name: Eternatus VMAX
   number: '128'
-  types: [M]
+  types: [D]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Scyther
-  hp: 130
-  retreatCost: 1
-  moves:
-  - cost: [M]
-    name: Raid
-    damage: 30+
-    text: If this Pokémon evolved from Scyther during this turn, this attack does
-      90 more damage.
-  - cost: [M, C, C]
-    name: Guard Claw
-    damage: '90'
-    text: During your opponent’s next turn, this Pokémon takes 30 less damage from
-      attacks (after applying Weakness and Resistance).
-  weaknesses:
-  - type: R
+  subTypes: []
+  hp: 340
+  retreatCost: 2
+  abilities: 
+  - type: Ability
+    name: Infinity Zone
+    text: If all of your Pokemon in play are [D], you may now have up to 8 [D] Pokemon on your Bench and can’t play any other type of Pokemon. (When this Ability no longer works, discard your Benched Pokemon until there are 5 left.)
+  moves: 
+  - cost: [D, C]
+    name: Dread End
+    text: 30x damage. This attack does 30 damage times the number of your [D] Pokemon.
+  weaknesses: 
+  - type: F
     value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-129
-  pioId: swsh3-129
-  enumId: BRONZOR_129
-  name: Bronzor
+  pioId: swsh3-100
+  enumId: SKARMORY_100
+  name: Skarmory
   number: '129'
   types: [M]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
+  hp: 120
   retreatCost: 1
-  moves:
+  moves: 
   - cost: [M]
-    name: Ram
-    damage: '10'
-  - cost: [M, C]
-    name: Speed Dive
-    damage: '20'
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Common
-- id: 432-130
-  pioId: swsh3-130
-  enumId: BRONZONG_130
-  name: Bronzong
-  number: '130'
-  types: [M]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Bronzor
-  hp: 130
-  retreatCost: 3
-  moves:
-  - cost: [M]
-    name: Smack
-    damage: '30'
+    name: Metal Arms
+    text: 10+ damage. If this Pokemon has a Pokemon Tool card attached to it, this attack does 40 more damage.
   - cost: [M, C, C]
-    name: Gyro Ball
-    damage: '70'
-    text: Switch this Pokémon with 1 of your Benched Pokémon. If you do, your opponent
-      switches their Active Pokémon with 1 of their Benched Pokémon.
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Uncommon
-- id: 432-131
-  pioId: swsh3-131
-  enumId: PROBOPASS_131
-  name: Probopass
-  number: '131'
-  types: [M]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Nosepass
-  hp: 140
-  retreatCost: 4
-  moves:
-  - cost: [M]
-    name: Gravitational Drop
-    damage: 10+
-    text: This attack does 30 more damage for each [C] in your opponent’s Active Pokémon’s
-      Retreat Cost.
-  - cost: [M, M, C]
-    name: Heavy Impact
-    damage: '120'
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Rare
-- id: 432-132
-  pioId: swsh3-132
-  enumId: DURANT_132
-  name: Durant
-  number: '132'
-  types: [M]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 100
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Gathering Food
-    text: For each Energy attached to this Pokémon, search your deck for a Trainer
-      card, reveal it, and put it into your hand. Then, shuffle your deck.
-  - cost: [M, C, C]
-    name: Metal Claw
+    name: Cutting Wind
     damage: '80'
-  weaknesses:
-  - type: R
+  weaknesses: 
+  - type: L
     value: x2
-  resistances:
-  - type: G
+  resistances: 
+  - type: F
     value: '-30'
-  rarity: Uncommon
-- id: 432-133
-  pioId: swsh3-133
-  enumId: HONEDGE_133
-  name: Honedge
-  number: '133'
-  types: [M]
+  rarity: Rare Holo
+- id: 130
+  pioId: swsh3-130
+  enumId: ARON_130
+  name: Aron
+  number: '130'
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 60
-  retreatCost: 1
-  moves:
-  - cost: [M, C]
-    name: Slicing Blade
-    damage: '30'
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
     value: '-30'
-  rarity: Common
+  rarity: Rare Holo
+- id: 131
+  pioId: swsh3-131
+  enumId: LAIRON_131
+  name: Lairon
+  number: '131'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 132
+  pioId: swsh3-132
+  enumId: AGGRON_132
+  name: Aggron
+  number: '132'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 133
+  pioId: swsh3-133
+  enumId: ESCAVALIER_133
+  name: Escavalier
+  number: '133'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-134
-  pioId: swsh3-134
-  enumId: DOUBLADE_134
-  name: Doublade
+  pioId: swsh3-100
+  enumId: KLINK_100
+  name: Klink
   number: '134'
   types: [M]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Honedge
-  hp: 90
+  subTypes: [BASIC]
+  hp: 60
   retreatCost: 2
-  moves:
-  - cost: [M, C]
-    name: Slash
-    damage: '30'
-  - cost: [M, M, C]
-    name: Double Slash
-    damage: 80x
-    text: Flip 2 coins. This attack does 80 damage for each heads.
-  weaknesses:
+  moves: 
+  - cost: [M]
+    name: Call for Backup
+    text: Search your deck for a [M] Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.
+  weaknesses: 
   - type: R
     value: x2
-  resistances:
+  resistances: 
   - type: G
     value: '-30'
-  rarity: Uncommon
+  rarity: Rare Holo
 - id: 432-135
-  pioId: swsh3-135
-  enumId: AEGISLASH_135
-  name: Aegislash
+  pioId: swsh3-100
+  enumId: KLANG_100
+  name: Klang
   number: '135'
   types: [M]
   superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Doublade
-  hp: 140
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Klink
+  hp: 90
   retreatCost: 3
-  abilities:
-  - type: Ability
-    name: Big Shield
-    text: All of your Pokémon take 30 less damage from your opponent’s attacks (after
-      applying Weakness and Resistance). You can’t apply more than 1 Big Shield Ability
-      at a time.
-  moves:
-  - cost: [M, M, C]
-    name: Power Edge
-    damage: '130'
-  weaknesses:
+  moves: 
+  - cost: [M]
+    name: Call for Backup
+    text: Search your deck for a [M] Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.
+  - cost: [M, C, C]
+    name: Spinning Attack
+    damage: '60'
+  weaknesses: 
   - type: R
     value: x2
-  resistances:
+  resistances: 
   - type: G
     value: '-30'
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-136
-  pioId: swsh3-136
-  enumId: COPPERAJAH_V_136
-  name: Copperajah V
+  pioId: swsh3-100
+  enumId: KLINKLANG_100
+  name: Klinklang
   number: '136'
   types: [M]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 220
-  retreatCost: 4
-  moves:
-  - cost: [M, M, C]
-    name: Adamantine Press
-    damage: '90'
-    text: During your opponent’s next turn, this Pokémon takes 30 less damage from
-      attacks (after applying Weakness and Resistance).
-  - cost: [M, M, M, C]
-    name: Wrack Down
-    damage: '180'
-  weaknesses:
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Klang
+  hp: 150
+  retreatCost: 3
+  moves: 
+  - cost: [C, C]
+    name: Simple Beam
+    damage: '60'
+  - cost: [M, C, C]
+    name: Clockwork
+    damage: '200'
+    text: If there are no Klink or Klang on your Bench, this attack does nothing.
+  weaknesses: 
   - type: R
     value: x2
-  resistances:
+  resistances: 
   - type: G
     value: '-30'
   rarity: Rare Holo
-- id: 432-137
+- id: 137
   pioId: swsh3-137
-  enumId: COPPERAJAH_VMAX_137
-  name: Copperajah VMAX
+  enumId: GALARIAN_STUNFISK_V_137
+  name: Galarian Stunfisk V
   number: '137'
-  types: [M]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Copperajah V
-  hp: 340
-  retreatCost: 4
-  moves:
-  - cost: [M, M, C]
-    name: Dangerous Nose
-    damage: 100+
-    text: If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 100
-      more damage.
-  - cost: [M, M, M, C]
-    name: G-Max Hammer
-    damage: '240'
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
     value: '-30'
   rarity: Rare Holo
 - id: 432-138
-  pioId: swsh3-138
-  enumId: DURALUDON_138
-  name: Duraludon
+  pioId: swsh3-100
+  enumId: CUFANT_100
+  name: Cufant
   number: '138'
   types: [M]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 130
-  retreatCost: 2
-  moves:
-  - cost: [C]
-    name: Metal Sharpener
-    damage: '30'
-    text: Attach a [M] Energy card from your discard pile to 1 of your Pokémon.
-  - cost: [M, M, C]
-    name: Power Beam
-    damage: '110'
-  weaknesses:
+  hp: 100
+  retreatCost: 3
+  moves: 
+  - cost: [M, C, C]
+    name: Strength
+    damage: '60'
+  weaknesses: 
   - type: R
     value: x2
-  resistances:
+  resistances: 
   - type: G
     value: '-30'
   rarity: Rare Holo
 - id: 432-139
-  pioId: swsh3-139
-  enumId: ZACIAN_139
-  name: Zacian
+  pioId: swsh3-100
+  enumId: COPPERAJAH_100
+  name: Copperajah
   number: '139'
   types: [M]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 120
-  retreatCost: 2
-  moves:
-  - cost: [M, C]
-    name: Energy Stream
-    damage: '30'
-    text: Attach a [M] Energy card from your discard pile to this Pokémon.
-  - cost: [M, M, C]
-    name: Smashing Edge
-    damage: '120'
-    text: Flip a coin. If tails, discard 2 Energy from this Pokémon.
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Rare
-- id: 432-140
-  pioId: swsh3-140
-  enumId: ZAMAZENTA_140
-  name: Zamazenta
-  number: '140'
-  types: [M]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 120
-  retreatCost: 2
-  moves:
-  - cost: [M, C]
-    name: Guard Press
-    damage: '30'
-    text: During your opponent’s next turn, this Pokémon takes 20 less damage from
-      attacks (after applying Weakness and Resistance).
-  - cost: [M, M, C]
-    name: Power Rush
-    damage: '120'
-    text: Flip a coin. If tails, this Pokémon can’t attack during your next turn.
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Rare
-- id: 432-141
-  pioId: swsh3-141
-  enumId: SNORLAX_141
-  name: Snorlax
-  number: '141'
-  types: [C]
-  superType: POKEMON
-  subTypes: [BASIC]
-  hp: 150
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Cufant
+  hp: 190
   retreatCost: 4
-  moves:
-  - cost: [C]
-    name: Collect
-    text: Draw 2 cards.
-  - cost: [C, C, C]
-    name: Collapse
-    damage: '120'
-    text: This Pokémon is now Asleep.
-  weaknesses:
-  - type: F
+  abilities: 
+  - type: Ability
+    name: Antibacterial Skin
+    text: This Pokemon can’t be affected by Special Conditions.
+  moves: 
+  - cost: [M, M, C, C]
+    name: Revenge Stomp
+    text: 120+ damage. If any of your Benched Pokemon have any damage counters on them, this attack does 120 more damage.
+  weaknesses: 
+  - type: R
     value: x2
-  rarity: Rare
-- id: 432-142
-  pioId: swsh3-142
-  enumId: CHATOT_142
-  name: Chatot
-  number: '142'
+  resistances: 
+  - type: G
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-140
+  pioId: swsh3-100
+  enumId: KANGASKHAN_100
+  name: Kangaskhan
+  number: '140'
   types: [C]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 70
-  retreatCost: 1
-  abilities:
-  - type: Ability
-    name: Lucky Match
-    text: When you play this Pokémon from your hand onto your Bench during your turn,
-      you may flip a coin. If heads, put a Supporter card from your discard pile into
-      your hand.
-  moves:
+  hp: 130
+  retreatCost: 2
+  moves: 
   - cost: [C, C]
-    name: Glide
-    damage: '30'
-  weaknesses:
-  - type: L
+    name: Retaliate
+    text: 30+ damage. If any of your Pokemon were Knocked Out by damage from an opponent’s attack during their last turn, this attack does 90 more damage.
+  - cost: [C, C, C]
+    name: Hammer In
+    damage: '100'
+  weaknesses: 
+  - type: F
     value: x2
-  resistances:
+  rarity: Rare Holo
+- id: 141
+  pioId: swsh3-141
+  enumId: TAUROS_141
+  name: Tauros
+  number: '141'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
     value: '-30'
-  rarity: Uncommon
-- id: 432-143
+  rarity: Rare Holo
+- id: 142
+  pioId: swsh3-142
+  enumId: EEVEE_142
+  name: Eevee
+  number: '142'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 143
   pioId: swsh3-143
-  enumId: PIDOVE_143
-  name: Pidove
+  enumId: SENTRET_143
+  name: Sentret
   number: '143'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 144
+  pioId: swsh3-144
+  enumId: FURRET_144
+  name: Furret
+  number: '144'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-145
+  pioId: swsh3-100
+  enumId: DUNSPARCE_100
+  name: Dunsparce
+  number: '145'
   types: [C]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 60
   retreatCost: 1
-  moves:
+  abilities: 
+  - type: Ability
+    name: One Last Dig
+    text: If this Pokemon is Knocked Out by damage from an opponent’s attack, discard the top 2 cards of your opponent’s deck.
+  moves: 
   - cost: [C]
-    name: Chirp
-    text: Search your deck for up to 2 Pokémon with [F] Resistance, reveal them, and
-      put them into your hand. Then, shuffle your deck.
-  - cost: [C, C]
-    name: Razor Wing
+    name: Ram
     damage: '20'
-  weaknesses:
-  - type: L
-    value: x2
-  resistances:
+  weaknesses: 
   - type: F
-    value: '-30'
-  rarity: Common
-- id: 432-144
-  pioId: swsh3-144
-  enumId: TRANQUILL_144
-  name: Tranquill
-  number: '144'
-  types: [C]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Pidove
-  hp: 80
-  retreatCost: 1
-  moves:
-  - cost: [C, C]
-    name: Razor Wing
-    damage: '40'
-  - cost: [C, C, C]
-    name: Gust
-    damage: '60'
-  weaknesses:
-  - type: L
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Uncommon
-- id: 432-145
-  pioId: swsh3-145
-  enumId: UNFEZANT_145
-  name: Unfezant
-  number: '145'
-  types: [C]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE2]
-  evolvesFrom: Tranquill
-  hp: 150
-  retreatCost: 1
-  moves:
-  - cost: [C, C]
-    name: Daunt
-    damage: '50'
-    text: During your opponent’s next turn, the Defending Pokémon’s attacks do 50
-      less damage (before applying Weakness and Resistance).
-  - cost: [C, C, C]
-    name: Air Slash
-    damage: '150'
-    text: Discard an Energy from this Pokémon.
-  weaknesses:
-  - type: L
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Rare
+  rarity: Rare Holo
 - id: 432-146
-  pioId: swsh3-146
-  enumId: BUNNELBY_146
-  name: Bunnelby
+  pioId: swsh3-100
+  enumId: TEDDIURSA_100
+  name: Teddiursa
   number: '146'
   types: [C]
   superType: POKEMON
   subTypes: [BASIC]
   hp: 70
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Burrow
-    text: Discard the top card of your opponent’s deck.
-  - cost: [C, C, C]
-    name: Headbutt Bounce
-    damage: '50'
-  weaknesses:
+  retreatCost: 2
+  moves: 
+  - cost: [C, C]
+    name: Dig Claws
+    damage: '20'
+  weaknesses: 
   - type: F
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-147
-  pioId: swsh3-147
-  enumId: DIGGERSBY_147
-  name: Diggersby
+  pioId: swsh3-100
+  enumId: URSARING_100
+  name: Ursaring
   number: '147'
   types: [C]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Bunnelby
-  hp: 130
+  evolvesFrom: Teddiursa
+  hp: 140
   retreatCost: 3
-  moves:
+  moves: 
   - cost: [C, C, C]
-    name: Mining Rush
-    damage: 30x
-    text: Discard up to 6 cards from the top of your deck. If you do, this attack
-      does 30 damage for each card you discarded in this way.
+    name: Hammer Arm
+    damage: '70'
+    text: Discard the top card of your opponent''s deck.
   - cost: [C, C, C, C]
-    name: Headbutt Bounce
-    damage: '110'
-  weaknesses:
+    name: Claw Slash
+    damage: '120'
+  weaknesses: 
   - type: F
     value: x2
-  rarity: Rare
-- id: 432-148
+  rarity: Rare Holo
+- id: 148
   pioId: swsh3-148
-  enumId: HAWLUCHA_148
-  name: Hawlucha
+  enumId: LUGIA_148
+  name: Lugia
   number: '148'
-  types: [C]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 90
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Windfall
-    text: Shuffle your hand into your deck. Then, draw 5 cards.
-  - cost: [C]
-    name: Speed Attack
-    damage: '30'
-  weaknesses:
-  - type: L
-    value: x2
-  resistances:
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
     value: '-30'
-  rarity: Uncommon
+  rarity: Rare Holo
 - id: 432-149
-  pioId: swsh3-149
-  enumId: STUFFUL_149
-  name: Stufful
+  pioId: swsh3-100
+  enumId: SKITTY_100
+  name: Skitty
   number: '149'
   types: [C]
   superType: POKEMON
   subTypes: [BASIC]
-  hp: 80
-  retreatCost: 2
-  moves:
+  hp: 60
+  retreatCost: 1
+  moves: 
   - cost: [C]
-    name: Tackle
-    damage: '10'
-  - cost: [C, C, C]
-    name: Jump On
-    damage: 40+
-    text: Flip a coin. If heads, this attack does 40 more damage.
-  weaknesses:
+    name: Draw Up
+    text: Search your deck for an Energy card, reveal it, and put it into your hand. Then, shuffle your deck.
+  - cost: [C, C]
+    name: Cat Kick
+    damage: '20'
+  weaknesses: 
   - type: F
     value: x2
-  rarity: Common
+  rarity: Rare Holo
 - id: 432-150
-  pioId: swsh3-150
-  enumId: BEWEAR_150
-  name: Bewear
+  pioId: swsh3-100
+  enumId: DELCATTY_100
+  name: Delcatty
   number: '150'
   types: [C]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Stufful
-  hp: 140
-  retreatCost: 3
-  moves:
+  evolvesFrom: Skitty
+  hp: 100
+  retreatCost: 1
+  moves: 
+  - cost: [C]
+    name: Captivating Tail
+    text: Switch your opponent’s Active Pokemon with 1 of their Benched Pokemon. The new Active Pokemon is now Confused.
   - cost: [C, C, C]
-    name: Hammer Arm
+    name: Moon Impact
     damage: '90'
-    text: Discard the top card of your opponent’s deck.
-  - cost: [C, C, C, C]
-    name: Big Throw
-    text: Flip a coin. If heads, discard your opponent’s Active Pokémon and all attached
-      cards.
-  weaknesses:
+  weaknesses: 
   - type: F
     value: x2
-  rarity: Uncommon
+  rarity: Rare Holo
 - id: 432-151
-  pioId: swsh3-151
-  enumId: SKWOVET_151
-  name: Skwovet
+  pioId: swsh3-100
+  enumId: SALAMENCE_V_100
+  name: Salamence V
   number: '151'
   types: [C]
   superType: POKEMON
-  subTypes: [BASIC]
-  hp: 70
-  retreatCost: 1
-  moves:
-  - cost: [C]
-    name: Tackle
-    damage: '10'
-  - cost: [C, C]
-    name: Bite
-    damage: '20'
-  weaknesses:
-  - type: F
+  subTypes: [POKEMON_V, BASIC]
+  hp: 220
+  retreatCost: 2
+  moves: 
+  - cost: [C, C, C]
+    name: Trans Flight
+    text: This attack does 30 damage to each of your opponent’s Pokemon. (Don’t apply Weakness and Resistance.)[C][C][C][C] Heavy Storm
+  weaknesses: 
+  - type: L
     value: x2
-  rarity: Common
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-152
-  pioId: swsh3-152
-  enumId: GREEDENT_152
-  name: Greedent
+  pioId: swsh3-100
+  enumId: SALAMENCE_VMAX_100
+  name: Salamence VMAX
   number: '152'
+  types: [C]
+  superType: POKEMON
+  subTypes: [EVOLUTION, VMAX]
+  evolvesFrom: Salamence V
+  hp: 320
+  retreatCost: 2
+  moves: 
+  - cost: [C]
+    name: Twin Sonic
+    text: This attack does 40 damage to 2 of your opponent''s Pokemon. (Don''t apply Weakness and Resistance for Benched Pokemon.)[C][C][C][C] Max Wing
+  weaknesses: 
+  - type: L
+    value: x2
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-153
+  pioId: swsh3-100
+  enumId: STARLY_100
+  name: Starly
+  number: '153'
+  types: [C]
+  superType: POKEMON
+  subTypes: [BASIC]
+  hp: 50
+  retreatCost: 1
+  abilities: 
+  - type: Ability
+    name: Sky Circus
+    text: If you played Bird Keeper from your hand during this turn, ignore all Energy in the attack costs of this Pokemon.
+  moves: 
+  - cost: [C, C]
+    name: Sharp Eyes
+    text: Search your deck for any 2 cards and put them into your hand. Then, shuffle your deck.
+  weaknesses: 
+  - type: L
+    value: x2
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-154
+  pioId: swsh3-100
+  enumId: STARAVIA_100
+  name: Staravia
+  number: '154'
+  types: [C]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Starly
+  hp: 80
+  retreatCost: 1
+  moves: 
+  - cost: [C]
+    name: Ambush
+    text: Flip a coin. If heads, this attack does 20 more damage.
+  - cost: [C, C]
+    name: Wing Attack
+    damage: '40'
+  weaknesses: 
+  - type: L
+    value: x2
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-155
+  pioId: swsh3-100
+  enumId: STARAPTOR_100
+  name: Staraptor
+  number: '155'
+  types: [C]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Staravia
+  hp: 150
+  retreatCost: 0
+  moves: 
+  - cost: [C]
+    name: Hurricane Mixer
+    damage: '70'
+    text: You may move as many Energy cards attached to your Pokemon as you like to any of your other Pokemon.
+  - cost: [C, C, C]
+    name: Brave Bird
+    damage: '170'
+    text: This Pokemon does 30 damage to itself.
+  weaknesses: 
+  - type: L
+    value: x2
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-156
+  pioId: swsh3-100
+  enumId: DUCKLETT_100
+  name: Ducklett
+  number: '156'
+  types: [C]
+  superType: POKEMON
+  subTypes: [BASIC]
+  hp: 50
+  retreatCost: 1
+  moves: 
+  - cost: [C]
+    name: Flap
+    damage: '20'
+  weaknesses: 
+  - type: L
+    value: x2
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-157
+  pioId: swsh3-100
+  enumId: SWANNA_100
+  name: Swanna
+  number: '157'
+  types: [C]
+  superType: POKEMON
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Ducklett
+  hp: 110
+  retreatCost: 0
+  abilities: 
+  - type: Ability
+    name: Sky Circus
+    text: If you played Bird Keeper from your hand during this turn, ignore all Energy in the attack costs of this Pokemon.
+  moves: 
+  - cost: [C, C, C]
+    name: Feather Slash
+    text: 70+ damage. You may discard 1 card from your hand. If you do, this attack does 70 more damage.
+  weaknesses: 
+  - type: L
+    value: x2
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 158
+  pioId: swsh3-158
+  enumId: SKOVET_158
+  name: Skovet
+  number: '158'
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 432-159
+  pioId: swsh3-100
+  enumId: GREEDENT_100
+  name: Greedent
+  number: '159'
   types: [C]
   superType: POKEMON
   subTypes: [EVOLUTION, STAGE1]
   evolvesFrom: Skwovet
   hp: 120
   retreatCost: 1
-  abilities:
-  - type: Ability
-    name: Greedy Tail
-    text: Once during your turn, you may search your deck for a Pokémon Tool card,
-      reveal it, and put it into your hand. Then, shuffle your deck.
-  moves:
-  - cost: [C, C, C]
-    name: Tail Smack
-    damage: '80'
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Rare
-- id: 432-153
-  pioId: swsh3-153
-  enumId: DUBWOOL_V_153
-  name: Dubwool V
-  number: '153'
-  types: [C]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Soft Wool
-    text: This Pokémon takes 30 less damage from attacks (after applying Weakness
-      and Resistance).
-  moves:
-  - cost: [C, C, C]
-    name: Revenge Blast
-    damage: 120+
-    text: This attack does 30 more damage for each Prize card your opponent has taken.
-  weaknesses:
+  moves: 
+  - cost: [C]
+    name: Scrape Off
+    damage: '20'
+    text: Before doing damage, discard any Pokemon Tools attached to your opponent’s Active Pokemon.
+  - cost: [C, C]
+    name: Hit and Run
+    damage: '100'
+    text: Return this Pokemon and all cards attached to it to your hand.
+  weaknesses: 
   - type: F
     value: x2
   rarity: Rare Holo
-- id: 432-154
-  pioId: swsh3-154
-  enumId: BOSS_S_ORDERS_GIOVANNI__154
-  name: Boss’s Orders (Giovanni)
-  number: '154'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Rare Holo
-  text: [Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.]
-- id: 432-155
-  pioId: swsh3-155
-  enumId: BURNING_SCARF_155
-  name: Burning Scarf
-  number: '155'
-  superType: TRAINER
-  subTypes: [ITEM, POKEMON_TOOL]
-  rarity: Uncommon
-  text: ['If the [R] Pokémon this card is attached to is in the Active Spot and is
-      damaged by an opponent’s attack (even if it is Knocked Out), the Attacking Pokémon
-      is now Burned.']
-- id: 432-156
-  pioId: swsh3-156
-  enumId: CAPACIOUS_BUCKET_156
-  name: Capacious Bucket
-  number: '156'
-  superType: TRAINER
-  subTypes: [ITEM]
-  rarity: Uncommon
-  text: ['Search your deck for up to 2 [W] Energy cards, reveal them, and put them
-      into your hand. Then, shuffle your deck.']
-- id: 432-157
-  pioId: swsh3-157
-  enumId: CURSED_SHOVEL_157
-  name: Cursed Shovel
-  number: '157'
-  superType: TRAINER
-  subTypes: [ITEM, POKEMON_TOOL]
-  rarity: Uncommon
-  text: ['If the Pokémon this card is attached to is Knocked Out by damage from an
-      opponent’s attack, discard the top 2 cards of your opponent’s deck.']
-- id: 432-158
-  pioId: swsh3-158
-  enumId: DAN_158
-  name: Dan
-  number: '158'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Uncommon
-  text: ['Draw 2 cards. You and your opponent play Rock-Paper-Scissors until someone
-      wins. If you win, draw 2 more cards.']
-- id: 432-159
-  pioId: swsh3-159
-  enumId: FULL_HEAL_159
-  name: Full Heal
-  number: '159'
-  superType: TRAINER
-  subTypes: [ITEM]
-  rarity: Uncommon
-  text: [Your Active Pokémon recovers from all Special Conditions.]
-- id: 432-160
+- id: 160
   pioId: swsh3-160
-  enumId: GALAR_MINE_160
-  name: Galar Mine
+  enumId: BUNNELBY_160
+  name: Bunnelby
   number: '160'
-  superType: TRAINER
-  subTypes: [STADIUM]
-  rarity: Uncommon
-  text: ['The Retreat Cost of both Active Pokémon is [C][C] more.']
-- id: 432-161
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 161
   pioId: swsh3-161
-  enumId: MILO_161
-  name: Milo
+  enumId: FLETCHLING_161
+  name: Fletchling
   number: '161'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Uncommon
-  text: ['Discard up to 2 cards from your hand, and draw 2 cards for each card you
-      discarded in this way.']
-- id: 432-162
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 162
   pioId: swsh3-162
-  enumId: NUGGET_162
-  name: Nugget
+  enumId: ROOKIDEE_162
+  name: Rookidee
   number: '162'
-  superType: TRAINER
-  subTypes: [ITEM]
-  rarity: Uncommon
-  text: ['You can play this card only if you drew it from your deck at the beginning
-      of your turn, before you put it into your hand. ', Draw 3 cards.]
-- id: 432-163
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 163
   pioId: swsh3-163
-  enumId: OLEANA_163
-  name: Oleana
+  enumId: CORVISQUIRE_163
+  name: Corvisquire
   number: '163'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Uncommon
-  text: [You can play this card only if you discard 2 other cards from your hand.,
-    Your opponent reveals their hand. Put a Trainer card you find there on the bottom
-      of their deck.]
-- id: 432-164
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 164
   pioId: swsh3-164
-  enumId: POKE_BALL_164
-  name: Poké Ball
+  enumId: CORVIKNIGHT_164
+  name: Corviknight
   number: '164'
-  superType: TRAINER
-  subTypes: [ITEM]
-  rarity: Uncommon
-  text: ['Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put
-      it into your hand. Then, shuffle your deck.']
-- id: 432-165
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 165
   pioId: swsh3-165
-  enumId: SCOOP_UP_NET_165
-  name: Scoop Up Net
+  enumId: ADVERSITY_GLOVES_165
+  name: Adversity Gloves
   number: '165'
-  superType: TRAINER
-  subTypes: [ITEM]
-  rarity: Uncommon
-  text: [Put 1 of your Pokémon that isn't a Pokémon V or a Pokémon-GX into your hand.
-      (Discard all attached cards.)]
-- id: 432-166
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 166
   pioId: swsh3-166
-  enumId: SKYLA_166
-  name: Skyla
+  enumId: BIG_PARASOL_166
+  name: Big Parasol
   number: '166'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Uncommon
-  text: ['Search your deck for a Trainer card, reveal it, and put it into your hand.
-      Then, shuffle your deck.']
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-167
-  pioId: swsh3-167
-  enumId: SONIA_167
-  name: Sonia
+  pioId: swsh3-100
+  enumId: BIRD_KEEPER_100
+  name: Bird Keeper
   number: '167'
   superType: TRAINER
   subTypes: [SUPPORTER]
-  rarity: Uncommon
-  text: ['Search your deck for up to 2 Basic Pokémon or up to 2 basic Energy cards,
-      reveal them, and put them into your hand. Then, shuffle your deck.']
-- id: 432-168
+  rarity: Rare Holo
+  text: ['Switch your Active Pokemon with 1 of your Benched Pokemon. Then, draw 3 cards. You may play only 1 Supporter card during your turn (before your attack).']
+- id: 168
   pioId: swsh3-168
-  enumId: TOOL_SCRAPPER_168
-  name: Tool Scrapper
+  enumId: CHEERING_Y_HORN_168
+  name: Cheering Y Horn
   number: '168'
-  superType: TRAINER
-  subTypes: [ITEM]
-  rarity: Uncommon
-  text: [Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent’s)
-      and discard them.]
-- id: 432-169
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 169
   pioId: swsh3-169
-  enumId: TRAINING_COURT_169
-  name: Training Court
+  enumId: GLIMWOOD_TANGLE_169
+  name: Glimwood Tangle
   number: '169'
-  superType: TRAINER
-  subTypes: [STADIUM]
-  rarity: Uncommon
-  text: ['Once during each player’s turn, that player may put a basic Energy card
-      from their discard pile into their hand.']
-- id: 432-170
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 170
   pioId: swsh3-170
-  enumId: TURRFIELD_170
-  name: Turffield Stadium
+  enumId: JUNKY_PC_170
+  name: Junky PC
   number: '170'
-  superType: TRAINER
-  subTypes: [STADIUM]
-  rarity: Uncommon
-  text: ['Once during each player’s turn, that player may search their deck for an
-      Evolution [G] Pokémon, reveal it, and put it into their hand. Then, that player
-      shuffles their deck.']
-- id: 432-171
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 171
   pioId: swsh3-171
-  enumId: CAPTURE_ENERGY_171
-  name: Capture Energy
+  enumId: KABU_171
+  name: Kabu
   number: '171'
-  superType: ENERGY
-  subTypes: [SPECIAL_ENERGY]
-  rarity: Uncommon
-  text: ['As long as this card is attached to a Pokémon, it provides [C] Energy. ',
-    'When you attach this card from your hand to a Pokémon, search your deck for a
-      Basic Pokémon and put it onto your Bench. Then, shuffle your deck.']
-- id: 432-172
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 172
   pioId: swsh3-172
-  enumId: HORROR_PSYCHIC_ENERGY_172
-  name: Horror Psychic Energy
+  enumId: LOOKALIKE_BELL_172
+  name: Lookalike Bell
   number: '172'
-  superType: ENERGY
-  subTypes: [SPECIAL_ENERGY]
-  rarity: Uncommon
-  text: ['As long as this card is attached to a Pokémon, it provides [P] Energy.',
-    'If the [P] Pokémon this card is attached to is in the Active Spot and is damaged
-      by an opponent’s attack (even if it is Knocked Out), put 2 damage counters on
-      the Attacking Pokémon.']
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-173
-  pioId: swsh3-173
-  enumId: SPEED_LIGHTNING_ENERGY_173
-  name: Speed Lightning Energy
+  pioId: swsh3-100
+  enumId: PIERS_100
+  name: Piers
   number: '173'
-  superType: ENERGY
-  subTypes: [SPECIAL_ENERGY]
-  rarity: Uncommon
-  text: ['As long as this card is attached to a Pokémon, it provides [L] Energy. ',
-    'When you attach this card from your hand to a [L] Pokémon, draw 2 cards.']
-- id: 432-174
+  superType: TRAINER
+  subTypes: [SUPPORTER]
+  rarity: Rare Holo
+  text: ['Search your deck for 1 [D] Pokemon and any 1 Energy, reveal them, and put them into your hand. Then, shuffle your deck. You may play only 1 Supporter card during your turn (before your attack).']
+- id: 174
   pioId: swsh3-174
-  enumId: TWIN_ENERGY_174
-  name: Twin Energy
+  enumId: POKEMON_BREEDER_S_TRAINING_174
+  name: Pokemon Breeder's Training
   number: '174'
-  superType: ENERGY
-  subTypes: [SPECIAL_ENERGY]
-  rarity: Uncommon
-  text: ['As long as this card is attached to a Pokémon that isn''t a Pokémon V or
-      a Pokémon-GX, it provides [C][C] Energy. ', 'If this card is attached to a Pokémon
-      V or a Pokémon-GX, it provides [C] Energy instead.']
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-175
-  pioId: swsh3-175
-  enumId: RILLABOOM_V_175
-  name: Rillaboom V
+  pioId: swsh3-100
+  enumId: RARE_FOSSIL_100
+  name: Rare Fossil
   number: '175'
-  types: [G]
+  types: []
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 220
-  retreatCost: 3
-  moves:
-  - cost: [G]
-    name: Forest Feast
-    text: Search your deck for up to 2 Basic [G] Pokémon and put them onto your Bench.
-      Then, shuffle your deck.
-  - cost: [G, G, G, C]
-    name: Wood Hammer
-    damage: '220'
-    text: This Pokémon also does 30 damage to itself.
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-17
-  copyType: Full Art
+  subTypes: []
+  hp: 70
+  rarity: Rare Holo
 - id: 432-176
-  pioId: swsh3-176
-  enumId: ELDEGOSS_V_176
-  name: Eldegoss V
+  pioId: swsh3-100
+  enumId: ROSE_100
+  name: Rose
   number: '176'
-  types: [G]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 180
-  retreatCost: 1
-  abilities:
-  - type: Ability
-    name: Happy Match
-    text: When you play this Pokémon from your hand onto your Bench during your turn,
-      you may put a Supporter card from your discard pile into your hand.
-  moves:
-  - cost: [C, C]
-    name: Float Up
-    damage: '50'
-    text: You may shuffle this Pokémon and all attached cards into your deck.
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-19
-  copyType: Full Art
+  superType: TRAINER
+  subTypes: [SUPPORTER]
+  rarity: Rare Holo
+  text: ['Choose up to 2 Basic Energy from your discard pile and attach them to 1 of your Pokemon VMAX. Then, discard your hand. You may play only 1 Supporter card during your turn (before your attack).']
 - id: 432-177
-  pioId: swsh3-177
-  enumId: NINETALES_V_177
-  name: Ninetales V
+  pioId: swsh3-100
+  enumId: ROSE_TOWER_100
+  name: Rose Tower
   number: '177'
-  types: [R]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 200
-  retreatCost: 2
-  moves:
-  - cost: [R, C, C]
-    name: Nine-Tailed Shapeshifter
-    text: Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this
-      attack.
-  - cost: [R, C, C, C]
-    name: Flamethrower
-    damage: '180'
-    text: Discard an Energy from this Pokémon.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-26
-  copyType: Full Art
-- id: 432-178
+  superType: TRAINER
+  subTypes: []
+  rarity: Rare Holo
+  text: ['Stadium  Once during either player’s turn, that player may draw cards from their deck until they have 3 cards in their hand. This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can’t play this card.']
+- id: 178
   pioId: swsh3-178
-  enumId: CINDERACE_V_178
-  name: Cinderace V
+  enumId: ROTOM_PHONE_178
+  name: Rotom Phone
   number: '178'
-  types: [R]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  abilities:
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Field Runner
-    text: If a Stadium is in play, this Pokémon has no Retreat Cost.
-  moves:
-  - cost: [R, R, C]
-    name: Crimson Legs
-    damage: '140'
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-35
-  copyType: Full Art
-- id: 432-179
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 179
   pioId: swsh3-179
-  enumId: MILOTIC_V_179
-  name: Milotic V
+  enumId: SMOKE_STICK_179
+  name: Smoke Stick
   number: '179'
-  types: [W]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  moves:
-  - cost: [W, C, C]
-    name: Aqua Impact
-    damage: 10+
-    text: This attack does 50 more damage for each [C] in your opponent’s Active Pokémon’s
-      Retreat Cost.
-  - cost: [W, C, C, C]
-    name: Hypno Splash
-    damage: '150'
-    text: Your opponent’s Active Pokémon is now Asleep.
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-43
-  copyType: Full Art
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-180
-  pioId: swsh3-180
-  enumId: INTELEON_V_180
-  name: Inteleon V
+  pioId: swsh3-100
+  enumId: SPIKEMUTH_100
+  name: Spikemuth
   number: '180'
-  types: [W]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 200
-  retreatCost: 2
-  moves:
-  - cost: [W]
-    name: Snipe Shot
-    text: This attack does 40 damage to 1 of your opponent's Pokémon. (Don’t apply
-      Weakness and Resistance for Benched Pokémon.)
-  - cost: [W, W, C]
-    name: Aqua Report
-    damage: '130'
-    text: Your opponent reveals their hand.
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-49
-  copyType: Full Art
-- id: 432-181
+  superType: TRAINER
+  subTypes: []
+  rarity: Rare Holo
+  text: ['Stadium  Whenever a player’s Pokemon is moved from the Active Spot to the Bench during their turn, put 2 damage counters on that Pokemon. This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can’t play this card.']
+- id: 181
   pioId: swsh3-181
-  enumId: BOLTUND_V_181
-  name: Boltund V
+  enumId: SUSPICIOUS_CAN_181
+  name: Suspicious Can
   number: '181'
-  types: [L]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 200
-  retreatCost: 2
-  moves:
-  - cost: [L]
-    name: Electrify
-    text: Search your deck for up to 2 [L] Energy cards and attach them to your Benched
-      Pokémon in any way you like. Then, shuffle your deck.
-  - cost: [L, C]
-    name: Bolt Storm
-    damage: 10+
-    text: This attack does 30 more damage for each [L] Energy attached to all of your
-      Pokémon.
-  weaknesses:
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-67
-  copyType: Full Art
-- id: 432-182
+    value: '-30'
+  rarity: Rare Holo
+- id: 182
   pioId: swsh3-182
-  enumId: TOXTRICITY_V_182
-  name: Toxtricity V
+  enumId: TOUGHNESS_MANTLE_182
+  name: Toughness Mantle
   number: '182'
-  types: [L]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  moves:
-  - cost: [L]
-    name: Poison Jab
-    damage: '20'
-    text: Your opponent’s Active Pokémon is now Poisoned.
-  - cost: [L, L, C]
-    name: Electric Riot
-    damage: 90+
-    text: If your opponent’s Active Pokémon is Poisoned, this attack does 90 more
-      damage.
-  weaknesses:
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-70
-  copyType: Full Art
+    value: '-30'
+  rarity: Rare Holo
 - id: 432-183
-  pioId: swsh3-183
-  enumId: DRAGAPULT_V_183
-  name: Dragapult V
+  pioId: swsh3-100
+  enumId: TURBO_PATCH_100
+  name: Turbo Patch
   number: '183'
-  types: [P]
-  superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 1
-  moves:
-  - cost: [P]
-    name: Bite
-    damage: '30'
-  - cost: [P, P]
-    name: Jet Assault
-    damage: 60+
-    text: If this Pokémon moved from your Bench to the Active Spot this turn, this
-      attack does 80 more damage.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
-  - type: F
-    value: '-30'
-  rarity: Ultra Rare
-  copyOf: 432-92
-  copyType: Full Art
-- id: 432-184
+  superType: TRAINER
+  subTypes: [ITEM]
+  rarity: Rare Holo
+  text: ['Flip a coin. If heads, choose a basic Energy card from your discard pile and attach it to 1 of your Basic Pokemon (excluding Pokemon-GX). You may play as many Item cards as you like during your turn (before your attack).']
+- id: 184
   pioId: swsh3-184
-  enumId: SANDACONDA_V_184
-  name: Sandaconda V
+  enumId: HEAT_FIRE_ENERGY_184
+  name: Heat Fire Energy
   number: '184'
-  types: [F]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 220
-  retreatCost: 3
-  moves:
-  - cost: [F]
-    name: Sand Eater
-    damage: '30'
-    text: Attach a [F] Energy card from your discard pile to this Pokémon.
-  - cost: [F, F, C]
-    name: Sand Breath
-    damage: '220'
-    text: Discard 2 Energy from this Pokémon.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-108
-  copyType: Full Art
-- id: 432-185
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 185
   pioId: swsh3-185
-  enumId: FALINKS_V_185
-  name: Falinks V
+  enumId: HIDE_DARKNESS_ENERGY_185
+  name: Hide Darkness Energy
   number: '185'
-  types: [F]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 160
-  retreatCost: 2
-  abilities:
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Iron Defense Formation
-    text: All of your Pokémon that have “Falinks” in their name take 20 less damage from your opponent’s attacks (after applying Weakness and Resistance).
-  moves:
-  - cost: [F, F, C]
-    name: Giga Impact
-    damage: '210'
-    text: During your next turn, this Pokémon can't attack.
-  weaknesses:
-  - type: P
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-110
-  copyType: Full Art
-- id: 432-186
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 186
   pioId: swsh3-186
-  enumId: MALAMAR_V_186
-  name: Malamar V
+  enumId: POWERFUL_COLORLESS_ENERGY_186
+  name: Powerful Colorless Energy
   number: '186'
-  types: [D]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  moves:
-  - cost: [D, C]
-    name: Drag Off
-    text: Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. This
-      attack does 30 damage to the new Active Pokémon.
-  - cost: [D, D, C]
-    name: Brain Shake
-    damage: '130'
-    text: Your opponent’s Active Pokémon is now Confused.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-121
-  copyType: Full Art
-- id: 432-187
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 187
   pioId: swsh3-187
-  enumId: COPPERAJAH_V_187
-  name: Copperajah V
+  enumId: CENTISKORCH_V_187
+  name: Centiskorch V
   number: '187'
-  types: [M]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 220
-  retreatCost: 4
-  moves:
-  - cost: [M, M, C]
-    name: Adamantine Press
-    damage: '90'
-    text: During your opponent’s next turn, this Pokémon takes 30 less damage from
-      attacks (after applying Weakness and Resistance).
-  - cost: [M, M, M, C]
-    name: Wrack Down
-    damage: '180'
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
     value: '-30'
-  rarity: Ultra Rare
-  copyOf: 432-136
-  copyType: Full Art
-- id: 432-188
+  rarity: Rare Holo
+- id: 188
   pioId: swsh3-188
-  enumId: DUBWOOL_V_188
-  name: Dubwool V
+  enumId: VIKAVOLT_V_188
+  name: Vikavolt V
   number: '188'
-  types: [C]
   superType: POKEMON
-  subTypes: [BASIC, POKEMON_V]
-  hp: 210
-  retreatCost: 2
-  abilities:
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
   - type: Ability
-    name: Soft Wool
-    text: This Pokémon takes 30 less damage from attacks (after applying Weakness
-      and Resistance).
-  moves:
-  - cost: [C, C, C]
-    name: Revenge Blast
-    damage: 120+
-    text: This attack does 30 more damage for each Prize card your opponent has taken.
-  weaknesses:
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
-    value: x2
-  rarity: Ultra Rare
-  copyOf: 432-153
-  copyType: Full Art
-- id: 432-189
+    value: '-30'
+  rarity: Rare Holo
+- id: 189
   pioId: swsh3-189
-  enumId: BOSS_S_ORDERS_GIOVANNI__189
-  name: Boss’s Orders (Giovanni)
+  enumId: GARDEVOIR_V_189
+  name: Gardevoir V
   number: '189'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Ultra Rare
-  text: [Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.]
-  copyOf: 432-154
-  copyType: Full Art
-- id: 432-190
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 190
   pioId: swsh3-190
-  enumId: MILO_190
-  name: Milo
+  enumId: GALARIAN_STUNFISK_V_190
+  name: Galarian Stunfisk V
   number: '190'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Ultra Rare
-  text: ['Discard up to 2 cards from your hand, and draw 2 cards for each card you
-      discarded in this way.']
-  copyOf: 432-161
-  copyType: Full Art
-- id: 432-191
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 191
   pioId: swsh3-191
-  enumId: OLEANA_191
-  name: Oleana
+  enumId: KABU_191
+  name: Kabu
   number: '191'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Ultra Rare
-  text: [You can play this card only if you discard 2 other cards from your hand.,
-    Your opponent reveals their hand. Put a Trainer card you find there on the bottom
-      of their deck.]
-  copyOf: 432-163
-  copyType: Full Art
-- id: 432-192
+  superType: POKEMON
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
+  - type: F
+    value: '-30'
+  rarity: Rare Holo
+- id: 192
   pioId: swsh3-192
-  enumId: SONIA_192
-  name: Sonia
+  enumId: POKEMON_BREEDER_S_TRAINING_192
+  name: Pokemon Breeder's Training
   number: '192'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Ultra Rare
-  text: ['Search your deck for up to 2 Basic Pokémon or up to 2 basic Energy cards,
-      reveal them, and put them into your hand. Then, shuffle your deck.']
-  copyOf: 432-167
-  copyType: Full Art
-- id: 432-193
-  pioId: swsh3-193
-  enumId: RILLABOOM_VMAX_193
-  name: Rillaboom VMAX
-  number: '193'
-  types: [G]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Rillaboom V
-  hp: 330
-  retreatCost: 3
-  moves:
-  - cost: [C]
-    name: Scratch
-    damage: '50'
-  - cost: [G, G, G, C]
-    name: Max Beating
-    damage: 130+
-    text: You may discard up to 3 [G] Energy from this Pokémon. If you do, this attack
-      does 50 more damage for each card you discarded in this way.
-  weaknesses:
-  - type: R
-    value: x2
-  rarity: Secret
-  copyOf: 432-18
-  copyType: Secret Art
-- id: 432-194
-  pioId: swsh3-194
-  enumId: CINDERACE_VMAX_194
-  name: Cinderace VMAX
-  number: '194'
-  types: [R]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Cinderace V
-  hp: 320
-  retreatCost: 2
-  moves:
-  - cost: [R, C]
-    name: Counter
-    damage: 30+
-    text: If this Pokémon was damaged by an attack during your opponent's last turn,
-      this attack does that much more damage.
-  - cost: [R, R, C]
-    name: Max Pyro Ball
-    damage: '170'
-    text: Your opponent’s Active Pokémon is now Burned.
-  weaknesses:
-  - type: W
-    value: x2
-  rarity: Secret
-  copyOf: 432-36
-  copyType: Secret Art
-- id: 432-195
-  pioId: swsh3-195
-  enumId: INTELEON_VMAX_195
-  name: Inteleon VMAX
-  number: '195'
-  types: [W]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Inteleon V
-  hp: 320
-  retreatCost: 2
-  moves:
-  - cost: [W]
-    name: Hydro Snipe
-    damage: '60'
-    text: You may put an Energy attached to your opponent's Active Pokémon into their
-      hand.
-  - cost: [W, W, C]
-    name: Max Bullet
-    damage: '160'
-    text: This attack also does 60 damage to 1 of your opponent's Benched Pokémon.
-      (Don’t apply Weakness and Resistance for Benched Pokémon.)
-  weaknesses:
-  - type: L
-    value: x2
-  rarity: Secret
-  copyOf: 432-50
-  copyType: Secret Art
-- id: 432-196
-  pioId: swsh3-196
-  enumId: TOXTRICITY_VMAX_196
-  name: Toxtricity VMAX
-  number: '196'
-  types: [L]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Toxtricity V
-  hp: 320
-  retreatCost: 2
-  moves:
-  - cost: [L, L, C]
-    name: G-Max Riot
-    damage: 160+
-    text: If your opponent’s Active Pokémon is Poisoned, this attack does 80 more
-      damage.
-  weaknesses:
-  - type: F
-    value: x2
-  rarity: Secret
-  copyOf: 432-71
-  copyType: Secret Art
-- id: 432-197
-  pioId: swsh3-197
-  enumId: DRAGAPULT_VMAX_197
-  name: Dragapult VMAX
-  number: '197'
-  types: [P]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Dragapult V
-  hp: 320
-  retreatCost: 1
-  moves:
-  - cost: [P]
-    name: Shred
-    damage: '60'
-    text: This attack’s damage isn’t affected by any effects on your opponent’s Active
-      Pokémon.
-  - cost: [P, P]
-    name: Max Phantom
-    damage: '130'
-    text: Put 5 damage counters on your opponent’s Benched Pokémon in any way you
-      like.
-  weaknesses:
-  - type: D
-    value: x2
-  resistances:
+  subTypes: [BASIC]
+  evolvesFrom: Something
+  hp: 0
+  retreatCost: 20
+  abilities: 
+  - type: Ability
+    name: ability_name
+    text: ability_text
+  moves: 
+  - cost: ['C', 'C', 'C']
+    name: move_name
+    damage: '100'
+    text: move_text
+  weaknesses: 
+  - type: Y
+    value: 2x
+  resistances: 
   - type: F
     value: '-30'
-  rarity: Secret
-  copyOf: 432-93
-  copyType: Secret Art
-- id: 432-198
-  pioId: swsh3-198
-  enumId: MALAMAR_VMAX_198
-  name: Malamar VMAX
-  number: '198'
-  types: [D]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Malamar V
-  hp: 310
-  retreatCost: 2
-  moves:
-  - cost: [D, D, C]
-    name: Max Jammer
-    damage: '180'
-    text: Your opponent reveals their hand. Choose a card you find there and put it
-      on the bottom of their deck.
-  weaknesses:
-  - type: G
-    value: x2
-  rarity: Secret
-  copyOf: 432-122
-  copyType: Secret Art
-- id: 432-199
-  pioId: swsh3-199
-  enumId: COPPERAJAH_VMAX_199
-  name: Copperajah VMAX
-  number: '199'
-  types: [M]
-  superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
-  evolvesFrom: Copperajah V
-  hp: 340
-  retreatCost: 4
-  moves:
-  - cost: [M, M, C]
-    name: Dangerous Nose
-    damage: 100+
-    text: If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 100
-      more damage.
-  - cost: [M, M, M, C]
-    name: G-Max Hammer
-    damage: '240'
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Secret
-  copyOf: 432-137
-  copyType: Secret Art
-- id: 432-200
-  pioId: swsh3-200
-  enumId: BOSS_S_ORDERS_GIOVANNI__200
-  name: Boss’s Orders (Giovanni)
-  number: '200'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Secret
-  text: [Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.]
-  copyOf: 432-154
-  copyType: Secret Art
-- id: 432-201
-  pioId: swsh3-201
-  enumId: MILO_201
-  name: Milo
-  number: '201'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Secret
-  text: ['Discard up to 2 cards from your hand, and draw 2 cards for each card you
-      discarded in this way.']
-  copyOf: 432-161
-  copyType: Secret Art
-- id: 432-202
-  pioId: swsh3-202
-  enumId: OLEANA_202
-  name: Oleana
-  number: '202'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Secret
-  text: [You can play this card only if you discard 2 other cards from your hand.,
-    Your opponent reveals their hand. Put a Trainer card you find there on the bottom
-      of their deck.]
-  copyOf: 432-163
-  copyType: Secret Art
-- id: 432-203
-  pioId: swsh3-203
-  enumId: SONIA_203
-  name: Sonia
-  number: '203'
-  superType: TRAINER
-  subTypes: [SUPPORTER]
-  rarity: Secret
-  text: ['Search your deck for up to 2 Basic Pokémon or up to 2 basic Energy cards,
-      reveal them, and put them into your hand. Then, shuffle your deck.']
-  copyOf: 432-167
-  copyType: Secret Art
-- id: 432-204
-  pioId: swsh3-204
-  enumId: FROSMOTH_204
-  name: Frosmoth
-  number: '204'
-  types: [W]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Snom
-  hp: 90
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Ice Dance
-    text: As often as you like during your turn, you may attach a [W] Energy card
-      from your hand to 1 of your Benched [W] Pokémon.
-  moves:
-  - cost: [W, C]
-    name: Aurora Beam
-    damage: '30'
-  weaknesses:
-  - type: M
-    value: x2
-  rarity: Secret
-- id: 432-205
-  pioId: swsh3-205
-  enumId: GALARIAN_PERRSERKER_205
-  name: Galarian Perrserker
-  number: '205'
-  types: [M]
-  superType: POKEMON
-  subTypes: [EVOLUTION, STAGE1]
-  evolvesFrom: Galarian Meowth
-  hp: 120
-  retreatCost: 2
-  abilities:
-  - type: Ability
-    name: Steely Spirit
-    text: Your [M] Pokémon's attacks do 20 more damage to your opponent's Active Pokémon
-      (before applying Weakness and Resistance).
-  moves:
-  - cost: [M, M, C]
-    name: Metal Claw
-    damage: '70'
-  weaknesses:
-  - type: R
-    value: x2
-  resistances:
-  - type: G
-    value: '-30'
-  rarity: Secret
-- id: 432-206
-  pioId: swsh3-206
-  enumId: BIG_CHARM_206
-  name: Big Charm
-  number: '206'
-  superType: TRAINER
-  subTypes: [ITEM, POKEMON_TOOL]
-  rarity: Secret
-  text: [The Pokémon this card is attached to gets +30 HP.]
-- id: 432-207
-  pioId: swsh3-207
-  enumId: SCOOP_UP_NET_207
-  name: Scoop Up Net
-  number: '207'
-  superType: TRAINER
-  subTypes: [ITEM]
-  rarity: Secret
-  text: [Put 1 of your Pokémon that isn't a Pokémon V or a Pokémon-GX into your hand.
-      (Discard all attached cards.)]
-  copyOf: 432-165
-  copyType: Secret Art
-- id: 432-208
-  pioId: swsh3-208
-  enumId: TOOL_SCRAPPER_208
-  name: Tool Scrapper
-  number: '208'
-  superType: TRAINER
-  subTypes: [ITEM]
-  rarity: Secret
-  text: [Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent’s)
-      and discard them.]
-  copyOf: 432-168
-  copyType: Secret Art
-- id: 432-209
-  pioId: swsh3-209
-  enumId: TWIN_ENERGY_209
-  name: Twin Energy
-  number: '209'
-  superType: ENERGY
-  subTypes: [SPECIAL_ENERGY]
-  rarity: Secret
-  text: ['As long as this card is attached to a Pokémon that isn''t a Pokémon V or
-      a Pokémon-GX, it provides [C][C] Energy. ', 'If this card is attached to a Pokémon
-      V or a Pokémon-GX, it provides [C] Energy instead.']
-  copyOf: 432-174
-  copyType: Secret Art
-
--
+  rarity: Rare Holo
