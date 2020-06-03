@@ -814,31 +814,28 @@ cards:
   - type: F
     value: '-30'
   rarity: Rare Holo
-- id: 35
+- id: 432-35
   pioId: swsh3-35
   enumId: CENTISKORCH_V_35
   name: Centiskorch V
   number: '35'
+  types: [F]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  subTypes: [BASIC, POKEMON_V]
+  hp: 210
+  retreatCost: 3
   moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [R]
+    name: Radiator
+    damage: '20'
+    text: You may discard an Energy from this  Pokémon. If you do, discard an
+      Energy from your opponent’s Active Pokémon.
+  - cost: [R, R, R, R]
+    name: Burning Train
+    damage: '180'
   weaknesses: 
-  - type: Y
+  - type: W
     value: 2x
-  resistances: 
-  - type: F
-    value: '-30'
   rarity: Rare Holo
 - id: 36
   pioId: swsh3-36
@@ -1374,31 +1371,29 @@ cards:
   - type: F
     value: x2
   rarity: Rare Holo
-- id: 59
+- id: 432-59
   pioId: swsh3-59
-  enumId: VIVAVOLT_V_59
-  name: Vivavolt V
+  enumId: VIKAVOLT_V_59
+  name: Vikavolt V
   number: '59'
+  types: [L]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  subTypes: [BASIC, POKEMON_V]
+  hp: 210
+  retreatCost: 3
   moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [L, C]
+    name: Paralyzing Bolt
+    damage: '50'
+    text: Your opponent can’t play any Item cards from their hand during their
+      next turn.
+  - cost: [L, L, C]
+    name: Super Zap Cannon
+    damage: '190'
+    text: Discard 2 Energy from this Pokémon
   weaknesses: 
-  - type: Y
-    value: 2x
-  resistances: 
   - type: F
-    value: '-30'
+    value: 2x
   rarity: Rare Holo
 - id: 432-60
   pioId: swsh3-60
@@ -1672,26 +1667,23 @@ cards:
   enumId: GARDEVOIR_V_71
   name: Gardevoir V
   number: '71'
+  types: [P]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  subTypes: [BASIC, POKEMON_V]
+  hp: 210
+  retreatCost: 2
   moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [P]
+    name: Magical Shot
+    damage: '30'
+  - cost: [P, P, C]
+    name: Overflow Pulse
+    damage: 120+
+    text: If this Pokémon had its HP healed this turn, this attack does 80 more
+      damage.
   weaknesses: 
-  - type: Y
+  - type: M
     value: 2x
-  resistances: 
-  - type: F
-    value: '-30'
   rarity: Rare Holo
 - id: 72
   pioId: swsh3-72
@@ -3248,30 +3240,32 @@ cards:
   - type: G
     value: '-30'
   rarity: Rare Holo
-- id: 137
+- id: 432-137
   pioId: swsh3-137
   enumId: GALARIAN_STUNFISK_V_137
   name: Galarian Stunfisk V
   number: '137'
+  types: [M]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
+  subTypes: [BASIC, POKEMON_V]
+  hp: 200
+  retreatCost: 4
   abilities: 
   - type: Ability
-    name: ability_name
-    text: ability_text
+    name: Metal Skin
+    text: This Pokémon’s max HP is increased by 20 for each [M] Energy attached
+      to it.
   moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [C, C]
+    name: Trap Bite
+    damage: '60'
+    text: If this Pokémon is damaged by an attack during your opponent’s next turn,
+      put 12 damage counters on the Attacking Pokémon.
   weaknesses: 
-  - type: Y
+  - type: F
     value: 2x
   resistances: 
-  - type: F
+  - type: G
     value: '-30'
   rarity: Rare Holo
 - id: 432-138
@@ -4064,32 +4058,16 @@ cards:
   - type: F
     value: '-30'
   rarity: Rare Holo
-- id: 171
+- id: 432-171
   pioId: swsh3-171
   enumId: KABU_171
   name: Kabu
   number: '171'
-  superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
-  moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
-  weaknesses: 
-  - type: Y
-    value: 2x
-  resistances: 
-  - type: F
-    value: '-30'
-  rarity: Rare Holo
+  superType: TRAINER
+  subTypes: [SUPPORTER]
+  rarity: Uncommon
+  text: ['Shuffle your hand into your deck and draw 4 cards. If you only have 1
+    Pokémon in play, draw 8 cards instead.']
 - id: 172
   pioId: swsh3-172
   enumId: LOOKALIKE_BELL_172
@@ -4125,32 +4103,18 @@ cards:
   subTypes: [SUPPORTER]
   rarity: Rare Holo
   text: ['Search your deck for 1 [D] Pokemon and any 1 Energy, reveal them, and put them into your hand. Then, shuffle your deck. You may play only 1 Supporter card during your turn (before your attack).']
-- id: 174
+- id: 432-174
   pioId: swsh3-174
   enumId: POKEMON_BREEDER_S_TRAINING_174
   name: Pokemon Breeder's Training
   number: '174'
-  superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
-  moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
-  weaknesses: 
-  - type: Y
-    value: 2x
-  resistances: 
-  - type: F
-    value: '-30'
-  rarity: Rare Holo
+  superType: TRAINER
+  subTypes: [SUPPORTER]
+  rarity: Uncommon
+  text: ['Choose up to 2 of your Pokémon in play. Search your deck for a card that
+    evolves from each of those Pokémon and put it on top of the Pokémon to evolve
+    it. Then, shuffle your deck. (You can’t use this card during your first turn
+    or on a Pokémon that just came into play.)']
 - id: 432-175
   pioId: swsh3-175
   enumId: RARE_FOSSIL_175
@@ -4331,159 +4295,135 @@ cards:
   rarity: Uncommon
   text: ['As long as this card is attached to a Pokémon, it provides [C] Energy.',
     'The attacks of the [C] Pokémon this card is attached to do 20 more damage to your opponent’s Active Pokemon']
-- id: 187
+- id: 432-187
   pioId: swsh3-187
   enumId: CENTISKORCH_V_187
   name: Centiskorch V
   number: '187'
+  types: [F]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  subTypes: [BASIC, POKEMON_V]
+  hp: 210
+  retreatCost: 3
   moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [R]
+    name: Radiator
+    damage: '20'
+    text: You may discard an Energy from this  Pokémon. If you do, discard an
+      Energy from your opponent’s Active Pokémon.
+  - cost: [R, R, R, R]
+    name: Burning Train
+    damage: '180'
   weaknesses: 
-  - type: Y
+  - type: W
     value: 2x
-  resistances: 
-  - type: F
-    value: '-30'
-  rarity: Rare Holo
-- id: 188
+  rarity: Ultra Rare
+  copyOf: 432-35
+  copyType: Full Art
+- id: 432-188
   pioId: swsh3-188
   enumId: VIKAVOLT_V_188
   name: Vikavolt V
   number: '188'
+  types: [L]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  subTypes: [BASIC, POKEMON_V]
+  hp: 210
+  retreatCost: 3
   moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [L, C]
+    name: Paralyzing Bolt
+    damage: '50'
+    text: Your opponent can’t play any Item cards from their hand during their
+      next turn.
+  - cost: [L, L, C]
+    name: Super Zap Cannon
+    damage: '190'
+    text: Discard 2 Energy from this Pokémon
   weaknesses: 
-  - type: Y
-    value: 2x
-  resistances: 
   - type: F
-    value: '-30'
-  rarity: Rare Holo
-- id: 189
+    value: 2x
+  rarity: Ultra Rare
+  copyOf: 432-59
+  copyType: Full Art
+- id: 432-189
   pioId: swsh3-189
   enumId: GARDEVOIR_V_189
   name: Gardevoir V
   number: '189'
+  types: [P]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  subTypes: [BASIC, POKEMON_V]
+  hp: 210
+  retreatCost: 2
   moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [P]
+    name: Magical Shot
+    damage: '30'
+  - cost: [P, P, C]
+    name: Overflow Pulse
+    damage: 120+
+    text: If this Pokémon had its HP healed this turn, this attack does 80 more
+      damage.
   weaknesses: 
-  - type: Y
+  - type: M
     value: 2x
-  resistances: 
-  - type: F
-    value: '-30'
-  rarity: Rare Holo
-- id: 190
+  rarity: Ultra Rare
+  copyOf: 432-71
+  copyType: Full Art
+- id: 432-190
   pioId: swsh3-190
   enumId: GALARIAN_STUNFISK_V_190
   name: Galarian Stunfisk V
   number: '190'
+  types: [M]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
+  subTypes: [BASIC, POKEMON_V]
+  hp: 200
+  retreatCost: 4
   abilities: 
   - type: Ability
-    name: ability_name
-    text: ability_text
+    name: Metal Skin
+    text: This Pokémon’s max HP is increased by 20 for each [M] Energy attached
+      to it.
   moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [C, C]
+    name: Trap Bite
+    damage: '60'
+    text: If this Pokémon is damaged by an attack during your opponent’s next turn,
+      put 12 damage counters on the Attacking Pokémon.
   weaknesses: 
-  - type: Y
+  - type: F
     value: 2x
   resistances: 
-  - type: F
+  - type: G
     value: '-30'
-  rarity: Rare Holo
-- id: 191
+  rarity: Ultra Rare
+  copyOf: 432-137
+  copyType: Full Art
+- id: 432-191
   pioId: swsh3-191
   enumId: KABU_191
   name: Kabu
   number: '191'
-  superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
-  moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
-  weaknesses: 
-  - type: Y
-    value: 2x
-  resistances: 
-  - type: F
-    value: '-30'
-  rarity: Rare Holo
-- id: 192
+  superType: TRAINER
+  subTypes: [SUPPORTER]
+  rarity: Ultra Rare
+  text: ['Shuffle your hand into your deck and draw 4 cards. If you only have 1
+    Pokémon in play, draw 8 cards instead.']
+  copyOf: 432-171
+  copyType: Full Art
+- id: 432-192
   pioId: swsh3-192
   enumId: POKEMON_BREEDER_S_TRAINING_192
   name: Pokemon Breeder's Training
   number: '192'
-  superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities: 
-  - type: Ability
-    name: ability_name
-    text: ability_text
-  moves: 
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
-  weaknesses: 
-  - type: Y
-    value: 2x
-  resistances: 
-  - type: F
-    value: '-30'
-  rarity: Rare Holo
+  superType: TRAINER
+  subTypes: [SUPPORTER]
+  rarity: Ultra Rare
+  text: ['Choose up to 2 of your Pokémon in play. Search your deck for a card that
+    evolves from each of those Pokémon and put it on top of the Pokémon to evolve
+    it. Then, shuffle your deck. (You can’t use this card during your first turn
+    or on a Pokémon that just came into play.)]
+  copyOf: 432-174
+  copyType: Full Art
