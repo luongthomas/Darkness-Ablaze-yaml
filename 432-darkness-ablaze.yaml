@@ -2442,156 +2442,134 @@ cards:
   enumId: DARKRAI_108
   name: Darkrai
   number: '108'
+  types: [D]
   superType: POKEMON
   subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
+  hp: 120
+  retreatCost: 2
   abilities:
   - type: Ability
-    name: ability_name
-    text: ability_text
+    name: Dark Guard
+    text: If this Pokémon has a [D] Energy attached to it, it takes 20 less
+      damage from attacks.
   moves:
   - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+    name: Dark Spiral
+    damage: '60+'
+    text: This attack does an additional 20 damage for each [D] Energy attached
+      to this Pokémon.
   weaknesses:
-  - type: Y
+  - type: G
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
   rarity: Rare Holo
 - id: 432-109
   pioId: swsh3-109
   enumId: PURRLOIN_109
   name: Purrloin
   number: '109'
+  types: [D]
   superType: POKEMON
   subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities:
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  hp: 70
+  retreatCost: 1
   moves:
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [D]
+    name: Dig Claws
+    damage: '10'
+  - cost: [C, C]
+    name: Fake Out
+    damage: '20'
+    text: Flip a coin. If heads, your opponent''s Active Pokémon is now Paralyzed.
   weaknesses:
-  - type: Y
+  - type: G
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
   rarity: Rare Holo
 - id: 432-110
   pioId: swsh3-110
   enumId: LIEPARD_110
   name: Liepard
   number: '110'
+  types: [D]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Purrloin
+  hp: 100
+  retreatCost: 1
   abilities:
   - type: Ability
-    name: ability_name
-    text: ability_text
+    name: Limber
+    text: This Pokémon can''t be Paralyzed.
   moves:
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [D, C, C]
+    name: Slashing Claw
+    damage: '90'
   weaknesses:
-  - type: Y
+  - type: G
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
   rarity: Rare Holo
 - id: 432-111
   pioId: swsh3-111
   enumId: DEINO_111
   name: Deino
   number: '111'
+  types: [D]
   superType: POKEMON
   subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities:
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  hp: 60
+  retreatCost: 1
   moves:
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [C]
+    name: Ram
+    damage: '10'
   weaknesses:
-  - type: Y
+  - type: G
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
   rarity: Rare Holo
 - id: 432-112
   pioId: swsh3-112
   enumId: ZWEILOUS_112
   name: Zweilous
   number: '112'
+  types: [D]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
-  abilities:
-  - type: Ability
-    name: ability_name
-    text: ability_text
+  subTypes: [EVOLUTION, STAGE1]
+  evolvesFrom: Deino
+  hp: 100
+  retreatCost: 2
   moves:
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [D, C]
+    name: Corkscrew Punch
+    damage: '30'
+  - cost: [D, D, C]
+    name: Darkness Fang
+    damage: '70'
   weaknesses:
-  - type: Y
+  - type: G
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
   rarity: Rare Holo
 - id: 432-113
   pioId: swsh3-113
   enumId: HYDREIGON_113
   name: Hydreigon
   number: '113'
+  types: [D]
   superType: POKEMON
-  subTypes: [BASIC]
-  evolvesFrom: Something
-  hp: 0
-  retreatCost: 20
+  subTypes: [EVOLUTION, STAGE2]
+  evolvesFrom: Zweilous
+  hp: 160
+  retreatCost: 3
   abilities:
   - type: Ability
-    name: ability_name
-    text: ability_text
+    name: Dark Squall
+    text: As often as you like during your turn, you may attach a [D] Energy
+      from your hand to one of your Pokémon in play.
   moves:
-  - cost: [C, C, C]
-    name: move_name
-    damage: '100'
-    text: move_text
+  - cost: [D, D, C]
+    name: Jet Black Fangs
+    damage: '130'
   weaknesses:
-  - type: Y
+  - type: G
     value: x2
-  resistances:
-  - type: F
-    value: '-30'
   rarity: Rare Holo
 - id: 432-114
   pioId: swsh3-114
@@ -2606,7 +2584,8 @@ cards:
   moves:
   - cost: [C]
     name: Pin Missile
-    text: 10x damage. Flip 4 coins. This attack does 10 damage times the number of heads.
+    damage: '10x'
+    text: Flip 4 coins. This attack does 10 damage times the number of heads.
   weaknesses:
   - type: G
     value: x2
@@ -2623,6 +2602,10 @@ cards:
   hp: 100
   retreatCost: 2
   moves:
+  - cost: [C, C]
+    name: Double-Edge
+    damage: '60'
+    text: This attack does 20 damage to this Pokémon.
   weaknesses:
   - type: G
     value: x2
@@ -2641,7 +2624,8 @@ cards:
   abilities:
   - type: Ability
     name: Bad Ruler
-    text: Once during your turn, you may have your opponent discard cards from their hand until they have 4 cards left.
+    text: Once during your turn, you may have your opponent discard cards from
+      their hand until they have 4 cards left.
   moves:
   - cost: [C, C, C]
     name: Knuckle Impact
@@ -2687,7 +2671,7 @@ cards:
   - cost: [D]
     name: Corner
     damage: '30'
-    text: The Defending Pokemon can''t retreat during your opponent''s next turn.
+    text: The Defending Pokémon can''t retreat during your opponent''s next turn.
   weaknesses:
   - type: G
     value: x2
@@ -2708,7 +2692,9 @@ cards:
     damage: '10'
   - cost: [C, C]
     name: Back Strike
-    text: 20+ damage. If your opponent''s Active Pokemon is Confused, this attack does 50 more damage.
+    damage: '20+'
+    text: If your opponent''s Active Pokémon is Confused, this attack
+      does 50 more damage.
   weaknesses:
   - type: G
     value: x2
