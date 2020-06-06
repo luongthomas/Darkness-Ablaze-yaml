@@ -18,7 +18,7 @@ cards:
   moves:
   - cost: [G]
     name: Dizzy Poison
-    text: The opponent''s Active Pokémon is now Poisoned and Confused.
+    text: The opponent’s Active Pokémon is now Poisoned and Confused.
   - cost: [G, G, C]
     name: Blast Wind
     damage: '130'
@@ -33,7 +33,7 @@ cards:
   number: '2'
   types: [G]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
+  subTypes: [EVOLUTION, STAGE1, VMAX]
   evolvesFrom: Butterfree V
   hp: 300
   retreatCost: 0
@@ -41,7 +41,7 @@ cards:
   - cost: [G, G, C]
     name: G-Max Befuddle
     damage: '150'
-    text: The opponent''s Active Pokémon is now Poisoned and Confused.
+    text: The opponent’s Active Pokémon is now Poisoned and Confused.
   weaknesses:
   - type: R
     value: x2
@@ -79,7 +79,7 @@ cards:
   - cost: [G]
     name: Mushroom Tackle
     damage: '30'
-    text: Flip a coin. If heads, your opponent''s Active Pokémon is
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is
       now Paralyzed.
   - cost: [G, G, C]
     name: Solarbeam
@@ -107,7 +107,7 @@ cards:
     name: Giga Drain
     damage: '40'
     text: Heal from this Pokémon the same amount of damage you did
-      to your opponent''s Active Pokémon.
+      to your opponent’s Active Pokémon.
   weaknesses:
   - type: R
     value: x2
@@ -151,7 +151,7 @@ cards:
   - cost: [C, C, C]
     name: Giga Impact
     damage: '110'
-    text: This Pokémon can''t attack during your next turn.
+    text: This Pokémon can’t attack during your next turn.
   weaknesses:
   - type: R
     value: x2
@@ -231,8 +231,8 @@ cards:
   moves:
   - cost: [C, C, C]
     name: Wind Pebbles
-    text: This attack does 60 damage to 1 of your opponent''s Benched
-      Pokémon. (Don''t apply Weakness and Resistance.)
+    text: This attack does 60 damage to 1 of your opponent’s Benched
+      Pokémon. (Don’t apply Weakness and Resistance.)
   weaknesses:
   - type: R
     value: x2
@@ -271,13 +271,13 @@ cards:
   - type: Ability
     name: Forest Camouflage
     text: Prevent all damage done to this Pokémon by the attacks of your
-      opponent's Pokémon V and Pokémon-GX.
+      opponent’s Pokémon V and Pokémon-GX.
   moves:
   - cost: [G, C]
     name: Split Arrow
     damage: '90'
-    text: This attack does 20 damage to 2 of your opponent''s Benched
-      Pokémon. (Don''t apply Weakness and Resistance.)
+    text: This attack does 20 damage to 2 of your opponent’s Benched
+      Pokémon. (Don’t apply Weakness and Resistance.)
   weaknesses:
   - type: R
     value: x2
@@ -318,7 +318,7 @@ cards:
   moves:
   - cost: [C]
     name: Captivate
-    text: Choose 1 of your opponent''s Benched Pokémon and switch it
+    text: Choose 1 of your opponent’s Benched Pokémon and switch it
       with their Active Pokémon.
   - cost: [G, C]
     name: Slap
@@ -340,13 +340,13 @@ cards:
   moves:
   - cost: [C]
     name: Power Whip
-    text: Choose 1 of your opponent''s Pokémon. This attack does 20
+    text: Choose 1 of your opponent’s Pokémon. This attack does 20
       damage to that Pokémon for each Energy attached to this Pokémon.
       (Don't apply Weakness and Resistance for Benched Pokémon.)
   - cost: [G, C]
     name: Setback Kick
     damage: '100'
-    text: You may choose an Energy attached to your opponent''s Active
+    text: You may choose an Energy attached to your opponent’s Active
       Pokémon and return it to their hand.
   weaknesses:
   - type: R
@@ -386,7 +386,7 @@ cards:
   - cost: [C, C]
     name: Adversity Slash
     damage: '30+'
-    text: This attack does 50 more damage for each of your opponent''s
+    text: This attack does 50 more damage for each of your opponent’s
       Pokémon V and Pokémon-GX in play.
   - cost: [G, C, C]
     name: Smash Turn
@@ -425,7 +425,7 @@ cards:
   number: '20'
   types: [R]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
+  subTypes: [EVOLUTION, STAGE1, VMAX]
   evolvesFrom: Charizard V
   hp: 330
   retreatCost: 3
@@ -455,12 +455,12 @@ cards:
   moves:
   - cost: [R]
     name: Singe
-    text: Your opponent's Active Pokémon is now Burned.
+    text: Your opponent’s Active Pokémon is now Burned.
   - cost: [R, R, C]
     name: Kindle
     damage: '120'
     text: Discard an Energy from this Pokémon. Then, discard an
-      Energy from your opponent's Active Pokémon.
+      Energy from your opponent’s Active Pokémon.
   weaknesses:
   - type: W
     value: x2
@@ -479,7 +479,7 @@ cards:
   - cost: [R]
     name: Searing Flame
     damage: '20'
-    text: Your opponent''s Active Pokémon is now Burned.
+    text: Your opponent’s Active Pokémon is now Burned.
   - cost: [R, R, C]
     name: Compensation Flame
     damage: '100+'
@@ -527,7 +527,7 @@ cards:
   - cost: [R, C, C]
     name: Heat Beak
     damage: '40'
-    text: Your opponent''s Active Pokémon is now Burned.
+    text: Your opponent’s Active Pokémon is now Burned.
   weaknesses:
   - type: W
     value: x2
@@ -571,7 +571,7 @@ cards:
   - cost: [R, C]
     name: Fire Fang
     damage: '30'
-    text: Your opponent''s Active Pokémon is now Burned.
+    text: Your opponent’s Active Pokémon is now Burned.
   weaknesses:
   - type: W
     value: x2
@@ -635,7 +635,7 @@ cards:
   - cost: [C, C, C]
     name: Giga Impact
     damage: '110'
-    text: This Pokémon can''t attack during your next turn.
+    text: This Pokémon can’t attack during your next turn.
   weaknesses:
   - type: W
     value: x2
@@ -677,7 +677,7 @@ cards:
   moves:
   - cost: [R]
     name: Singe
-    text: Your opponent''s Active Pokémon is now Burned.
+    text: Your opponent’s Active Pokémon is now Burned.
   weaknesses:
   - type: W
     value: x2
@@ -697,7 +697,7 @@ cards:
   - cost: [R]
     name: Scorch Wounds
     damage: '80'
-    text: If your opponent''s Active Pokémon has no damage counters
+    text: If your opponent’s Active Pokémon has no damage counters
       on it, this attack does nothing.
   - cost: [R, R, C]
     name: Fire Wing
@@ -721,7 +721,7 @@ cards:
   - cost: [C]
     name: Searing Flame
     damage: '20'
-    text: Your opponent's Active Pokémon is now Burned.
+    text: Your opponent’s Active Pokémon is now Burned.
   weaknesses:
   - type: L
     value: x2
@@ -744,12 +744,12 @@ cards:
   - type: Ability
     name: Scorching Feather
     text: If this Pokémon is your Active Pokémon and is damaged by
-      an opponent''s attack, the Attacking Pokémon is now Burned.
+      an opponent’s attack, the Attacking Pokémon is now Burned.
   moves:
   - cost: [R, C, C]
     name: Mach Flight
     damage: '120'
-    text: The Defending Pokémon can''t retreat during your opponent''s
+    text: The Defending Pokémon can’t retreat during your opponent’s
       next turn.
   weaknesses:
   - type: L
@@ -773,7 +773,7 @@ cards:
     name: Radiator
     damage: '20'
     text: You may discard an Energy from this  Pokémon. If you do, discard an
-      Energy from your opponent''s Active Pokémon.
+      Energy from your opponent’s Active Pokémon.
   - cost: [R, R, R, R]
     name: Burning Train
     damage: '180'
@@ -788,7 +788,7 @@ cards:
   number: '36'
   types: [R]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
+  subTypes: [EVOLUTION, STAGE1, VMAX]
   evolvesFrom: Centiskorch V
   hp: 320
   retreatCost: 3
@@ -816,7 +816,7 @@ cards:
   moves:
   - cost: [W]
     name: Reflect
-    text: During your opponent''s next turn, any damage done to this
+    text: During your opponent’s next turn, any damage done to this
       Pokémon is reduced by 30.
   - cost: [C, C]
     name: Icy Snow
@@ -839,7 +839,7 @@ cards:
   abilities:
   - type: Ability
     name: Shuffle Dance
-    text: Once during your turn, you may choose 1 of your opponent''s
+    text: Once during your turn, you may choose 1 of your opponent’s
       face-down Prize cards and switch it with the top card from their
       deck. (Both cards remain face-down.)
   moves:
@@ -976,7 +976,7 @@ cards:
   - cost: [C, C, C]
     name: Giga Impact
     damage: '110'
-    text: This Pokémon can''t attack during your next turn.
+    text: This Pokémon can’t attack during your next turn.
   weaknesses:
   - type: L
     value: x2
@@ -1040,7 +1040,7 @@ cards:
   - cost: [W]
     name: Generate Cold
     damage: '10'
-    text: Flip a coin. If heads, your opponent''s Active Pokémon is
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is
       now Paralyzed.
   weaknesses:
   - type: M
@@ -1061,7 +1061,7 @@ cards:
   - cost: [W]
     name: Freezing Headbutt
     damage: '30'
-    text: Flip a coin. If heads, your opponent''s Active Pokémon is
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is
       now Paralyzed.
   weaknesses:
   - type: M
@@ -1082,7 +1082,7 @@ cards:
   - type: Ability
     name: Freezing Cold
     text: Once during your turn, if this Pokémon is your Active Pokémon,
-      you may flip a coin. If heads, your opponent''s Active Pokémon is
+      you may flip a coin. If heads, your opponent’s Active Pokémon is
       now Paralyzed.
   moves:
   - cost: [W, C]
@@ -1174,7 +1174,7 @@ cards:
   - cost: [W, C]
     name: Poison Tentacles
     damage: '20'
-    text: Your opponent''s Active Pokémon is now Poisoned.
+    text: Your opponent’s Active Pokémon is now Poisoned.
   weaknesses:
   - type: L
     value: x2
@@ -1198,7 +1198,7 @@ cards:
   - cost: [W, C, C]
     name: Poison Whip
     damage: '80'
-    text: Your opponent''s Active Pokémon is now Poisoned.
+    text: Your opponent’s Active Pokémon is now Poisoned.
   weaknesses:
   - type: L
     value: x2
@@ -1217,7 +1217,7 @@ cards:
   abilities:
   - type: Ability
     name: Primal Law
-    text: If this Pokémon is your Active Pokémon, your opponent can't play
+    text: If this Pokémon is your Active Pokémon, your opponent can’t play
       any Pokémon from their hand to evolve their Pokémon.
   moves:
   - cost: [W, C, C]
@@ -1242,12 +1242,12 @@ cards:
   - cost: [W, C, C]
     name: Hard Face
     damage: '90'
-    text: During your opponent''s next turn, this Pokémon takes 60 less
+    text: During your opponent’s next turn, this Pokémon takes 60 less
       damage from attacks.
   - cost: [W, C, C, C]
     name: Cold Breath
     damage: '130'
-    text: Your opponent''s Active Pokémon is now Asleep.
+    text: Your opponent’s Active Pokémon is now Asleep.
   weaknesses:
   - type: L
     value: x2
@@ -1290,7 +1290,7 @@ cards:
   - cost: [L, L, C]
     name: Flash Impact
     damage: '150'
-    text: This attack does 30 damage to 1 of your Benched Pokémon. (Don''t
+    text: This attack does 30 damage to 1 of your Benched Pokémon. (Don’t
       apply Weakness and Resistance for Benched Pokémon.)
   weaknesses:
   - type: F
@@ -1310,7 +1310,7 @@ cards:
   - cost: [L, C]
     name: Paralyzing Bolt
     damage: '50'
-    text: Your opponent can''t play any Item cards from their hand during
+    text: Your opponent can’t play any Item cards from their hand during
       their next turn.
   - cost: [L, L, C]
     name: Super Zap Cannon
@@ -1376,7 +1376,7 @@ cards:
   moves:
   - cost: [C, C]
     name: Risk Taker
-    text: Flip a coin, if heads discard 5 cards from the top of your opponent''s
+    text: Flip a coin, if heads discard 5 cards from the top of your opponent’s
       deck. If tails, discard 5 cards from the top of your deck.
   - cost: [L, L, C]
     name: Thunder Jolt
@@ -1401,12 +1401,12 @@ cards:
   - cost: [L]
     name: Rising Charge
     damage: '30'
-    text: During your next turn, this Pokémon''s Rising Charge attack does
+    text: During your next turn, this Pokémon’s Rising Charge attack does
       90 more damage.
   - cost: [C, C, C, C]
     name: Giga Impact
     damage: '200'
-    text: This Pokémon can''t attack during your next turn.
+    text: This Pokémon can’t attack during your next turn.
   weaknesses:
   - type: F
     value: x2
@@ -1471,7 +1471,7 @@ cards:
   - cost: [P]
     name: Sleep Pulse
     damage: '30'
-    text: Your opponent''s Active Pokémon is now Asleep.
+    text: Your opponent’s Active Pokémon is now Asleep.
   - cost: [C, C, C]
     name: Double Smash
     damage: '90x'
@@ -1565,7 +1565,7 @@ cards:
   - cost: [P, C]
     name: Jaw Lock
     damage: '50'
-    text: The Defending Pokémon can''t retreat during your opponent''s
+    text: The Defending Pokémon can’t retreat during your opponent’s
       next turn.
   - cost: [P, P, C]
     name: Headbutt Bounce
@@ -1604,7 +1604,7 @@ cards:
   number: '72'
   types: [P]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
+  subTypes: [EVOLUTION, STAGE1, VMAX]
   evolvesFrom: Gardevoir V
   hp: 320
   retreatCost: 2
@@ -1630,13 +1630,13 @@ cards:
   moves:
   - cost: [C]
     name: Future Sight
-    text: Look at the top 4 cards of either player''s deck, then
+    text: Look at the top 4 cards of either player’s deck, then
       return them to the top of that deck in any order.
   - cost: [P, C]
     name: Psychic
     damage: '20+'
     text: This attack does an additional 20 damage for each Energy
-      attached to your opponent''s Active Pokémon.
+      attached to your opponent’s Active Pokémon.
   weaknesses:
   - type: D
     value: x2
@@ -1706,7 +1706,7 @@ cards:
   moves:
   - cost: [P]
     name: Fortune Eye
-    text: Look at the top 5 cards of your opponent''s deck and
+    text: Look at the top 5 cards of your opponent’s deck and
       put them back on top of their deck in any order.
   - cost: [P, C]
     name: Gentle Slap
@@ -1732,7 +1732,7 @@ cards:
   moves:
   - cost: [P]
     name: Whiny Voice
-    text: Choose 1 random card from your opponent''s hand. Your
+    text: Choose 1 random card from your opponent’s hand. Your
       opponent reveals that card and shuffles it into their deck.
   - cost: [P, C]
     name: Double Spin
@@ -1761,11 +1761,11 @@ cards:
   - cost: [P]
     name: Psycho Trip
     damage: '40'
-    text: Your opponent''s Active Pokémon is now Confused.
+    text: Your opponent’s Active Pokémon is now Confused.
   - cost: [P, C]
     name: Distort
     damage: '90'
-    text: Choose 2 random cards from your opponent''s hand. Your
+    text: Choose 2 random cards from your opponent’s hand. Your
       opponent reveals them and shuffles them into their deck.
   weaknesses:
   - type: D
@@ -1807,7 +1807,7 @@ cards:
   moves:
   - cost: [C]
     name: Spore
-    text: Your opponent''s Active Pokémon is now Asleep.
+    text: Your opponent’s Active Pokémon is now Asleep.
   - cost: [P, C]
     name: Flop
     damage: '20'
@@ -1830,8 +1830,8 @@ cards:
   - cost: [C]
     name: Twinking Light
     damage: '30'
-    text: Flip a coin. If heads, the Defending Pokémon can''t attack
-      during your opponent''s next turn.
+    text: Flip a coin. If heads, the Defending Pokémon can’t attack
+      during your opponent’s next turn.
   - cost: [P, C]
     name: Forest Fear
     damage: '60+'
@@ -1854,7 +1854,7 @@ cards:
   abilities:
   - type: Ability
     name: Heal Stop
-    text: Your opponent''s Benched Pokémon can''t be healed.
+    text: Your opponent’s Benched Pokémon can’t be healed.
   moves:
   - cost: [P, C]
     name: Claw Slash
@@ -1879,7 +1879,7 @@ cards:
   moves:
   - cost: [C]
     name: Furtive Drop
-    text: Put 2 damage counters on your opponent''s Active Pokémon.
+    text: Put 2 damage counters on your opponent’s Active Pokémon.
   weaknesses:
   - type: D
     value: x2
@@ -1950,7 +1950,7 @@ cards:
     name: Dig
     damage: '30'
     text: Flip a coin. If heads, prevent all effects of attacks, including
-      damage, done to this Pokémon during your opponent''s next turn.
+      damage, done to this Pokémon during your opponent’s next turn.
   - cost: [F, C]
     name: Mud Bomb
     damage: '70'
@@ -2094,8 +2094,8 @@ cards:
   - cost: [F]
     name: Sand Impulse
     damage: '20'
-    text: This attack does 10 damage to each of your opponent''s
-      Benched Pokémon. (Don''t apply Weakness and Resistance.)
+    text: This attack does 10 damage to each of your opponent’s
+      Benched Pokémon. (Don’t apply Weakness and Resistance.)
   weaknesses:
   - type: G
     value: x2
@@ -2115,8 +2115,8 @@ cards:
   - cost: [F]
     name: Sand Impulse
     damage: '20'
-    text: This attack does 10 damage to each of your opponent''s
-      Benched Pokémon. (Don''t apply Weakness and Resistance.)
+    text: This attack does 10 damage to each of your opponent’s
+      Benched Pokémon. (Don’t apply Weakness and Resistance.)
   weaknesses:
   - type: G
     value: x2
@@ -2135,15 +2135,15 @@ cards:
   abilities:
   - type: Ability
     name: Sand Maze
-    text: If this Pokémon is your Active Pokémon, your opponent''s
-      Active Pokémon can''t Retreat.
+    text: If this Pokémon is your Active Pokémon, your opponent’s
+      Active Pokémon can’t Retreat.
   moves:
   - cost: [F, C, C]
     name: Desert Geizer
     damage: '130'
     text: If your opponent has a Stadium in play, discard it. If you
-      do, during your opponent''s next turn, prevent all damage and
-      effects done to this Pokémon by the attacks of your opponent''s Pokémon.
+      do, during your opponent’s next turn, prevent all damage and
+      effects done to this Pokémon by the attacks of your opponent’s Pokémon.
   weaknesses:
   - type: G
     value: x2
@@ -2161,7 +2161,7 @@ cards:
   abilities:
   - type: Ability
     name: Resist Shade
-    text: If you have Lunatone in play, your opponent''s Pokémon have no
+    text: If you have Lunatone in play, your opponent’s Pokémon have no
       Resistance.
   moves:
   - cost: [F, C]
@@ -2231,11 +2231,11 @@ cards:
   - cost: [F, C, C]
     name: Drill Run
     damage: '80'
-    text: Discard 1 Energy from your opponent''s Active Pokémon.
+    text: Discard 1 Energy from your opponent’s Active Pokémon.
   - cost: [F, C, C, C]
     name: Heavy Rock Cannon
     damage: '210'
-    text: This Pokémon can''t use this attack during your next turn.
+    text: This Pokémon can’t use this attack during your next turn.
   weaknesses:
   - type: G
     value: x2
@@ -2302,7 +2302,7 @@ cards:
   - cost: [F, C, C]
     name: Rock Hurl
     damage: '70'
-    text: This attack''s damage isn''t affected by Resistance.
+    text: This attack’s damage isn’t affected by Resistance.
   weaknesses:
   - type: P
     value: x2
@@ -2320,7 +2320,7 @@ cards:
   moves:
   - cost: [D]
     name: Stomp Off
-    text: Discard 1 card from the top of your opponent''s deck.
+    text: Discard 1 card from the top of your opponent’s deck.
   - cost: [D, C, C]
     name: Sludge Whirlpool
     damage: '50'
@@ -2342,7 +2342,7 @@ cards:
   moves:
   - cost: [D]
     name: Triple Poison
-    text: Your opponent''s Active Pokémon is now Poisoned. Put 3
+    text: Your opponent’s Active Pokémon is now Poisoned. Put 3
       damage counters for this Poison between turns.
   weaknesses:
   - type: F
@@ -2383,13 +2383,13 @@ cards:
   - type: Ability
     name: Spider Net
     text: When you play this card from your hand to evolve 1 of
-      your Pokémon, you may switch 1 of your opponent''s Evolution
+      your Pokémon, you may switch 1 of your opponent’s Evolution
       Pokémon with their Active Pokémon.
   moves:
   - cost: [D, C]
     name: Poison Sting
     damage: '30'
-    text: Your opponent''s Active Pokémon is now Poisoned.
+    text: Your opponent’s Active Pokémon is now Poisoned.
   weaknesses:
   - type: F
     value: x2
@@ -2409,12 +2409,12 @@ cards:
     name: Night Asset
     text: Once during your turn, when you play this Pokémon from hand
       to your Bench, you may draw cards until you have 6 cards in your
-      hand. You can''t use more than 1 Night Asset Ability during your turn.
+      hand. You can’t use more than 1 Night Asset Ability during your turn.
   moves:
   - cost: [D, C]
     name: Poison Fang
     damage: '70'
-    text: Your opponent''s Active Pokémon is now Poisoned.
+    text: Your opponent’s Active Pokémon is now Poisoned.
   weaknesses:
   - type: F
     value: x2
@@ -2479,7 +2479,7 @@ cards:
   - cost: [C, C]
     name: Fake Out
     damage: '20'
-    text: Flip a coin. If heads, your opponent''s Active Pokémon is now Paralyzed.
+    text: Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.
   weaknesses:
   - type: G
     value: x2
@@ -2498,7 +2498,7 @@ cards:
   abilities:
   - type: Ability
     name: Limber
-    text: This Pokémon can''t be Paralyzed.
+    text: This Pokémon can’t be Paralyzed.
   moves:
   - cost: [D, C, C]
     name: Slashing Claw
@@ -2630,7 +2630,7 @@ cards:
   - cost: [C, C, C]
     name: Knuckle Impact
     damage: '180'
-    text: This Pokémon can''t attack during your next turn.
+    text: This Pokémon can’t attack during your next turn.
   weaknesses:
   - type: G
     value: x2
@@ -2671,7 +2671,7 @@ cards:
   - cost: [D]
     name: Corner
     damage: '30'
-    text: The Defending Pokémon can''t retreat during your opponent''s next turn.
+    text: The Defending Pokémon can’t retreat during your opponent’s next turn.
   weaknesses:
   - type: G
     value: x2
@@ -2693,7 +2693,7 @@ cards:
   - cost: [C, C]
     name: Back Strike
     damage: '20+'
-    text: If your opponent''s Active Pokémon is Confused, this attack
+    text: If your opponent’s Active Pokémon is Confused, this attack
       does 50 more damage.
   weaknesses:
   - type: G
@@ -2713,7 +2713,7 @@ cards:
   moves:
   - cost: [D, C]
     name: Eerie Wave
-    text: Your opponent''s Active Pokémon is now Confused.
+    text: Your opponent’s Active Pokémon is now Confused.
   - cost: [D, D, C]
     name: Random Peck
     damage: '80+'
@@ -2737,7 +2737,7 @@ cards:
     name: Assault Gate
     damage: '90'
     text: If this Pokémon wasn''t moved from your Bench to the Active Spot
-      during your turn, this attack does nothing. This attack isn''t affected
+      during your turn, this attack does nothing. This attack isn’t affected
       by Weakness.
   weaknesses:
   - type: G
@@ -2777,8 +2777,8 @@ cards:
   moves:
   - cost: [D]
     name: Tail Whip
-    text: Flip a coin. If heads, the Defending Pokémon can''t attack during
-      your opponent''s next turn.
+    text: Flip a coin. If heads, the Defending Pokémon can’t attack during
+      your opponent’s next turn.
   weaknesses:
   - type: G
     value: x2
@@ -2834,7 +2834,7 @@ cards:
   name: Grimmsnarl VMAX
   number: '126'
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
+  subTypes: [EVOLUTION, STAGE1, VMAX]
   evolvesFrom: Grimmsnarl V
   hp: 330
   retreatCost: 3
@@ -2843,7 +2843,7 @@ cards:
     name: G-Max Drill
     damage: '170+'
     text: This attack does 50 more damage for each extra [D] Energy attached
-      to this Pokémon (in addition to this attack''s cost). You can''t add
+      to this Pokémon (in addition to this attack’s cost). You can’t add
       more than 100 damage in this way.
   weaknesses:
   - type: G
@@ -2867,7 +2867,7 @@ cards:
   - cost: [D, C, C, C]
     name: Dynamax Cannon
     damage: '120+'
-    text: If your opponent''s Active Pokémon is a Pokémon VMAX, this attack does
+    text: If your opponent’s Active Pokémon is a Pokémon VMAX, this attack does
       120 more damage.
   weaknesses:
   - type: F
@@ -2880,7 +2880,7 @@ cards:
   number: '128'
   types: [D]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
+  subTypes: [EVOLUTION, STAGE1, VMAX]
   evolvesFrom: Eternatus V
   hp: 340
   retreatCost: 2
@@ -2888,8 +2888,8 @@ cards:
   - type: Ability
     name: Infinity Zone
     text: If all of your Pokémon in play are [D], you may now have up to 8 [D]
-    Pokémon on your Bench and can''t play any other type of Pokémon. (When this
-    Ability no longer works, discard your Benched Pokémon until there are 5 left.)
+      Pokémon on your Bench and can’t play any other type of Pokémon. (When this
+      Ability no longer works, discard your Benched Pokémon until there are 5 left.)
   moves:
   - cost: [D, C]
     name: Dread End
@@ -3117,13 +3117,13 @@ cards:
   abilities:
   - type: Ability
     name: Metal Skin
-    text: This Pokémon''s max HP is increased by 20 for each [M] Energy attached
+    text: This Pokémon’s max HP is increased by 20 for each [M] Energy attached
       to it.
   moves:
   - cost: [C, C]
     name: Trap Bite
     damage: '60'
-    text: If this Pokémon is damaged by an attack during your opponent''s next turn,
+    text: If this Pokémon is damaged by an attack during your opponent’s next turn,
       put 12 damage counters on the Attacking Pokémon.
   weaknesses:
   - type: R
@@ -3167,7 +3167,7 @@ cards:
   abilities:
   - type: Ability
     name: Antibacterial Skin
-    text: This Pokémon can''t be affected by Special Conditions.
+    text: This Pokémon can’t be affected by Special Conditions.
   moves:
   - cost: [M, M, C, C]
     name: Revenge Stomp
@@ -3195,7 +3195,7 @@ cards:
   - cost: [C, C]
     name: Retaliate
     damage: '30+'
-    text: If any of your Pokémon were Knocked Out by damage from an opponent''s
+    text: If any of your Pokémon were Knocked Out by damage from an opponent’s
       attack during their last turn, this attack does 90 more damage.
   - cost: [C, C, C]
     name: Hammer In
@@ -3277,7 +3277,7 @@ cards:
   retreatCost: 1
   moves:
   - cost: [C]
-    name: Feelin'' Fine
+    name: Feelin’ Fine
     text: Draw 3 cards.
   - cost: [C]
     name: Tail Smash
@@ -3300,8 +3300,8 @@ cards:
   abilities:
   - type: Ability
     name: One Last Dig
-    text: If this Pokémon is Knocked Out by damage from an opponent''s attack,
-      discard the top 2 cards of your opponent''s deck.
+    text: If this Pokémon is Knocked Out by damage from an opponent’s attack,
+      discard the top 2 cards of your opponent’s deck.
   moves:
   - cost: [C]
     name: Ram
@@ -3346,7 +3346,7 @@ cards:
   - cost: [C, C, C]
     name: Hammer Arm
     damage: '70'
-    text: Discard the top card of your opponent''s deck.
+    text: Discard the top card of your opponent’s deck.
   - cost: [C, C, C, C]
     name: Claw Slash
     damage: '120'
@@ -3415,7 +3415,7 @@ cards:
   moves:
   - cost: [C]
     name: Captivating Tail
-    text: Switch your opponent''s Active Pokémon with 1 of their Benched
+    text: Switch your opponent’s Active Pokémon with 1 of their Benched
       Pokémon. The new Active Pokémon is now Confused.
   - cost: [C, C, C]
     name: Moon Impact
@@ -3437,8 +3437,8 @@ cards:
   moves:
   - cost: [C, C, C]
     name: Trans Flight
-    text: This attack does 30 damage to each of your opponent''s Pokémon.
-      (Don''t apply Weakness and Resistance.)
+    text: This attack does 30 damage to each of your opponent’s Pokémon.
+      (Don’t apply Weakness and Resistance.)
   - cost: [C, C, C, C]
     name: Heavy Storm
     damage: '160'
@@ -3456,15 +3456,15 @@ cards:
   number: '152'
   types: [C]
   superType: POKEMON
-  subTypes: [EVOLUTION, VMAX]
+  subTypes: [EVOLUTION, STAGE1, VMAX]
   evolvesFrom: Salamence V
   hp: 320
   retreatCost: 2
   moves:
   - cost: [C]
     name: Twin Sonic
-    text: This attack does 40 damage to 2 of your opponent''s Pokémon.
-      (Don''t apply Weakness and Resistance for Benched Pokémon.)
+    text: This attack does 40 damage to 2 of your opponent’s Pokémon.
+      (Don’t apply Weakness and Resistance for Benched Pokémon.)
   - cost: [C, C, C, C]
     name: Max Wing
     damage: '240'
@@ -3517,6 +3517,7 @@ cards:
   moves:
   - cost: [C]
     name: Ambush
+    damage: '20'
     text: Flip a coin. If heads, this attack does 20 more damage.
   - cost: [C, C]
     name: Wing Attack
@@ -3641,7 +3642,7 @@ cards:
     name: Scrape Off
     damage: '20'
     text: Before doing damage, discard any Pokémon Tools attached
-      to your opponent''s Active Pokémon.
+      to your opponent’s Active Pokémon.
   - cost: [C, C]
     name: Hit and Run
     damage: '100'
@@ -3707,7 +3708,7 @@ cards:
     name: Pluck
     damage: '10'
     text: Before doing damage, discard any Pokémon Tools attached to your
-      opponent''s Active Pokémon.
+      opponent’s Active Pokémon.
   weaknesses:
   - type: L
     value: x2
@@ -3777,20 +3778,20 @@ cards:
   superType: TRAINER
   subTypes: [ITEM, POKEMON_TOOL]
   rarity: Rare Holo
-  text: [If your opponent''s Active Pokémon is the same type as the Weakness of
+  text: ['If your opponent’s Active Pokémon is the same type as the Weakness of
     the Pokémon this card is attached to, the attacks of this Pokémon do 30
-    more damage to your opponent''s Active Pokémon.]
+    more damage to your opponent’s Active Pokémon.']
 - id: 432-166
   pioId: swsh3-166
-  enumId: _165
+  enumId: ADVERSITY_GLOVES_165
   name: Adversity Gloves
   number: '165'
   superType: TRAINER
   subTypes: [ITEM, POKEMON_TOOL]
   rarity: Rare Holo
-  text: [As long as the Pokémon this card is attached to is your Active Pokémon,
-    prevent all effects of your opponent''s attacks, except damage, done to all
-    of your Pokémon (existing effects are not removed).]
+  text: ['As long as the Pokémon this card is attached to is your Active Pokémon,
+    prevent all effects of your opponent’s attacks, except damage, done to all
+    of your Pokémon (existing effects are not removed).']
 - id: 432-167
   pioId: swsh3-167
   enumId: BIRD_KEEPER_167
@@ -3799,8 +3800,8 @@ cards:
   superType: TRAINER
   subTypes: [SUPPORTER]
   rarity: Rare Holo
-  text: [Switch your Active Pokémon with 1 of your Benched Pokémon. Then, draw
-    3 cards.]
+  text: ['Switch your Active Pokémon with 1 of your Benched Pokémon. Then, draw
+    3 cards.']
 - id: 432-168
   pioId: swsh3-168
   enumId: CHEERING_YELL_HORN_168
@@ -3809,7 +3810,7 @@ cards:
   superType: TRAINER
   subTypes: [ITEM]
   rarity: Rare Holo
-  text: [Each player''s Active Pokémon is now Confused.]
+  text: [Each player’s Active Pokémon is now Confused.]
 - id: 432-169
   pioId: swsh3-169
   enumId: GLIMWOOD_TANGLE_169
@@ -3818,9 +3819,9 @@ cards:
   superType: TRAINER
   subTypes: [STADIUM]
   rarity: Rare Holo
-  text: [Once during either player''s turn, after they flip any coins for an attack,
+  text: ['Once during either player’s turn, after they flip any coins for an attack,
     that player may ignore all results of those coin flips and begin flipping those
-    coins again.]
+    coins again.']
 - id: 432-170
   pioId: swsh3-170
   enumId: OLD_COMPUTER_170
@@ -3829,8 +3830,8 @@ cards:
   superType: TRAINER
   subTypes: [ITEM]
   rarity: Rare Holo
-  text: [Flip 2 coins. If both are heads, choose 1 card from your discard pile, reveal
-    it, and put it into your hand.]
+  text: ['Flip 2 coins. If both are heads, choose 1 card from your discard pile, reveal
+    it, and put it into your hand.']
 - id: 432-171
   pioId: swsh3-171
   enumId: KABU_171
@@ -3849,8 +3850,8 @@ cards:
   superType: TRAINER
   subTypes: [ITEM]
   rarity: Rare Holo
-  text: [Search your deck for a Pokémon with the same name as a Pokémon in your
-    discard pile, and add it to your hand. Then, shuffle your deck.]
+  text: ['Search your deck for a Pokémon with the same name as a Pokémon in your
+    discard pile, and add it to your hand. Then, shuffle your deck.']
 - id: 432-173
   pioId: swsh3-173
   enumId: PIERS_173
@@ -3859,8 +3860,8 @@ cards:
   superType: TRAINER
   subTypes: [SUPPORTER]
   rarity: Rare Holo
-  text: [Search your deck for 1 [D] Pokémon and any 1 Energy, reveal them, and put
-    them into your hand. Then, shuffle your deck.]
+  text: ['Search your deck for 1 [D] Pokémon and any 1 Energy, reveal them, and put
+    them into your hand. Then, shuffle your deck.']
 - id: 432-174
   pioId: swsh3-174
   enumId: POKEMON_BREEDER_S_NURTURING_174
@@ -3869,10 +3870,10 @@ cards:
   superType: TRAINER
   subTypes: [SUPPORTER]
   rarity: Uncommon
-  text: [Choose up to 2 of your Pokémon in play. Search your deck for a card that
+  text: ['Choose up to 2 of your Pokémon in play. Search your deck for a card that
     evolves from each of those Pokémon and put it on top of the Pokémon to evolve
-    it. Then, shuffle your deck. (You can''t use this card during your first turn
-    or on a Pokémon that just came into play.)]
+    it. Then, shuffle your deck. (You can’t use this card during your first turn
+    or on a Pokémon that just came into play.)']
 - id: 432-175
   pioId: swsh3-175
   enumId: RARE_FOSSIL_175
@@ -3881,9 +3882,9 @@ cards:
   superType: TRAINER
   subTypes: [ITEM]
   rarity: Rare Holo
-  text: [Play this card as if it were a 70-HP [C] Basic Pokémon. At any time during
+  text: ['Play this card as if it were a 70-HP [C] Basic Pokémon. At any time during
     your turn (before your attack), you may discard this card from play. This card
-    can''t retreat and isn''t affected by Status Conditions.]
+    can’t retreat and isn’t affected by Status Conditions.']
 - id: 432-176
   pioId: swsh3-176
   enumId: ROSE_176
@@ -3892,8 +3893,8 @@ cards:
   superType: TRAINER
   subTypes: [SUPPORTER]
   rarity: Rare Holo
-  text: [Choose up to 2 basic Energy from your discard pile and attach them to 1 of
-    your Pokémon VMAX. Then, discard your hand.]
+  text: ['Choose up to 2 basic Energy from your discard pile and attach them to 1 of
+    your Pokémon VMAX. Then, discard your hand.']
 - id: 432-177
   pioId: swsh3-177
   enumId: ROSE_TOWER_177
@@ -3902,8 +3903,8 @@ cards:
   superType: TRAINER
   subTypes: [STADIUM]
   rarity: Rare Holo
-  text: [Once during either player''s turn, that player may draw cards from their
-    deck until they have 3 cards in their hand.]
+  text: ['Once during either player’s turn, that player may draw cards from their
+    deck until they have 3 cards in their hand.']
 - id: 432-178
   pioId: swsh3-178
   enumId: ROTOM_PHONE_178
@@ -3912,8 +3913,8 @@ cards:
   superType: TRAINER
   subTypes: [ITEM]
   rarity: Rare Holo
-  text: [Look at the top 5 cards of your deck. Choose a card you find there, shuffle
-    your deck, then put the card you chose on top of your deck.]
+  text: ['Look at the top 5 cards of your deck. Choose a card you find there, shuffle
+    your deck, then put the card you chose on top of your deck.']
 - id: 432-179
   pioId: swsh3-179
   enumId: MOUNTAINOUS_SMOKE_179
@@ -3922,9 +3923,9 @@ cards:
   superType: TRAINER
   subTypes: [ITEM, POKEMON_TOOL]
   rarity: Rare Holo
-  text: [hen the Pokémon this card is attached to is Knocked Out by damage from an
-    opponent''s attack, your opponent puts any Prize cards they pick into their
-    discard pile instead of their hand.]
+  text: ['When the Pokémon this card is attached to is Knocked Out by damage from an 
+    opponent’s attack, your opponent puts any Prize cards they pick into their
+    discard pile instead of their hand.']
 - id: 432-180
   pioId: swsh3-180
   enumId: SPIKEMUTH_180
@@ -3933,7 +3934,7 @@ cards:
   superType: TRAINER
   subTypes: [STADIUM]
   rarity: Rare Holo
-  text: [Whenever a player''s Pokémon is moved from the Active Spot to the Bench during
+  text: [Whenever a player’s Pokémon is moved from the Active Spot to the Bench during
     their turn, put 2 damage counters on that Pokémon.]
 - id: 432-181
   pioId: swsh3-181
@@ -3943,8 +3944,8 @@ cards:
   superType: TRAINER
   subTypes: [ITEM]
   rarity: Rare Holo
-  text: [Heal 80 damage from 1 of your Pokémon with a [P] Energy attached to it. Then,
-    discard a [P] Energy from that Pokémon.]
+  text: ['Heal 80 damage from 1 of your Pokémon with a [P] Energy attached to it. Then,
+    discard a [P] Energy from that Pokémon.']
 - id: 432-182
   pioId: swsh3-182
   enumId: TOUGHNESS_CAPE_182
@@ -3953,8 +3954,8 @@ cards:
   superType: TRAINER
   subTypes: [ITEM, POKEMON_TOOL]
   rarity: Rare Holo
-  text: [The maximum HP of the Basic Pokémon this card is attached to is increased by 50
-    (excluding Pokémon-GX).]
+  text: ['The maximum HP of the Basic Pokémon this card is attached to is increased by 50
+    (excluding Pokémon-GX).']
 - id: 432-183
   pioId: swsh3-183
   enumId: TURBO_PATCH_183
@@ -3973,8 +3974,8 @@ cards:
   superType: ENERGY
   subTypes: [SPECIAL_ENERGY]
   rarity: Uncommon
-  text: [This card provides 1 [R] Energy while it''s attached to a Pokémon. If this card
-    is attached to a [R] Pokémon, its maximum HP is increased by 20.]
+  text: ['This card provides 1 [R] Energy while it’s attached to a Pokémon. If this card
+    is attached to a [R] Pokémon, its maximum HP is increased by 20.']
   energy:
   - [R]
 - id: 432-185
@@ -3985,8 +3986,8 @@ cards:
   superType: ENERGY
   subTypes: [SPECIAL_ENERGY]
   rarity: Uncommon
-  text: [As long as this card is attached to a Pokémon, it provides [D] Energy. The Retreat
-    Cost of the [D] Pokémon this card is attached to is 0.]
+  text: ['As long as this card is attached to a Pokémon, it provides [D] Energy. The Retreat
+    Cost of the [D] Pokémon this card is attached to is 0.']
   energy:
   - [D]
 - id: 432-186
@@ -3997,9 +3998,9 @@ cards:
   superType: ENERGY
   subTypes: [SPECIAL_ENERGY]
   rarity: Uncommon
-  text: [As long as this card is attached to a Pokémon, it provides [C] Energy. The attacks
+  text: ['As long as this card is attached to a Pokémon, it provides [C] Energy. The attacks
     of the [C] Pokémon this card is attached to do 20 more damage to your opponent’s Active
-    Pokémon.]
+    Pokémon.']
   energy:
   - [C]
 - id: 432-187
@@ -4017,7 +4018,7 @@ cards:
     name: Radiator
     damage: '20'
     text: You may discard an Energy from this  Pokémon. If you do, discard an
-      Energy from your opponent''s Active Pokémon.
+      Energy from your opponent’s Active Pokémon.
   - cost: [R, R, R, R]
     name: Burning Train
     damage: '180'
@@ -4041,7 +4042,7 @@ cards:
   - cost: [L, C]
     name: Paralyzing Bolt
     damage: '50'
-    text: Your opponent can''t play any Item cards from their hand during
+    text: Your opponent can’t play any Item cards from their hand during
       their next turn.
   - cost: [L, L, C]
     name: Super Zap Cannon
@@ -4091,13 +4092,13 @@ cards:
   abilities:
   - type: Ability
     name: Metal Skin
-    text: This Pokémon''s max HP is increased by 20 for each [M] Energy attached
+    text: This Pokémon’s max HP is increased by 20 for each [M] Energy attached
       to it.
   moves:
   - cost: [C, C]
     name: Trap Bite
     damage: '60'
-    text: If this Pokémon is damaged by an attack during your opponent''s next turn,
+    text: If this Pokémon is damaged by an attack during your opponent’s next turn,
       put 12 damage counters on the Attacking Pokémon.
   weaknesses:
   - type: R
@@ -4130,7 +4131,7 @@ cards:
   rarity: Ultra Rare
   text: [Choose up to 2 of your Pokémon in play. Search your deck for a card that
     evolves from each of those Pokémon and put it on top of the Pokémon to evolve
-    it. Then, shuffle your deck. (You can''t use this card during your first turn
+    it. Then, shuffle your deck. (You can’t use this card during your first turn
     or on a Pokémon that just came into play.)]
   copyOf: 432-174
   copyType: Full Art
